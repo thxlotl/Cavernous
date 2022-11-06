@@ -45,12 +45,13 @@
     ],
     [  
       "cavernous:lush/ancient/mushroom_red_gangly", 
-      "cavernous:lush/ancient/mushroom_brown_gangly", 
-      "cavernous:lush/ancient/mushroom_brown_small", 
+      "cavernous:lush/ancient/mushroom_brown_gangly",
+      "cavernous:lush/ancient/glowshroom", 
       "cavernous:lush/ancient/mushroom_red_small",
       "cavernous:lush/ancient/mushroom_brown_flat",
       "cavernous:lush/ancient/carver_patch",
       "cavernous:lush/ancient/ancient_patch",
+      "cavernous:lush/ancient/mushroom_brown_small", 
       "cavernous:lush/ancient/root_patch"
     ],
     [],

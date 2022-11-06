@@ -52,7 +52,7 @@
         "type": "minecraft:biased_to_bottom",
         "value": {
           "min_inclusive": 1,
-          "max_inclusive": 3
+          "max_inclusive": 2
         }
       },
       "offset": {
@@ -86,6 +86,10 @@
       },
       {
         "type": "minecraft:trunk_vine"
+      },
+      {
+        "type": "minecraft:beehive",
+        "probability": 0.05
       }
     ]
   }

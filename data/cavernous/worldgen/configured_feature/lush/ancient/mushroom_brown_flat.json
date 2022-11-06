@@ -19,13 +19,29 @@
     "trunk_provider": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "minecraft:mushroom_stem"
+        "Name": "minecraft:mushroom_stem",
+        "Properties": {
+          "down": "true",
+          "east": "true",
+          "north": "true",
+          "south": "true",
+          "up": "true",
+          "west": "true"
+        }
       }
     },
     "foliage_provider": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "minecraft:brown_mushroom_block"
+        "Name": "minecraft:brown_mushroom_block",
+        "Properties": {
+          "down": "false",
+          "east": "true",
+          "north": "true",
+          "south": "true",
+          "up": "true",
+          "west": "true"
+        }
       }
     },
     "trunk_placer": {
@@ -72,6 +88,10 @@
         "directions": [
           "up"
         ]
+      },
+      {
+        "type": "minecraft:beehive",
+        "probability": 0.05
       }
     ]
   }
