@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "#cavernous:biome_solids/lush/ancient",
+    "#cavernous:biome_solids/lush/marshy"
+  ]
+}

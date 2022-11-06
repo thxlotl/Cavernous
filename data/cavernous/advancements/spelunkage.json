@@ -1,0 +1,116 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:raw_iron_block"
+    },
+    "title": {
+      "text": "Spelunkage"
+    },
+    "description": {
+      "text": "Get everything that drops from ores"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "cavernous:geology_rocks",
+  "criteria": {
+    "cobblestone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:coal"
+            ]
+          }
+        ]
+      }
+    },
+    "granite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:raw_iron"
+            ]
+          }
+        ]
+      }
+    },
+    "andesite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:raw_copper"
+            ]
+          }
+        ]
+      }
+    },
+    "": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:raw_gold"
+            ]
+          }
+        ]
+      }
+    },
+    "cobbled_deepslate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:emerald"
+            ]
+          }
+        ]
+      }
+    },
+    "tuff": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:redstone"
+            ]
+          }
+        ]
+      }
+    },
+    "lapis": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:lapis_lazuli"
+            ]
+          }
+        ]
+      }
+    },
+    "diamond": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:diamond"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

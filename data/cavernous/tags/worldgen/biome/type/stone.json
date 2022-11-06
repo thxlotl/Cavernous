@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "cavernous:stone/crystal_caves",
+    "cavernous:stone/caves"
+  ]
+}

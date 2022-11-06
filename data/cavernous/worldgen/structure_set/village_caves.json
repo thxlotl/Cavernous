@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 1481715959,
+    "separation": 14,
+    "spacing": 20
+  },
+  "structures": [
+    {
+      "structure": "cavernous:village_caves",
+      "weight": 1
+    }
+  ]
+}

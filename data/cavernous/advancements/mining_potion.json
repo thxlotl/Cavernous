@@ -1,0 +1,14 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "criteria": {
+        "unlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "cavernous:mining_potion"
+            }
+        }
+    },
+    "rewards": {
+        "function": "cavernous:potion/give_potion"
+    }
+}

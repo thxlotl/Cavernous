@@ -1,0 +1,135 @@
+{
+  "type": "minecraft:tree",
+  "config": {
+    "ignore_vines": true,
+    "force_dirt": false,
+    "minimum_size": {
+      "type": "minecraft:two_layers_feature_size",
+      "limit": 1,
+      "lower_size": 0,
+      "upper_size": 0
+    },
+    "dirt_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:air"
+      }
+    },
+    "trunk_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:mushroom_stem",
+        "Properties": {
+          "down": "true",
+          "east": "true",
+          "north": "true",
+          "south": "true",
+          "up": "true",
+          "west": "true"
+        }
+      }
+    },
+    "foliage_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:red_mushroom_block",
+        "Properties": {
+          "down": "true",
+          "east": "true",
+          "north": "true",
+          "south": "true",
+          "up": "true",
+          "west": "true"
+        }
+      }
+    },
+    "root_placer": {
+      "type": "minecraft:mangrove_root_placer",
+      "root_provider": {
+        "type": "minecraft:simple_state_provider",
+        "state": {
+          "Name": "minecraft:mushroom_stem",
+          "Properties": {
+            "down": "true",
+            "east": "true",
+            "north": "true",
+            "south": "true",
+            "up": "true",
+            "west": "true"
+          }
+        }
+      },
+      "trunk_offset_y": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 1,
+          "max_inclusive": 3
+        }
+      },
+      "above_root_placement": {
+        "above_root_provider": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "minecraft:red_mushroom"
+          }
+        },
+        "above_root_placement_chance": 0
+      },
+      "mangrove_root_placement": {
+        "max_root_width": 6,
+        "max_root_length": 12,
+        "random_skew_chance": 0.3,
+        "can_grow_through": "#minecraft:base_stone_overworld",
+        "muddy_roots_in": "#minecraft:base_stone_overworld",
+        "muddy_roots_provider": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "minecraft:mushroom_stem",
+            "Properties": {
+              "down": "true",
+              "east": "true",
+              "north": "true",
+              "south": "true",
+              "up": "true",
+              "west": "true"
+            }
+          }
+        }
+      }
+    },
+    "trunk_placer": {
+      "type": "minecraft:forking_trunk_placer",
+      "base_height": 3,
+      "height_rand_a": 1,
+      "height_rand_b": 2
+    },
+    "foliage_placer": {
+      "type": "minecraft:blob_foliage_placer",
+      "radius": 1,
+      "offset": 0,
+      "height": 2
+    },
+    "decorators": [
+      {
+        "type": "minecraft:attached_to_leaves",
+        "probability": 1,
+        "exclusion_radius_xz": 0,
+        "exclusion_radius_y": 0,
+        "required_empty_blocks": 1,
+        "block_provider": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "minecraft:moss_carpet"
+          }
+        },
+        "directions": [
+          "up"
+        ]
+      },
+      {
+        "type": "minecraft:leave_vine",
+        "probability": 0.3
+      }
+    ]
+  }
+}

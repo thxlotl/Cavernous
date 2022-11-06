@@ -1,0 +1,75 @@
+{
+  "name": "minecraft:village/caves/decor",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 15,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "minecraft:village/caves/caves_lamp_1",
+        "processors": "minecraft:cave_village"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:feature_pool_element",
+        "projection": "rigid",
+        "feature": "minecraft:pile_hay"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "element_type": "minecraft:feature_pool_element",
+        "projection": "rigid",
+        "feature": "minecraft:pile_coal"
+      }
+    },
+    {
+      "weight": 6,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "minecraft:village/caves/boulder_stone",
+        "processors": "minecraft:cave_village"
+      }
+    },
+    {
+      "weight": 6,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "minecraft:village/caves/boulder_tuff",
+        "processors": "minecraft:cave_village"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "minecraft:village/common/iron_golem",
+        "processors": "minecraft:cave_village"
+      }
+    },
+    {
+      "weight": 6,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "minecraft:village/common/animals",
+        "processors": "minecraft:cave_village"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "element_type": "minecraft:feature_pool_element",
+        "projection": "rigid",
+        "feature": "minecraft:spruce_beam"
+      }
+    }
+  ]
+}

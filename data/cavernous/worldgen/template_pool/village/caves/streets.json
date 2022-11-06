@@ -1,0 +1,78 @@
+{
+  "name": "minecraft:village/plains/streets",
+  "fallback": "minecraft:village/plains/terminators",
+  "elements": [
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "cavernous:village/caves/streets/straight_01",
+        "processors": "cavernous:cave_village"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "cavernous:village/caves/streets/straight_02",
+        "processors": "cavernous:cave_village"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "cavernous:village/caves/streets/corner_01",
+        "processors": "cavernous:cave_village"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "cavernous:village/caves/streets/crossroads_01",
+        "processors": "cavernous:cave_village"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "cavernous:village/caves/streets/crossroads_02",
+        "processors": "cavernous:cave_village"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "cavernous:village/caves/streets/crossroads_03",
+        "processors": "cavernous:cave_village"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "cavernous:village/caves/streets/crossroads_04",
+        "processors": "cavernous:cave_village"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "cavernous:village/caves/streets/crossroads_05",
+        "processors": "cavernous:cave_village"
+      }
+    }
+  ]
+}

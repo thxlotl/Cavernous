@@ -1,0 +1,11 @@
+{
+    "replace": false,
+    "values": [
+        "stone",
+        "deepslate",
+        "tuff",
+        "granite",
+        "diorite",
+        "andesite"
+    ]
+  }

@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "cavernous:lava/inactive_caves",
+    "cavernous:lava/volcanic_caves"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:dripstone_caves",
+    "minecraft:lush_caves",
+    "#cavernous:type/desert",
+    "#cavernous:type/dripstone",
+    "#cavernous:type/ice",
+    "#cavernous:type/lava",
+    "#cavernous:type/lush",
+    "#cavernous:type/stone"
+  ]
+}

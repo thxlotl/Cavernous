@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "cavernous:desert/sandstone_caves",
+    "cavernous:desert/desert_caves",
+    "cavernous:desert/underground_oasis"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "#cavernous:biome_solids/desert/painted",
+    "#cavernous:biome_solids/desert/sand",
+    "#cavernous:biome_solids/desert/sandstone",
+    "#cavernous:biome_solids/desert/oasis"
+  ]
+}

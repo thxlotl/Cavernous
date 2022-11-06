@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:simple_block",
+  "config": {
+    "to_place": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "weight": 7,
+          "data": {
+            "Name": "minecraft:grass"
+          }
+        },
+        {
+          "weight": 12,
+          "data": {
+            "Name": "minecraft:fern"
+          }
+        },
+        {
+          "weight": 5,
+          "data": {
+            "Name": "minecraft:brown_mushroom"
+          }
+        },
+        {
+          "weight": 2,
+          "data": {
+            "Name": "minecraft:glow_lichen",
+            "Properties": {
+              "down": "true",
+              "east": "false",
+              "north": "false",
+              "south": "false",
+              "up": "false",
+              "waterlogged": "false",
+              "west": "false"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

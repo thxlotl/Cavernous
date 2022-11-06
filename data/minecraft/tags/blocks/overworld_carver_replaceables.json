@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:base_stone_overworld",
+    "#minecraft:dirt",
+    "#minecraft:iron_ores",
+    "#minecraft:copper_ores",
+    "minecraft:water",
+    "minecraft:gravel",
+    "minecraft:snow",
+    "minecraft:packed_ice",
+    "minecraft:raw_iron_block",
+    "minecraft:raw_copper_block",
+    "minecraft:budding_amethyst"
+  ]
+}

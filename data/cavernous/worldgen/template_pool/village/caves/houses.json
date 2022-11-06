@@ -1,0 +1,103 @@
+{
+  "name": "minecraft:village/plains/houses",
+  "fallback": "minecraft:village/plains/terminators",
+  "elements": [
+    {
+      "weight": 10,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "cavernous:village/caves/houses/small_house",
+        "processors": "cavernous:cave_village"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "cavernous:village/caves/houses/cartographer_house",
+        "processors": "cavernous:cave_village"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "cavernous:village/caves/houses/armorsmith_house",
+        "processors": "cavernous:cave_village"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "cavernous:village/caves/houses/butcher_house",
+        "processors": "cavernous:cave_village"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "cavernous:village/caves/houses/cleric_house",
+        "processors": "cavernous:cave_village"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "cavernous:village/caves/houses/large_house",
+        "processors": "cavernous:cave_village"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "cavernous:village/caves/houses/weaponsmith_house",
+        "processors": "cavernous:cave_village"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "cavernous:village/caves/houses/huge_house",
+        "processors": "cavernous:cave_village"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "cavernous:village/caves/houses/mason_house",
+        "processors": "cavernous:cave_village"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "cavernous:village/caves/houses/library",
+        "processors": "cavernous:cave_village"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:empty_pool_element",
+        "projection": "rigid"
+      }
+    }
+  ]
+}

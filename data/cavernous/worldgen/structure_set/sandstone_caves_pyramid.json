@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 1046624494,
+    "separation": 8,
+    "spacing": 14
+  },
+  "structures": [
+    {
+      "structure": "cavernous:sandstone_caves_pyramid",
+      "weight": 1
+    }
+  ]
+}

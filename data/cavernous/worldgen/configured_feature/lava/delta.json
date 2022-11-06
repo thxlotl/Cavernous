@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:delta_feature",
+  "config": {
+    "contents": {
+      "Name": "minecraft:lava",
+      "Properties": {
+        "level": "0"
+      }
+    },
+    "rim": {
+      "Name": "minecraft:basalt",
+      "Properties": {
+        "axis": "y"
+      }
+    },
+    "size": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 4,
+        "max_inclusive": 8
+      }
+    },
+    "rim_size": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 2,
+        "max_inclusive": 3
+      }
+    }
+  }
+}
