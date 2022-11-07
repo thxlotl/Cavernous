@@ -1,5 +1,8 @@
 #Geyser---
 
+#Disable toggle
+execute if score .global geyser_toggle matches 2 run scoreboard players set .global geyser_toggle 0
+
 #Place
 execute as @e[type=armor_stand,tag=geyser,tag=!placed] run function geyser:place_check
 

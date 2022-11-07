@@ -1,6 +1,7 @@
 {
     "values": [
         "geyser:tick",
-        "cavernous:tick"
+        "cavernous:tick",
+        "gui_menu:tick"
     ]
 }
