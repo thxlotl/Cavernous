@@ -17,9 +17,24 @@
     },
     "replaceable": "#minecraft:overworld_carver_replaceables",
     "debug_settings": {
-      "debug_mode": false,
+      "debug_mode": true,
       "air_state": {
         "Name": "minecraft:cave_air"
+      },
+      "water_state": {
+        "Name": "minecraft:water",
+        "Properties": {
+          "level": "0"
+        }
+      },
+      "lava_state": {
+        "Name": "minecraft:lava",
+        "Properties": {
+          "level": "0"
+        }
+      },
+      "barrier_state": {
+        "Name": "minecraft:lime_concrete"
       }
     },
     "vertical_rotation": {
