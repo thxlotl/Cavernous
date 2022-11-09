@@ -5,31 +5,34 @@
       "type": "minecraft:weighted_state_provider",
       "entries": [
         {
-          "weight": 50,
+          "weight": 40,
           "data": {
             "Name": "minecraft:grass"
           }
         },
         {
-          "weight": 20,
+          "weight": 30,
           "data": {
-            "Name": "minecraft:tall_grass",
+            "Name": "minecraft:crimson_roots"
+          }
+        },
+        {
+          "weight": 40,
+          "data": {
+            "Name": "minecraft:fern"
+          }
+        },
+        {
+          "weight": 30,
+          "data": {
+            "Name": "minecraft:large_fern",
             "Properties": {
               "half": "lower"
             }
           }
         },
         {
-          "weight": 1,
-          "data": {
-            "Name": "minecraft:allium",
-            "Properties": {
-              "half": "lower"
-            }
-          }
-        },
-        {
-          "weight": 1,
+          "weight": 3,
           "data": {
             "Name": "minecraft:lily_of_the_valley",
             "Properties": {
@@ -38,25 +41,19 @@
           }
         },
         {
-          "weight": 15,
+          "weight": 25,
           "data": {
             "Name": "minecraft:brown_mushroom"
           }
         },
         {
-          "weight": 2,
-          "data": {
-            "Name": "minecraft:warped_fungus"
-          }
-        },
-        {
-          "weight": 1,
+          "weight": 5,
           "data": {
             "Name": "minecraft:crimson_fungus"
           }
         },
         {
-          "weight": 20,
+          "weight": 25,
           "data": {
             "Name": "minecraft:red_mushroom"
           }

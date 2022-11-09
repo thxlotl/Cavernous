@@ -176,12 +176,13 @@
       "minecraft:lush_caves_vegetation",
       "minecraft:rooted_azalea_tree",
       "minecraft:spore_blossom",
-      "minecraft:classic_vines_cave_feature",
-      "cavernous:lush/underwater/kelp",
-      "cavernous:lush/underwater/moss_patch_underwater",
-      "cavernous:lush/underwater/moss_disk"
+      "minecraft:classic_vines_cave_feature"
     ],
     [
+      "cavernous:lush/underwater/kelp",
+      "cavernous:lush/underwater/underwater_patch",
+      "cavernous:lush/underwater/underwater_patch_2",
+      "cavernous:lush/underwater/moss_disk",
       "minecraft:freeze_top_layer"
     ]
   ]

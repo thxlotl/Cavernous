@@ -90,12 +90,13 @@
     ],
     [
       "minecraft:glow_lichen",
-      "minecraft:patch_grass_normal",
-      "cavernous:lush/underwater/kelp",
-      "cavernous:lush/underwater/moss_patch_underwater",
-      "cavernous:lush/underwater/moss_disk"
+      "minecraft:patch_grass_normal"
     ],
     [
+      "cavernous:lush/underwater/kelp",
+      "cavernous:lush/underwater/underwater_patch",
+      "cavernous:lush/underwater/underwater_patch_2",
+      "cavernous:lush/underwater/moss_disk",
       "minecraft:freeze_top_layer"
     ]
   ],

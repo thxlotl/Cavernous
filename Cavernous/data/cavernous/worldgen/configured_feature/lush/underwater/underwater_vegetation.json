@@ -5,15 +5,6 @@
       "type": "minecraft:weighted_state_provider",
       "entries": [
         {
-          "weight": 8,
-          "data": {
-            "Name": "minecraft:tall_seagrass",
-            "Properties": {
-              "half": "lower"
-            }
-          }
-        },
-        {
           "weight": 10,
           "data": {
             "Name": "minecraft:seagrass"

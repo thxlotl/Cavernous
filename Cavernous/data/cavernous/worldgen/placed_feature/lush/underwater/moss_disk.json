@@ -2,7 +2,7 @@
   "feature": "cavernous:lush/underwater/moss_disk",
   "placement": [
     {
-      "count": 256,
+      "count": 120,
       "type": "minecraft:count"
     },
     {

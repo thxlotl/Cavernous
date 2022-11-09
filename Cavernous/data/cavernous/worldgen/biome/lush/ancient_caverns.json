@@ -51,12 +51,13 @@
       "cavernous:lush/ancient/mushroom_red_gangly_2",
       "cavernous:lush/ancient/glowshroom", 
       "cavernous:lush/ancient/mushroom_small", 
-      "cavernous:lush/ancient/mushroom_red_medium",
+      "cavernous:lush/ancient/mushroom_red_medium"
+    ],
+    [
       "cavernous:lush/ancient/ancient_patch",
       "cavernous:lush/ancient/carver_patch",
-      "cavernous:lush/ancient/root_patch"
+      "cavernous:lush/ancient/ceiling_patch"
     ],
-    [],
     [
       "minecraft:ore_andesite_upper",
       "minecraft:ore_andesite_lower",
@@ -91,12 +92,13 @@
       "minecraft:classic_vines_cave_feature",
       "minecraft:seagrass_normal",
       "minecraft:seagrass_simple",
-      "minecraft:kelp_cold",
-      "cavernous:lush/underwater/kelp",
-      "cavernous:lush/underwater/moss_patch_underwater",
-      "cavernous:lush/underwater/moss_disk"
+      "minecraft:kelp_cold"
     ],
     [
+      "cavernous:lush/underwater/kelp",
+      "cavernous:lush/underwater/underwater_patch",
+      "cavernous:lush/underwater/underwater_patch_2",
+      "cavernous:lush/underwater/moss_disk",
       "minecraft:freeze_top_layer"
     ]
   ],

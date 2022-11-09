@@ -2,6 +2,7 @@
   "replace": false,
   "values": [
     "calcite",
-    "smooth_basalt"
+    "smooth_basalt",
+    "amethyst_block"
   ]
 }

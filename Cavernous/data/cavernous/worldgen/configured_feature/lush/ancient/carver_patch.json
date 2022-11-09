@@ -16,30 +16,41 @@
     },
     "replaceable": "#cavernous:ancient_replacable",
     "ground_state": {
-      "type": "minecraft:weighted_state_provider",
-      "entries": [
+      "type": "minecraft:noise_threshold_provider",
+      "seed": 1231254,
+      "noise": {
+        "firstOctave": -6,
+        "amplitudes": [
+          1,
+          1,
+          1
+        ]
+      },
+      "scale": 0.005,
+      "threshold": -0.8,
+      "high_chance": 0.3333,
+      "default_state": {
+        "Name": "minecraft:moss_block"
+      },
+      "low_states": [
         {
-          "weight": 1,
-          "data": {
-            "Name": "minecraft:moss_block"
+          "Name": "minecraft:mycelium",
+          "Properties": {
+            "snowy": "false"
+          }
+        }
+      ],
+      "high_states": [
+        {
+          "Name": "minecraft:grass_block",
+          "Properties": {
+            "snowy": "false"
           }
         },
         {
-          "weight": 2,
-          "data": {
-            "Name": "minecraft:mycelium",
-            "Properties": {
-              "snowy": "false"
-            }
-          }
-        },
-        {
-          "weight": 1,
-          "data": {
-            "Name": "minecraft:grass_block",
-            "Properties": {
-              "snowy": "false"
-            }
+          "Name": "minecraft:mycelium",
+          "Properties": {
+            "snowy": "false"
           }
         }
       ]

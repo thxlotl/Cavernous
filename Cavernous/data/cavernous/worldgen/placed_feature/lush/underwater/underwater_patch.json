@@ -2,7 +2,7 @@
   "feature": "cavernous:lush/underwater/underwater_patch",
   "placement": [
     {
-      "count": 256,
+      "count": 100,
       "type": "minecraft:count"
     },
     {

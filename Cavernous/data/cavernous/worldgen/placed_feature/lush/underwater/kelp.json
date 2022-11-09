@@ -2,7 +2,7 @@
   "feature": "minecraft:kelp",
   "placement": [
     {
-      "count": 256,
+      "count": 30,
       "type": "minecraft:count"
     },
     {
