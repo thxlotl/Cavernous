@@ -25,7 +25,8 @@
                 ],
                 "blocks": [
                   "minecraft:moss_block",
-                  "minecraft:mycelium"
+                  "minecraft:mycelium",
+                  "grass_block"
                 ]
               }
             ]

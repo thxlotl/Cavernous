@@ -25,7 +25,7 @@
     "sky_color": 8103167,
     "water_color": 4178916,
     "water_fog_color": 335155,
-    "grass_color": 2604669,
+    "grass_color": 7311404,
     "foliage_color": 7311404
   },
   "features": [
@@ -47,13 +47,13 @@
     ],
     [  
       "cavernous:lush/ancient/mushroom_red_gangly", 
-      "cavernous:lush/ancient/mushroom_red_gangly_2",
       "cavernous:lush/ancient/mushroom_brown_gangly",
+      "cavernous:lush/ancient/mushroom_red_gangly_2",
       "cavernous:lush/ancient/glowshroom", 
+      "cavernous:lush/ancient/mushroom_small", 
       "cavernous:lush/ancient/mushroom_red_medium",
       "cavernous:lush/ancient/ancient_patch",
       "cavernous:lush/ancient/carver_patch",
-      "cavernous:lush/ancient/mushroom_small", 
       "cavernous:lush/ancient/root_patch"
     ],
     [],
