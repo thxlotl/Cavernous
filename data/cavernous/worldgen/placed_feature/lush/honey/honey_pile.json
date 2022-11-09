@@ -1,13 +1,13 @@
 {
-  "feature": "cavernous:lush/ancient/mushroom_small_patch",
+  "feature": "cavernous:lush/honey/honey_pile",
   "placement": [
     {
       "type": "minecraft:count",
       "count": {
         "type": "minecraft:uniform",
         "value": {
-          "min_inclusive": 55,
-          "max_inclusive": 65
+          "min_inclusive": 1,
+          "max_inclusive": 2
         }
       }
     },
@@ -22,7 +22,7 @@
           "above_bottom": 0
         },
         "max_inclusive": {
-          "absolute": 192
+          "absolute": 70
         }
       }
     },
@@ -35,10 +35,7 @@
       },
       "allowed_search_condition": {
         "type": "minecraft:matching_blocks",
-        "blocks": [
-          "minecraft:air",
-          "minecraft:water"
-        ]
+        "blocks": "minecraft:air"
       }
     },
     {
@@ -48,10 +45,10 @@
     },
     {
       "type": "minecraft:biome"
-    },    
+    },
     {
-      "type": "minecraft:surface_water_depth_filter",
-      "max_water_depth": 3
+      "type": "minecraft:rarity_filter",
+      "chance": 3
     }
   ]
 }
