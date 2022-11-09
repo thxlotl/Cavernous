@@ -6,7 +6,7 @@
     "vertical_range": 5,
     "extra_bottom_block_chance": 0,
     "extra_edge_column_chance": 0.3,
-    "vegetation_chance": 0.06,
+    "vegetation_chance": 0.02,
     "xz_radius": {
       "type": "minecraft:uniform",
       "value": {
@@ -25,9 +25,18 @@
           }
         },
         {
-          "weight": 1,
+          "weight": 2,
           "data": {
             "Name": "minecraft:mycelium",
+            "Properties": {
+              "snowy": "false"
+            }
+          }
+        },
+        {
+          "weight": 1,
+          "data": {
+            "Name": "minecraft:grass_block",
             "Properties": {
               "snowy": "false"
             }

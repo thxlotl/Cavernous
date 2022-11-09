@@ -23,8 +23,10 @@
       "sound": "minecraft:music.overworld.lush_caves"
     },
     "sky_color": 8103167,
-    "water_color": 4159204,
-    "water_fog_color": 329011
+    "water_color": 4178916,
+    "water_fog_color": 335155,
+    "grass_color": 2604669,
+    "foliage_color": 7311404
   },
   "features": [
     [],
@@ -35,9 +37,9 @@
     [
       "minecraft:amethyst_geode",
       "cavernous:big_geode",
+      "cavernous:lush/honey/honey_pool",
       "cavernous:desert/sand/terracotta_boulder",
-      "cavernous:lush/honey/beeode",
-      "cavernous:lush/honey/honey_pool"
+      "cavernous:lush/honey/beeode"
     ],
     [
       "minecraft:monster_room",
@@ -45,13 +47,13 @@
     ],
     [  
       "cavernous:lush/ancient/mushroom_red_gangly", 
+      "cavernous:lush/ancient/mushroom_red_gangly_2",
       "cavernous:lush/ancient/mushroom_brown_gangly",
       "cavernous:lush/ancient/glowshroom", 
-      "cavernous:lush/ancient/mushroom_red_small",
-      "cavernous:lush/ancient/mushroom_brown_flat",
-      "cavernous:lush/ancient/carver_patch",
+      "cavernous:lush/ancient/mushroom_red_medium",
       "cavernous:lush/ancient/ancient_patch",
-      "cavernous:lush/ancient/mushroom_brown_small", 
+      "cavernous:lush/ancient/carver_patch",
+      "cavernous:lush/ancient/mushroom_small", 
       "cavernous:lush/ancient/root_patch"
     ],
     [],
@@ -89,7 +91,10 @@
       "minecraft:classic_vines_cave_feature",
       "minecraft:seagrass_normal",
       "minecraft:seagrass_simple",
-      "minecraft:kelp_cold"
+      "minecraft:kelp_cold",
+      "cavernous:lush/underwater/kelp",
+      "cavernous:lush/underwater/moss_patch_underwater",
+      "cavernous:lush/underwater/moss_disk"
     ],
     [
       "minecraft:freeze_top_layer"

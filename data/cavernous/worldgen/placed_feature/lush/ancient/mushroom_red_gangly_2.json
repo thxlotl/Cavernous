@@ -1,13 +1,13 @@
 {
-  "feature": "cavernous:lush/ancient/mushroom_brown_small_patch",
+  "feature": "cavernous:lush/ancient/mushroom_red_gangly_2",
   "placement": [
     {
       "type": "minecraft:count",
       "count": {
         "type": "minecraft:uniform",
         "value": {
-          "min_inclusive": 40,
-          "max_inclusive": 65
+          "min_inclusive": 20,
+          "max_inclusive": 30
         }
       }
     },
@@ -35,7 +35,10 @@
       },
       "allowed_search_condition": {
         "type": "minecraft:matching_blocks",
-        "blocks": "minecraft:air"
+        "blocks": [
+          "minecraft:air",
+          "minecraft:water"
+        ]
       }
     },
     {
@@ -45,6 +48,10 @@
     },
     {
       "type": "minecraft:biome"
+    },
+    {
+      "type": "minecraft:surface_water_depth_filter",
+      "max_water_depth": 3
     }
   ]
 }

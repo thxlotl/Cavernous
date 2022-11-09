@@ -35,7 +35,10 @@
       },
       "allowed_search_condition": {
         "type": "minecraft:matching_blocks",
-        "blocks": "minecraft:air"
+        "blocks": [
+          "minecraft:air",
+          "minecraft:water"
+        ]
       }
     },
     {
@@ -49,6 +52,10 @@
     {
       "type": "minecraft:rarity_filter",
       "chance": 2
+    },    
+    {
+      "type": "minecraft:surface_water_depth_filter",
+      "max_water_depth": 2
     }
   ]
 }

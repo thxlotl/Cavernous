@@ -72,7 +72,7 @@
       "horizontal_radius_factor": {
         "type": "minecraft:uniform",
         "value": {
-          "min_inclusive": 0.75,
+          "min_inclusive": 0.55,
           "max_exclusive": 0.95
         }
       },
