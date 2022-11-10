@@ -4,59 +4,14 @@
     {
       "rolls": {
         "type": "minecraft:uniform",
-        "min": 2,
+        "min": 3,
         "max": 4
       },
-      "bonus_rolls": 0,
+      "bonus_rolls": {
+        "min": 0,
+        "max": 0
+      },
       "entries": [
-        {
-          "type": "minecraft:item",
-          "weight": 15,
-          "name": "minecraft:diamond",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1,
-                "max": 3
-              },
-              "add": false
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 30,
-          "name": "minecraft:iron_ingot",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1,
-                "max": 10
-              },
-              "add": false
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 40,
-          "name": "minecraft:gold_ingot",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 5,
-                "max": 20
-              },
-              "add": false
-            }
-          ]
-        },
         {
           "type": "minecraft:item",
           "weight": 15,
@@ -68,54 +23,6 @@
                 "type": "minecraft:uniform",
                 "min": 1,
                 "max": 3
-              },
-              "add": false
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 25,
-          "name": "minecraft:bone",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 4,
-                "max": 6
-              },
-              "add": false
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 25,
-          "name": "minecraft:spider_eye",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1,
-                "max": 3
-              },
-              "add": false
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 25,
-          "name": "minecraft:rotten_flesh",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 3,
-                "max": 7
               },
               "add": false
             }
@@ -143,7 +50,87 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 20,
+          "weight": 10,
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomPotionEffects:[{Id:3,Amplifier:1,Duration:9600}],CustomPotionColor:16772930,display:{Name:'[{\"text\":\"Mining Potion\",\"italic\":false}]'}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": "Mining Potion"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 1,
+              "add": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 1,
+        "max": 2
+      },
+      "bonus_rolls": {
+        "min": 0,
+        "max": 1
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:diamond",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 4
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:iron_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 10
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:gold_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 5,
+                "max": 20
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
           "name": "minecraft:book",
           "functions": [
             {
@@ -161,21 +148,68 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 20,
+          "weight": 5,
           "name": "minecraft:golden_apple"
         },
         {
           "type": "minecraft:item",
-          "weight": 2,
+          "weight": 1,
           "name": "minecraft:enchanted_golden_apple"
         },
         {
-          "type": "minecraft:empty",
-          "weight": 15
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:map",
+          "functions": [
+            {
+              "function": "minecraft:exploration_map",
+              "destination": "minecraft:ancient_city",
+              "decoration": "banner_cyan",
+              "search_radius": 50,
+              "skip_existing_chunks": false
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": "Ancient City Explorer Map"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 1,
+              "add": false
+            }
+          ]
         },
         {
           "type": "minecraft:item",
-          "weight": 40,
+          "weight": 2,
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomPotionEffects:[{Id:3,Amplifier:1,Duration:9600}],CustomPotionColor:16772930,display:{Name:'[{\"text\":\"Mining Potion\",\"italic\":false}]'}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": "Mining Potion"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 1,
+              "add": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 0,
+        "max": 1
+      },
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
           "name": "minecraft:map",
           "functions": [
             {
@@ -199,8 +233,14 @@
       ]
     },
     {
-      "rolls": 4,
-      "bonus_rolls": 0,
+      "rolls": {
+        "min": 1,
+        "max": 4
+      },
+      "bonus_rolls": {
+        "min": 0,
+        "max": 2
+      },
       "entries": [
         {
           "type": "minecraft:item",
@@ -237,38 +277,6 @@
         {
           "type": "minecraft:item",
           "weight": 10,
-          "name": "minecraft:copper_ingot",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 5,
-                "max": 20
-              },
-              "add": false
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 10,
-          "name": "minecraft:amethyst_shard",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1,
-                "max": 8
-              },
-              "add": false
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 10,
           "name": "minecraft:sand",
           "functions": [
             {
@@ -279,6 +287,73 @@
                 "max": 8
               },
               "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:sandstone",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 5,
+                "max": 7
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "name": "minecraft:rotten_flesh"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:bone"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:spider_eye"
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 1,
+        "max": 2
+      },
+      "bonus_rolls": {
+        "min": 0,
+        "max": 1
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:oxidized_cut_copper",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4,
+                "max": 10
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:oxidized_copper",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4,
+                "max": 10
+              }
             }
           ]
         }

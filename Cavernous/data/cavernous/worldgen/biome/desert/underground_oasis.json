@@ -68,8 +68,6 @@
       "minecraft:spring_lava"
     ],
     [
-      "minecraft:brown_mushroom_normal",
-      "minecraft:red_mushroom_normal",
       "cavernous:desert/oasis/tree",
       "cavernous:desert/oasis/vegetation_patch",
       "cavernous:desert/sand/cactus_patch",
@@ -77,9 +75,7 @@
       "cavernous:desert/sand/huge_dead_bush"
     ],
     [
-      "cavernous:lush/underwater/kelp",
       "cavernous:lush/underwater/underwater_patch",
-      "cavernous:lush/underwater/underwater_patch_2",
       "minecraft:freeze_top_layer"
     ]
   ],

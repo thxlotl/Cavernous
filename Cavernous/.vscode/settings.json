@@ -1,0 +1,24 @@
+{
+    "hide-files.files": [
+        "minecraft",
+        "cavernous",
+        "data/block_utils",
+        "data/load"
+    ],
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true,
+        "minecraft": true,
+        "cavernous": true,
+        "data/block_utils": true,
+        "data/load": true
+    }
+}
