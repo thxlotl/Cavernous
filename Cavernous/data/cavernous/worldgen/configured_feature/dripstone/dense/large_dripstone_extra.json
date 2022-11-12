@@ -6,14 +6,14 @@
       "type": "minecraft:uniform",
       "value": {
         "min_inclusive": 8,
-        "max_inclusive": 25
+        "max_inclusive": 15
       }
     },
     "height_scale": {
       "type": "minecraft:uniform",
       "value": {
         "min_inclusive": 0.4,
-        "max_exclusive": 4
+        "max_exclusive": 3.5
       }
     },
     "max_column_radius_to_cave_height_ratio": 0.33,
@@ -38,7 +38,7 @@
         "max_exclusive": 0.6
       }
     },
-    "min_radius_for_wind": 4,
+    "min_radius_for_wind": 3,
     "min_bluntness_for_wind": 0.6
   }
 }

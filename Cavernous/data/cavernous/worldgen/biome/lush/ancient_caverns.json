@@ -4,7 +4,9 @@
       "minecraft:cave",
       "minecraft:cave_extra_underground",
       "minecraft:canyon",
-      "cavernous:lush/sinkhole"
+      "cavernous:lush/sinkhole",
+      "cavernous:flat_cave",
+      "cavernous:snaking_ravine"
     ]
   },
   "downfall": 0.5,

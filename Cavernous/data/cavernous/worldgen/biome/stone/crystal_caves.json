@@ -98,7 +98,10 @@
     "air": [
       "minecraft:cave",
       "minecraft:cave_extra_underground",
-      "minecraft:canyon"
+      "minecraft:canyon",
+      "cavernous:grand_ravine",
+      "cavernous:flat_cave",
+      "cavernous:snaking_ravine"
     ]
   },
   "features": [

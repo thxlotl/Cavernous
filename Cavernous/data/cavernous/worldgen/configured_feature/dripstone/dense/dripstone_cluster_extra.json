@@ -13,7 +13,7 @@
       "type": "minecraft:uniform",
       "value": {
         "min_inclusive": 2,
-        "max_inclusive": 8
+        "max_inclusive": 6
       }
     },
     "max_stalagmite_stalactite_height_diff": 1,

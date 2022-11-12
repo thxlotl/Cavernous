@@ -1,9 +1,9 @@
 {
   "type": "minecraft:random_patch",
   "config": {
-    "tries": 155,
-    "xz_spread": 4,
-    "y_spread": 4,
+    "tries": 145,
+    "xz_spread": 5,
+    "y_spread": 2,
     "feature": {
       "feature": "cavernous:lush/ancient/ancient_vegetation",
       "placement": [
@@ -26,7 +26,7 @@
                 "blocks": [
                   "minecraft:moss_block",
                   "minecraft:mycelium",
-                  "grass_block"
+                  "minecraft:grass_block"
                 ]
               }
             ]

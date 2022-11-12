@@ -15,6 +15,7 @@
     "minecraft:snowy_beach",
     "#minecraft:is_end",
     "#cavernous:type/ice",
-    "#cavernous:type/stone"
+    "#cavernous:type/stone",
+    "#cavernous:type/deep_dark"
   ]
 }

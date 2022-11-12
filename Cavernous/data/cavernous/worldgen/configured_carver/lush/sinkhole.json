@@ -1,7 +1,7 @@
 {
   "type": "minecraft:canyon",
   "config": {
-    "probability": 0.025,
+    "probability": 0.0175,
     "y": {
       "type": "minecraft:uniform",
       "min_inclusive": {
@@ -14,7 +14,7 @@
     "yScale": {
       "type": "minecraft:uniform",
       "value": {
-        "min_inclusive": 0.5,
+        "min_inclusive": 0.35,
         "max_exclusive": 1.5
       }
     },
@@ -64,8 +64,8 @@
       "thickness": {
         "type": "minecraft:uniform",
         "value": {
-          "min_inclusive": 7,
-          "max_exclusive": 17
+          "min_inclusive": 8,
+          "max_exclusive": 14
         }
       },
       "width_smoothness": 8,
