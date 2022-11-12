@@ -1,9 +1,9 @@
 {
   "type": "minecraft:random_patch",
   "config": {
-    "tries": 145,
+    "tries": 155,
     "xz_spread": 5,
-    "y_spread": 2,
+    "y_spread": 1,
     "feature": {
       "feature": "cavernous:lush/ancient/ancient_vegetation",
       "placement": [

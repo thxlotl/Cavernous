@@ -78,7 +78,6 @@
     [
       "minecraft:dripstone_cluster",
       "minecraft:pointed_dripstone",
-      "cavernous:dripstone/dense/large_dripstone_extra",
       "cavernous:dripstone/dense/dripstone_cluster_extra",
       "cavernous:dripstone/dense/granite_ore_extra"
     ],
