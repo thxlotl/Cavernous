@@ -1,0 +1,3 @@
+function cave_items:lantern/clear_old
+execute if predicate cave_items:holding_lantern run function cave_items:lantern/lantern_illum
+execute if predicate cave_items:holding_lantern_off run function cave_items:lantern/lantern_illum

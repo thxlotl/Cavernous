@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:random_boolean_selector",
+    "config": {
+      "feature_false": {
+        "feature": "cavernous:lush/ancient/mushroom_red_small",
+        "placement": []
+      },
+      "feature_true": {
+        "feature": "cavernous:lush/ancient/mushroom_brown_small",
+        "placement": []
+      }
+    }
+  }
+  
