@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "unlocked": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "cave_items:mining_potion"
+      }
+    }
+  },
+  "rewards": {
+    "function": "cave_items:potion/give_potion"
+  }
+}

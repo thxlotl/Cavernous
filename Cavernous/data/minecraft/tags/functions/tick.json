@@ -1,0 +1,8 @@
+{
+    "values": [
+        "geyser:tick",
+        "cavernous:tick",
+        "gui_menu:tick",
+        "cave_items:tick"
+    ]
+}

@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:random_patch",
+  "config": {
+    "tries": 155,
+    "xz_spread": 5,
+    "y_spread": 1,
+    "feature": {
+      "feature": "cavernous:lush/ancient/ancient_vegetation",
+      "placement": [
+        {
+          "type": "minecraft:block_predicate_filter",
+          "predicate": {
+            "type": "minecraft:all_of",
+            "predicates": [
+              {
+                "type": "minecraft:matching_blocks",
+                "blocks": "minecraft:air"
+              },
+              {
+                "type": "minecraft:matching_blocks",
+                "offset": [
+                  0,
+                  -1,
+                  0
+                ],
+                "blocks": [
+                  "minecraft:moss_block",
+                  "minecraft:mycelium",
+                  "minecraft:grass_block"
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

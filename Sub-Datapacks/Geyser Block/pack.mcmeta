@@ -1,0 +1,19 @@
+{
+    "pack": {
+      "pack_format": 10,
+      "description": {
+        "text": "Adds the new custom geyser block. By Interstella Studios.",
+        "color": "white",
+        "underlined": false,
+        "clickEvent": {
+          "action": "open_url",
+          "value": "https://www.planetminecraft.com/data-pack/thxlotl-s-cave-biome-datapack/"
+        },
+        "hoverEvent": {
+          "action": "show_text",
+          "value": "Datapack Website"
+        }
+      }
+    }
+  }
+  

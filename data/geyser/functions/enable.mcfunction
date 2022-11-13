@@ -1,1 +1,0 @@
-scoreboard players set .global geyser_toggle 1
