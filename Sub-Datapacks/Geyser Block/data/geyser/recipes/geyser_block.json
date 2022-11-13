@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#M#",
+        "#Y#",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:basalt"
+        },
+        "M": {
+            "item": "minecraft:magma_block"
+        },
+        "Y": {
+            "item": "minecraft:magma_cream"
+        }
+    },
+    "result": {
+        "item": "minecraft:knowledge_book",
+        "count": 1
+    }
+}
