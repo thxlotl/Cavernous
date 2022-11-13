@@ -3,6 +3,7 @@
         "#load:_private/load",
         "cavernous:init",
         "gui_menu:load",
-        "cave_items:load"
+        "cave_items:load",
+        "geyser:load"
     ]
 }

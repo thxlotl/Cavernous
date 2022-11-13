@@ -24,9 +24,9 @@ execute at @a[predicate=cavernous:in_inactive] if score .global geyser_toggle ma
 
     #Touch
 
-    execute as @e[tag=geyser,type=armor_stand] at @s positioned ~ ~2 ~ unless entity @e[tag=!geyser,distance=...65,type=!item,predicate=cavernous:not_sneaking,type=!bat] run scoreboard players set @s time_stood_on 0
+    execute as @e[tag=geyser,type=armor_stand] at @s positioned ~ ~2 ~ unless entity @e[tag=!geyser,distance=...65,type=!item,predicate=geyser:not_sneaking,type=!bat] run scoreboard players set @s time_stood_on 0
 
-    execute as @e[tag=geyser,type=armor_stand] at @s unless block ~ ~ ~ #cavernous:ice if block ~ ~2 ~ #cavernous:geyser_open if entity @a[distance=..35] positioned ~ ~2 ~ if entity @e[tag=!geyser,distance=...65,type=!item,predicate=cavernous:not_sneaking,type=!bat] run scoreboard players add @s time_stood_on 1
+    execute as @e[tag=geyser,type=armor_stand] at @s unless block ~ ~ ~ #cavernous:ice if block ~ ~2 ~ #cavernous:geyser_open if entity @a[distance=..35] positioned ~ ~2 ~ if entity @e[tag=!geyser,distance=...65,type=!item,predicate=geyser:not_sneaking,type=!bat] run scoreboard players add @s time_stood_on 1
 
     execute as @e[tag=geyser,type=armor_stand] at @s unless block ~ ~ ~ #cavernous:ice if block ~ ~2 ~ #cavernous:geyser_open if entity @a[distance=..35] positioned ~ ~2 ~ if entity @e[tag=!geyser,distance=...65,scores={is_flying=1..},type=player] run scoreboard players set @s time_stood_on 20
     scoreboard players set @a is_flying 0

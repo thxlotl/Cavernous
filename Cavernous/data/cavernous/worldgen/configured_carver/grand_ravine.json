@@ -1,7 +1,7 @@
 {
   "type": "minecraft:canyon",
   "config": {
-    "probability": 0.0032,
+    "probability": 0.0028,
     "y": {
       "type": "minecraft:uniform",
       "min_inclusive": {

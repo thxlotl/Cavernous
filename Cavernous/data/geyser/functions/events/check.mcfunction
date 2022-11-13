@@ -1,5 +1,5 @@
-execute as @e[tag=geyser,type=armor_stand] if predicate cavernous:geyser/33 run scoreboard players set @s huff 1
-execute as @e[tag=geyser,type=armor_stand] if score @s huff matches 0 if predicate cavernous:geyser/50 run scoreboard players set @s bubble 1
+execute as @e[tag=geyser,type=armor_stand] if predicate geyser:geyser/33 run scoreboard players set @s huff 1
+execute as @e[tag=geyser,type=armor_stand] if score @s huff matches 0 if predicate geyser:geyser/50 run scoreboard players set @s bubble 1
 execute as @e[tag=geyser,type=armor_stand] if score @s huff matches 0 if score @s bubble matches 0 run scoreboard players set @s burst 1
 
 execute as @e[tag=geyser,type=armor_stand] at @s if block ~ ~2 ~ #cavernous:geyser_open unless block ~ ~ ~ #cavernous:ice if entity @a[distance=..35] if score @s huff matches 1 if predicate cavernous:geyser/50 run function geyser:events/huff

@@ -4,7 +4,7 @@
         "unlocked": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "cavernous:geyser_block"
+                "recipe": "geyser:geyser_block"
             }
         }
     },
