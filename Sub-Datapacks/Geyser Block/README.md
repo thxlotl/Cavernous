@@ -16,6 +16,6 @@ Created by thxlotl of Interstella Studios.
 ## 🔗 Links
 Planet Minecraft Profile - https://www.planetminecraft.com/member/thxlotl/
 
-Datapack Page - https://www.planetminecraft.com/data-pack/thxlotl-s-cave-biome-datapack/
+Datapack Page - https://www.planetminecraft.com/data-pack/geyser-block/
 
 Interstella Discord - https://discord.gg/D7hyC7AWMJ

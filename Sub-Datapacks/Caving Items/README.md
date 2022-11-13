@@ -1,9 +1,7 @@
 
-# CAVERNOUS
+# CAVING ITEMS
 
-Cavernous is a datapack that overhauls the caves in minecraft by adding a
-multitude of different biomes and features. I hope you enjoy it and I hope
-it adds to your mining and crafting experience!
+Caving items adds cave related items to the game and is a branch of the Cavernous datapack.
 
 ## Acknowledgements & Dependencies
 
