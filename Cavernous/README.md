@@ -12,7 +12,6 @@ or earlier, go into the root of this datapack and drag the "cavernous" and
 "minecraft" folders into the "data" folder and then install the datapack as
 you would normally.
 
-
 ## Acknowledgements & Dependencies
 
  - [Misodes Datapack Generators](https://misode.github.io/)

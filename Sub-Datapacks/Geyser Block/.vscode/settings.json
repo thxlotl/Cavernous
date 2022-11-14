@@ -1,8 +1,5 @@
 {
-    "hide-files.files": [
-        "cavernous",
-        "minecraft",
-    ],
+    "hide-files.files": [],
     "files.exclude": {
         "**/.git": true,
         "**/.svn": true,
@@ -13,8 +10,6 @@
         "**/.classpath": true,
         "**/.project": true,
         "**/.settings": true,
-        "**/.factorypath": true,
-        "cavernous": true,
-        "minecraft": true,
+        "**/.factorypath": true
     }
 }

@@ -26,12 +26,12 @@ execute at @a[predicate=cavernous:in_inactive] if score .global geyser_toggle ma
 
     execute as @e[tag=geyser,type=armor_stand] at @s positioned ~ ~2 ~ unless entity @e[tag=!geyser,distance=...65,type=!item,predicate=geyser:not_sneaking,type=!bat] run scoreboard players set @s time_stood_on 0
 
-    execute as @e[tag=geyser,type=armor_stand] at @s unless block ~ ~ ~ #cavernous:ice if block ~ ~2 ~ #cavernous:geyser_open if entity @a[distance=..35] positioned ~ ~2 ~ if entity @e[tag=!geyser,distance=...65,type=!item,predicate=geyser:not_sneaking,type=!bat] run scoreboard players add @s time_stood_on 1
+    execute as @e[tag=geyser,type=armor_stand] at @s unless block ~ ~ ~ #geyser:ice if block ~ ~2 ~ #geyser:geyser_open if entity @a[distance=..35] positioned ~ ~2 ~ if entity @e[tag=!geyser,distance=...65,type=!item,predicate=geyser:not_sneaking,type=!bat] run scoreboard players add @s time_stood_on 1
 
-    execute as @e[tag=geyser,type=armor_stand] at @s unless block ~ ~ ~ #cavernous:ice if block ~ ~2 ~ #cavernous:geyser_open if entity @a[distance=..35] positioned ~ ~2 ~ if entity @e[tag=!geyser,distance=...65,scores={is_flying=1..},type=player] run scoreboard players set @s time_stood_on 20
+    execute as @e[tag=geyser,type=armor_stand] at @s unless block ~ ~ ~ #geyser:ice if block ~ ~2 ~ #geyser:geyser_open if entity @a[distance=..35] positioned ~ ~2 ~ if entity @e[tag=!geyser,distance=...65,scores={is_flying=1..},type=player] run scoreboard players set @s time_stood_on 20
     scoreboard players set @a is_flying 0
 
-    execute as @e[tag=geyser,type=armor_stand,scores={time_stood_on=1..}] at @s if predicate cavernous:geyser/50 run playsound minecraft:entity.magma_cube.jump block @a ~ ~2 ~ 0.5 1
+    execute as @e[tag=geyser,type=armor_stand,scores={time_stood_on=1..}] at @s if predicate geyser:geyser/50 run playsound minecraft:entity.magma_cube.jump block @a ~ ~2 ~ 0.5 1
     execute as @e[tag=geyser,type=armor_stand,scores={time_stood_on=1..}] at @s run particle minecraft:cloud ~ ~2.2 ~ 0.2 0 0.2 0.03 1 force @a
 
     execute as @e[tag=geyser,type=armor_stand,scores={time_stood_on=20..}] at @s run function geyser:events/burst_extra
