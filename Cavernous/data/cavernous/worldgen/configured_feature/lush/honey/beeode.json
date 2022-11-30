@@ -1,7 +1,7 @@
 {
   "type": "minecraft:fossil",
   "config": {
-    "max_empty_corners_allowed": 4,
+    "max_empty_corners_allowed": 6,
     "fossil_structures": [
       "cavernous:beeode"
     ],

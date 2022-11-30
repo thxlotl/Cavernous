@@ -1,7 +1,7 @@
 {
     "hide-files.files": [
         "cavernous",
-        "minecraft",
+        "minecraft"
     ],
     "files.exclude": {
         "**/.git": true,
