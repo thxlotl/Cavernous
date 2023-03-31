@@ -1,0 +1,53 @@
+{
+	"feature": {
+		"type": "minecraft:ore",
+		"config": {
+			"size": 9,
+			"discard_chance_on_air_exposure": 0,
+			"targets": [
+				{
+					"target": {
+						"predicate_type": "minecraft:tag_match",
+						"tag": "cavernous:stone_ore"
+					},
+					"state": {
+						"Name": "minecraft:iron_ore"
+					}
+				},
+				{
+					"target": {
+						"predicate_type": "minecraft:tag_match",
+						"tag": "cavernous:deepslate_ore"
+					},
+					"state": {
+						"Name": "minecraft:deepslate_iron_ore"
+					}
+				}
+			]
+		}
+	},
+	"placement": [
+		{
+			"type": "minecraft:count",
+			"count": 10
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "minecraft:height_range",
+			"height": {
+				"type": "minecraft:trapezoid",
+				"min_inclusive": {
+					"absolute": -24
+				},
+				"max_inclusive": {
+					"absolute": 56
+				}
+			}
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

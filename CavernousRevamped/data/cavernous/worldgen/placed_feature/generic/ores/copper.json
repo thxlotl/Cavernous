@@ -1,0 +1,91 @@
+{
+	"feature": {
+		"type": "minecraft:random_boolean_selector",
+		"config": {
+			"feature_false": {
+				"feature": {
+					"type": "minecraft:ore",
+					"config": {
+						"size": 10,
+						"discard_chance_on_air_exposure": 0,
+						"targets": [
+							{
+								"target": {
+									"predicate_type": "minecraft:tag_match",
+									"tag": "cavernous:stone_ore"
+								},
+								"state": {
+									"Name": "minecraft:copper_ore"
+								}
+							},
+							{
+								"target": {
+									"predicate_type": "minecraft:tag_match",
+									"tag": "cavernous:deepslate_ore"
+								},
+								"state": {
+									"Name": "minecraft:deepslate_copper_ore"
+								}
+							}
+						]
+					}
+				},
+				"placement": []
+			},
+			"feature_true": {
+				"feature": {
+					"type": "minecraft:ore",
+					"config": {
+						"size": 20,
+						"discard_chance_on_air_exposure": 0,
+						"targets": [
+							{
+								"target": {
+									"predicate_type": "minecraft:tag_match",
+									"tag": "cavernous:stone_ore"
+								},
+								"state": {
+									"Name": "minecraft:copper_ore"
+								}
+							},
+							{
+								"target": {
+									"predicate_type": "minecraft:tag_match",
+									"tag": "cavernous:deepslate_ore"
+								},
+								"state": {
+									"Name": "minecraft:deepslate_copper_ore"
+								}
+							}
+						]
+					}
+				},
+				"placement": []
+			}
+		}
+	},
+	"placement": [
+		{
+			"type": "minecraft:count",
+			"count": 32
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "minecraft:height_range",
+			"height": {
+				"type": "minecraft:trapezoid",
+				"min_inclusive": {
+					"absolute": -16
+				},
+				"max_inclusive": {
+					"absolute": 112
+				}
+			}
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}
