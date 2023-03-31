@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:skeleton_skull"
+    },
+    "title": {
+      "text": "Indiana Bones"
+    },
+    "description": {
+      "text": "Pick up a skull in a sandstone caves temple"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "cavernous:breaking_ground",
+  "criteria": {
+    "skull": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "location": {
+            "structure": "cavernous:sandstone_caves_pyramid"
+          }
+        },
+        "items": [
+          {
+            "items": [
+              "minecraft:skeleton_skull"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

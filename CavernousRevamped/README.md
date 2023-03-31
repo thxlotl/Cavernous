@@ -1,16 +1,9 @@
 
-# CAVERNOUS
+# CAVERNOUS REVAMPED
 
-Cavernous is a datapack that overhauls the caves in minecraft by adding a
-multitude of different biomes and features. I hope you enjoy it and I hope
-it adds to your mining and crafting experience!
-
-# IF YOU ARE UPDATING A LEGACY VERSION (1.6.3.2 and earlier)
-
-If you are updating this datapack in a world that has used version 1.6.3.2
-or earlier, go into the root of this datapack and drag the "cavernous" and
-"minecraft" folders into the "data" folder and then install the datapack as
-you would normally.
+Cavernous Revamped is the new version of Cavernous, hoping to
+continue to and improve upon the cave biomes in the game along
+with adding new biomes.
 
 ## Acknowledgements & Dependencies
 
@@ -21,11 +14,7 @@ you would normally.
 
 Created by thxlotl of Interstella Studios.
 
-Cavernous © 2022 by thxlotl is licensed under CC BY-NC-SA 4.0 (http://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1)
-
 ## 🔗 Links
 Planet Minecraft Profile - https://www.planetminecraft.com/member/thxlotl/
-
-Datapack Page - https://www.planetminecraft.com/data-pack/thxlotl-s-cave-biome-datapack/
 
 Interstella Discord - https://discord.gg/D7hyC7AWMJ

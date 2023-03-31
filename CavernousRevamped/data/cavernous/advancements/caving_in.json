@@ -1,0 +1,31 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:deepslate_emerald_ore"
+      },
+      "title": {
+        "text": "Caving in"
+      },
+      "description": {
+        "text": "Trade with a villager inside of a cave village"
+      },
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "cavernous:breaking_ground",
+    "criteria": {
+      "trade": {
+        "trigger": "minecraft:villager_trade",
+        "conditions": {
+          "villager": {
+            "location": {
+              "structure": "cavernous:village_caves"
+            }
+          }
+        }
+      }
+    }
+  }
+  

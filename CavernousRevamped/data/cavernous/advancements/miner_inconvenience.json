@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:iron_pickaxe"
+    },
+    "title": {
+      "text": "Miner inconvenience"
+    },
+    "description": {
+      "text": "Get killed by an entity that is holding a pickaxe"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "cavernous:root",
+  "criteria": {
+    "killedbypickaxe": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "equipment": {
+            "mainhand": {
+              "tag": "cavernous:is_pickaxe"
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:wooden_shovel"
+    },
+    "title": {
+      "text": "I ain't the sharpest tool in the shed"
+    },
+    "description": {
+      "text": "Craft a wooden shovel in a marshy cave"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "cavernous:shrek",
+  "criteria": {
+    "opendoor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "location": {
+            "biome": "cavernous:lush/marshy_caves"
+          }
+        },
+        "items": [
+          {
+            "items": [
+              "minecraft:wooden_shovel"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
