@@ -1,0 +1,20 @@
+{
+	"type": "minecraft:random_patch",
+	"config": {
+		"tries": 110,
+		"xz_spread": 7,
+		"y_spread": 4,
+		"feature": {
+			"feature": "cavernous:biomes/lush/fungal/flowers",
+			"placement": [
+				{
+					"type": "minecraft:block_predicate_filter",
+					"predicate": {
+						"type": "minecraft:matching_blocks",
+						"blocks": "minecraft:air"
+					}
+				}
+			]
+		}
+	}
+}

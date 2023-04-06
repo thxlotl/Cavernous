@@ -6,7 +6,7 @@
 			"state": {
 				"Name": "minecraft:brown_mushroom_block",
 				"Properties": {
-					"down": "false",
+					"down": "true",
 					"east": "true",
 					"north": "true",
 					"south": "true",

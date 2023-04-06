@@ -12,8 +12,8 @@
 				"height": {
 					"type": "minecraft:biased_to_bottom",
 					"value": {
-						"min_inclusive": 3,
-						"max_inclusive": 15
+						"min_inclusive": 4,
+						"max_inclusive": 10
 					}
 				},
 				"provider": {
@@ -30,7 +30,7 @@
 					"state": {
 						"Name": "minecraft:weeping_vines",
 						"Properties": {
-							"age": "1"
+							"age": "10"
 						}
 					}
 				}

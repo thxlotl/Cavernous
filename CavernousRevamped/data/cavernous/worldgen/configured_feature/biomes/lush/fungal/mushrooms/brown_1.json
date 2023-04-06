@@ -51,13 +51,7 @@
 		},
 		"foliage_placer": {
 			"type": "minecraft:acacia_foliage_placer",
-			"radius": {
-				"type": "minecraft:uniform",
-				"value": {
-					"min_inclusive": 1,
-					"max_inclusive": 2
-				}
-			},
+			"radius": 1,
 			"offset": 0
 		},
 		"decorators": [
@@ -171,7 +165,7 @@
 			},
 			{
 				"type": "minecraft:beehive",
-				"probability": 0.01
+				"probability": 0.005
 			}
 		]
 	}

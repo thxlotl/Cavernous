@@ -142,17 +142,19 @@
 		[],
 		[],
 		[
+			"cavernous:biomes/lush/honey/beehive",
+
+			"cavernous:biomes/lush/fungal/fallen_tree",
 			"cavernous:biomes/lush/fungal/mushrooms/upside_down/step1",
 			"cavernous:biomes/lush/fungal/mushrooms/upside_down/step2",
 			"cavernous:biomes/lush/fungal/mushrooms/upside_down/step3",
-			"cavernous:biomes/lush/fungal/mushrooms/1",
 			"cavernous:biomes/lush/fungal/mushrooms/2",
+			"cavernous:biomes/lush/fungal/mushrooms/1",
 			"cavernous:biomes/lush/fungal/mushrooms/3",
 			"cavernous:biomes/lush/fungal/mushrooms/glow",
-			"cavernous:biomes/lush/fungal/mushrooms/brown_mini",
-			"cavernous:biomes/lush/fungal/mushrooms/red_mini",
+			"cavernous:biomes/lush/fungal/mushrooms/mini",
 			"cavernous:biomes/lush/fungal/ground_patch",
-			"cavernous:biomes/lush/fungal/weeping_vine",
+			"cavernous:biomes/lush/fungal/flower_patch",
 
 			"minecraft:glow_lichen"
 		],

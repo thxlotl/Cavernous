@@ -1,9 +1,9 @@
 {
-	"feature": "cavernous:biomes/lush/fungal/ground_patch",
+	"feature": "cavernous:biomes/lush/fungal/flower_patch",
 	"placement": [
 		{
 			"type": "minecraft:count",
-			"count": 55
+			"count": 8
 		},
 		{
 			"type": "minecraft:height_range",

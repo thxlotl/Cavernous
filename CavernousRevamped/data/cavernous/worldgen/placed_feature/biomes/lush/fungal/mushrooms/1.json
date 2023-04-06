@@ -1,22 +1,21 @@
 {
 	"feature": {
-		"type": "minecraft:random_patch",
+		"type": "minecraft:random_boolean_selector",
 		"config": {
-			"tries": 100,
-			"xz_spread": 5,
-			"y_spread": 3,
-			"feature": {
-				"feature": "cavernous:biomes/lush/fungal/mushrooms/red_mini",
+			"feature_false": {
+				"feature": "cavernous:biomes/lush/fungal/mushrooms/brown_1",
+				"placement": []
+			},
+			"feature_true": {
+				"feature": "cavernous:biomes/lush/fungal/mushrooms/red_1",
 				"placement": []
 			}
 		}
 	},
 	"placement": [
 		{
-			"type": "minecraft:noise_based_count",
-			"noise_to_count_ratio": 6,
-			"noise_factor": 1,
-			"noise_offset": 0
+			"type": "minecraft:count",
+			"count": 3
 		},
 		{
 			"type": "minecraft:in_square"
@@ -93,6 +92,11 @@
 					"minecraft:air"
 				]
 			}
+		},
+		{
+			"type": "minecraft:random_offset",
+			"xz_spread": 0,
+			"y_spread": 1
 		},
 		{
 			"type": "minecraft:biome"
