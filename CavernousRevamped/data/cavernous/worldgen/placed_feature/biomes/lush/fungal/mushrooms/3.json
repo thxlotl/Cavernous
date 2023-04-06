@@ -1,0 +1,105 @@
+{
+	"feature": {
+		"type": "minecraft:random_boolean_selector",
+		"config": {
+			"feature_false": {
+				"feature": "cavernous:biomes/lush/fungal/mushrooms/brown_3",
+				"placement": []
+			},
+			"feature_true": {
+				"feature": "cavernous:biomes/lush/fungal/mushrooms/red_3",
+				"placement": []
+			}
+		}
+	},
+	"placement": [
+		{
+			"type": "minecraft:count",
+			"count": 5
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "minecraft:height_range",
+			"height": {
+				"type": "minecraft:uniform",
+				"min_inclusive": {
+					"above_bottom": 0
+				},
+				"max_inclusive": {
+					"absolute": 55
+				}
+			}
+		},
+		{
+			"type": "minecraft:environment_scan",
+			"direction_of_search": "down",
+			"max_steps": 24,
+			"target_condition": {
+				"type": "minecraft:all_of",
+				"predicates": [
+					{
+						"type": "minecraft:not",
+						"predicate": {
+							"type": "minecraft:matching_blocks",
+							"offset": [
+								0,
+								0,
+								0
+							],
+							"blocks": [
+								"minecraft:brown_mushroom_block",
+								"minecraft:red_mushroom_block",
+								"minecraft:mushroom_stem",
+								"minecraft:shroomlight"
+							]
+						}
+					},
+					{
+						"type": "minecraft:any_of",
+						"predicates": [
+							{
+								"type": "minecraft:matching_block_tag",
+								"offset": [
+									0,
+									0,
+									0
+								],
+								"tag": "cavernous:biomes/lush/fungal_caves/ground"
+							},
+							{
+								"type": "minecraft:matching_block_tag",
+								"offset": [
+									0,
+									0,
+									0
+								],
+								"tag": "cavernous:biomes/lush/fungal_caves/solids"
+							}
+						]
+					}
+				]
+			},
+			"allowed_search_condition": {
+				"type": "minecraft:matching_blocks",
+				"offset": [
+					0,
+					0,
+					0
+				],
+				"blocks": [
+					"minecraft:air"
+				]
+			}
+		},
+		{
+			"type": "minecraft:random_offset",
+			"xz_spread": 0,
+			"y_spread": 1
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

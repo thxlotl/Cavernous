@@ -116,11 +116,44 @@
 		[],
 		[],
 		[
-			"cavernous:generic/ores/diamond"
+			"cavernous:generic/splotches/gravel",
+			"cavernous:generic/splotches/andesite",
+			"cavernous:generic/splotches/granite",
+			"cavernous:generic/splotches/tuff",
+
+			"cavernous:biomes/lush/fungal/splotch_placer",
+
+			"cavernous:generic/ores/coal",
+			"cavernous:generic/ores/copper",
+			"cavernous:generic/ores/diamond",
+			"cavernous:generic/ores/gold",
+			"cavernous:generic/ores/gold_buried",
+			"cavernous:generic/ores/iron_middle",
+			"cavernous:generic/ores/iron_small",
+			"cavernous:generic/ores/lapis",
+			"cavernous:generic/ores/lapis_buried",
+			"cavernous:generic/ores/redstone",
+			"cavernous:generic/ores/redstone_lower",
+
+			"cavernous:generic/ores/special/treasure",
+			"cavernous:generic/ores/special/gold_chunk",
+			"cavernous:generic/ores/special/copper_chunk"
 		],
 		[],
 		[],
 		[
+			"cavernous:biomes/lush/fungal/mushrooms/upside_down/step1",
+			"cavernous:biomes/lush/fungal/mushrooms/upside_down/step2",
+			"cavernous:biomes/lush/fungal/mushrooms/upside_down/step3",
+			"cavernous:biomes/lush/fungal/mushrooms/1",
+			"cavernous:biomes/lush/fungal/mushrooms/2",
+			"cavernous:biomes/lush/fungal/mushrooms/3",
+			"cavernous:biomes/lush/fungal/mushrooms/glow",
+			"cavernous:biomes/lush/fungal/mushrooms/brown_mini",
+			"cavernous:biomes/lush/fungal/mushrooms/red_mini",
+			"cavernous:biomes/lush/fungal/ground_patch",
+			"cavernous:biomes/lush/fungal/weeping_vine",
+
 			"minecraft:glow_lichen"
 		],
 		[]

@@ -2,6 +2,6 @@
 	"values": [
 		"minecraft:stone",
 		"minecraft:andesite",
-		"#cavernous:biomes/lush/fungal_caves/solids"
+		"#cavernous:biomes/lush/fungal_caves/stone_ores"
 	]
 }

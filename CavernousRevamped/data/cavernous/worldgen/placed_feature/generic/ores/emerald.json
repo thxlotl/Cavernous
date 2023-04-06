@@ -1,0 +1,53 @@
+{
+	"feature": {
+		"type": "minecraft:ore",
+		"config": {
+			"size": 3,
+			"discard_chance_on_air_exposure": 0,
+			"targets": [
+				{
+					"target": {
+						"predicate_type": "minecraft:tag_match",
+						"tag": "cavernous:stone_ore"
+					},
+					"state": {
+						"Name": "minecraft:emerald_ore"
+					}
+				},
+				{
+					"target": {
+						"predicate_type": "minecraft:tag_match",
+						"tag": "cavernous:deepslate_ore"
+					},
+					"state": {
+						"Name": "minecraft:deepslate_emerald_ore"
+					}
+				}
+			]
+		}
+	},
+	"placement": [
+		{
+			"type": "minecraft:count",
+			"count": 100
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "minecraft:height_range",
+			"height": {
+				"type": "minecraft:trapezoid",
+				"min_inclusive": {
+					"absolute": -16
+				},
+				"max_inclusive": {
+					"absolute": 480
+				}
+			}
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

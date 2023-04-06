@@ -1,0 +1,53 @@
+{
+	"feature": {
+		"type": "minecraft:ore",
+		"config": {
+			"size": 7,
+			"discard_chance_on_air_exposure": 1,
+			"targets": [
+				{
+					"target": {
+						"predicate_type": "minecraft:tag_match",
+						"tag": "cavernous:stone_ore"
+					},
+					"state": {
+						"Name": "minecraft:lapis_ore"
+					}
+				},
+				{
+					"target": {
+						"predicate_type": "minecraft:tag_match",
+						"tag": "cavernous:deepslate_ore"
+					},
+					"state": {
+						"Name": "minecraft:deepslate_lapis_ore"
+					}
+				}
+			]
+		}
+	},
+	"placement": [
+		{
+			"type": "minecraft:count",
+			"count": 4
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "minecraft:height_range",
+			"height": {
+				"type": "minecraft:trapezoid",
+				"min_inclusive": {
+					"above_bottom": 0
+				},
+				"max_inclusive": {
+					"absolute": 64
+				}
+			}
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

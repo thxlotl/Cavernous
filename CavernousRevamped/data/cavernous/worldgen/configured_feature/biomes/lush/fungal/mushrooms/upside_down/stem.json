@@ -1,0 +1,99 @@
+{
+	"type": "minecraft:block_column",
+	"config": {
+		"direction": "down",
+		"allowed_placement": {
+			"type": "minecraft:all_of",
+			"predicates": [
+				{
+					"type": "minecraft:matching_blocks",
+					"offset": [
+						0,
+						0,
+						0
+					],
+					"blocks": "minecraft:air"
+				},
+				{
+					"type": "minecraft:matching_blocks",
+					"offset": [
+						-1,
+						-2,
+						-1
+					],
+					"blocks": "minecraft:air"
+				},
+				{
+					"type": "minecraft:matching_blocks",
+					"offset": [
+						-1,
+						-2,
+						1
+					],
+					"blocks": "minecraft:air"
+				},
+				{
+					"type": "minecraft:matching_blocks",
+					"offset": [
+						1,
+						-2,
+						1
+					],
+					"blocks": "minecraft:air"
+				},
+				{
+					"type": "minecraft:matching_blocks",
+					"offset": [
+						1,
+						-2,
+						-1
+					],
+					"blocks": "minecraft:air"
+				}
+			]
+		},
+		"prioritize_tip": true,
+		"layers": [
+			{
+				"height": {
+					"type": "minecraft:uniform",
+					"value": {
+						"min_inclusive": 4,
+						"max_inclusive": 10
+					}
+				},
+				"provider": {
+					"type": "minecraft:simple_state_provider",
+					"state": {
+						"Name": "minecraft:mushroom_stem",
+						"Properties": {
+							"down": "true",
+							"east": "true",
+							"north": "true",
+							"south": "true",
+							"up": "true",
+							"west": "true"
+						}
+					}
+				}
+			},
+			{
+				"height": 1,
+				"provider": {
+					"type": "minecraft:simple_state_provider",
+					"state": {
+						"Name": "minecraft:red_concrete",
+						"Properties": {
+							"down": "true",
+							"east": "true",
+							"north": "true",
+							"south": "true",
+							"up": "true",
+							"west": "true"
+						}
+					}
+				}
+			}
+		]
+	}
+}
