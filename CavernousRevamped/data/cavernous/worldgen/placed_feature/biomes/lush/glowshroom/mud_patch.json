@@ -1,27 +1,24 @@
 {
-	"feature": "cavernous:biomes/lush/honey/beehive",
+	"feature": "cavernous:biomes/lush/glowshroom/mud_patch",
 	"placement": [
 		{
-			"type": "minecraft:in_square"
+			"type": "minecraft:count",
+			"count": 6
 		},
 		{
 			"type": "minecraft:height_range",
 			"height": {
 				"type": "minecraft:uniform",
 				"min_inclusive": {
-					"above_bottom": 15
+					"above_bottom": 0
 				},
 				"max_inclusive": {
-					"absolute": 50
+					"absolute": 57
 				}
 			}
 		},
 		{
 			"type": "minecraft:biome"
-		},
-		{
-			"type": "minecraft:rarity_filter",
-			"chance": 6
 		}
 	]
 }

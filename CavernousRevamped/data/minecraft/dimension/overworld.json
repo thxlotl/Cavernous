@@ -7,7 +7,7 @@
 			"type": "minecraft:checkerboard",
 			"scale": 1,
 			"biomes": [
-				"cavernous:lush/fungal_caves"
+				"cavernous:desert/desert_caves"
 			]
 		}
 	}

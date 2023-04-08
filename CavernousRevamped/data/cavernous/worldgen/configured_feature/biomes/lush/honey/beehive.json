@@ -1,7 +1,7 @@
 {
 	"type": "minecraft:fossil",
 	"config": {
-		"max_empty_corners_allowed": 7,
+		"max_empty_corners_allowed": 5,
 		"fossil_structures": [
 			"cavernous:beehive"
 		],

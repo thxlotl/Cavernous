@@ -1,5 +1,5 @@
 {
-	"feature": "cavernous:biomes/lush/honey/beehive",
+	"feature": "minecraft:sculk_patch_deep_dark",
 	"placement": [
 		{
 			"type": "minecraft:in_square"
@@ -9,10 +9,10 @@
 			"height": {
 				"type": "minecraft:uniform",
 				"min_inclusive": {
-					"above_bottom": 15
+					"absolute": 0
 				},
 				"max_inclusive": {
-					"absolute": 50
+					"above_bottom": 0
 				}
 			}
 		},
@@ -21,7 +21,7 @@
 		},
 		{
 			"type": "minecraft:rarity_filter",
-			"chance": 6
+			"chance": 100
 		}
 	]
 }

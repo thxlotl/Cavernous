@@ -105,7 +105,9 @@
 		]
 	},
 	"features": [
-		[],
+		[
+			"cavernous:generic/random_sculk"
+		],
 		[
 			"minecraft:lake_lava_underground"
 		],
@@ -120,9 +122,9 @@
 			"cavernous:generic/splotches/andesite",
 			"cavernous:generic/splotches/granite",
 			"cavernous:generic/splotches/tuff",
-
-			"cavernous:biomes/lush/fungal/splotch_placer",
-
+			"cavernous:biomes/lush/fungal/splotch_placer"
+		],
+		[
 			"cavernous:generic/ores/coal",
 			"cavernous:generic/ores/copper",
 			"cavernous:generic/ores/diamond",
@@ -133,17 +135,15 @@
 			"cavernous:generic/ores/lapis",
 			"cavernous:generic/ores/lapis_buried",
 			"cavernous:generic/ores/redstone",
-			"cavernous:generic/ores/redstone_lower",
-
+			"cavernous:generic/ores/redstone_lower"
+		],
+		[
 			"cavernous:generic/ores/special/treasure",
 			"cavernous:generic/ores/special/gold_chunk",
 			"cavernous:generic/ores/special/copper_chunk"
 		],
-		[],
-		[],
 		[
 			"cavernous:biomes/lush/honey/beehive",
-
 			"cavernous:biomes/lush/fungal/fallen_tree",
 			"cavernous:biomes/lush/fungal/mushrooms/upside_down/step1",
 			"cavernous:biomes/lush/fungal/mushrooms/upside_down/step2",
@@ -155,7 +155,6 @@
 			"cavernous:biomes/lush/fungal/mushrooms/mini",
 			"cavernous:biomes/lush/fungal/ground_patch",
 			"cavernous:biomes/lush/fungal/flower_patch",
-
 			"minecraft:glow_lichen"
 		],
 		[]
