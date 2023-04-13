@@ -2,6 +2,9 @@
 	"values": [
 		"#cavernous:basic_stone",
 		"#cavernous:biomes/lush/fungal_caves/solids",
-		"#cavernous:biomes/lush/glowshroom_caves/solids"
+		"#cavernous:biomes/lush/glowshroom_caves/solids",
+		
+		"#cavernous:biomes/desert/desert_caves/solids",
+		"#cavernous:biomes/desert/arid_caves/solids"
 	]
 }

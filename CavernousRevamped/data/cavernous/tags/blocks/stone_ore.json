@@ -2,6 +2,10 @@
 	"values": [
 		"minecraft:stone",
 		"minecraft:andesite",
-		"#cavernous:biomes/lush/fungal_caves/stone_ores"
+		"minecraft:diorite",
+		"minecraft:granite",
+		"minecraft:packed_mud",
+		"minecraft:terracotta",
+		"minecraft:sandstone"
 	]
 }

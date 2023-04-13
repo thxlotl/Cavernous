@@ -4,29 +4,29 @@
 		"config": {
 			"features": [
 				{
-					"chance": 0.3,
-					"feature": {
-						"feature": "cavernous:generic/splotches/packed_mud",
-						"placement": []
-					}
-				},
-				{
 					"chance": 0.2,
 					"feature": {
-						"feature": "cavernous:generic/splotches/smooth_sandstone",
+						"feature": "cavernous:generic/splotches/granite",
 						"placement": []
 					}
 				},
 				{
 					"chance": 0.1,
 					"feature": {
-						"feature": "cavernous:generic/splotches/sand",
+						"feature": "cavernous:generic/splotches/red_sand",
+						"placement": []
+					}
+				},
+				{
+					"chance": 0.2,
+					"feature": {
+						"feature": "cavernous:generic/splotches/smooth_red_sandstone",
 						"placement": []
 					}
 				}
 			],
 			"default": {
-				"feature": "cavernous:generic/splotches/sandstone",
+				"feature": "cavernous:generic/splotches/red_sandstone",
 				"placement": []
 			}
 		}

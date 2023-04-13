@@ -1,14 +1,12 @@
 {
-	"temperature": 0.5,
-	"downfall": 0.5,
-	"has_precipitation": true,
+	"temperature": 2,
+	"downfall": 0,
+	"has_precipitation": false,
 	"effects": {
 		"sky_color": 8103167,
 		"fog_color": 12638463,
 		"water_color": 4163300,
 		"water_fog_color": 329011,
-		"grass_color": 7311404,
-		"foliage_color": 7311404,
 		"grass_color_modifier": "none",
 		"mood_sound": {
 			"sound": "minecraft:ambient.cave",
@@ -17,7 +15,7 @@
 			"offset": 2
 		},
 		"music": {
-			"sound": "minecraft:music.overworld.lush_caves",
+			"sound": "minecraft:music.overworld.dripstone_caves",
 			"min_delay": 12000,
 			"max_delay": 24000,
 			"replace_current_music": false
@@ -122,7 +120,7 @@
 			"cavernous:generic/splotches/andesite",
 			"cavernous:generic/splotches/granite",
 			"cavernous:generic/splotches/tuff",
-			"cavernous:biomes/desert/desert/splotch_placer"
+			"cavernous:biomes/desert/arid/splotch_placer"
 		],
 		[
 			"cavernous:generic/ores/coal",
@@ -144,6 +142,8 @@
 			"cavernous:generic/ores/special/copper_chunk"
 		],
 		[
+			"cavernous:biomes/desert/ground_patch",
+			"cavernous:biomes/desert/desert/giant_cactus",
 			"minecraft:glow_lichen"
 		],
 		[]

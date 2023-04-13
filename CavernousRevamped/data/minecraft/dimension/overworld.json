@@ -7,7 +7,7 @@
 			"type": "minecraft:checkerboard",
 			"scale": 1,
 			"biomes": [
-				"cavernous:desert/desert_caves"
+				"cavernous:desert/arid_caves"
 			]
 		}
 	}

@@ -1,0 +1,20 @@
+{
+	"type": "minecraft:random_patch",
+	"config": {
+		"tries": 55,
+		"xz_spread": 8,
+		"y_spread": 3,
+		"feature": {
+			"feature": "cavernous:biomes/desert/ground_vegetation",
+			"placement": [
+				{
+					"type": "minecraft:block_predicate_filter",
+					"predicate": {
+						"type": "minecraft:matching_blocks",
+						"blocks": "minecraft:air"
+					}
+				}
+			]
+		}
+	}
+}
