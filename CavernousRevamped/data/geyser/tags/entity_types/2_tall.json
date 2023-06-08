@@ -1,0 +1,19 @@
+{
+	"values": [
+		"minecraft:player",
+		"minecraft:zombie",
+		"#minecraft:skeletons",
+		"minecraft:stray",
+		"minecraft:husk",
+		"minecraft:witch",
+		"minecraft:villager",
+		"minecraft:zombie_villager",
+		"minecraft:piglin",
+		"minecraft:piglin_brute",
+		"minecraft:zombified_piglin",
+		"minecraft:evoker",
+		"minecraft:pillager",
+		"minecraft:illusioner",
+		"minecraft:vindicator"
+	]
+}

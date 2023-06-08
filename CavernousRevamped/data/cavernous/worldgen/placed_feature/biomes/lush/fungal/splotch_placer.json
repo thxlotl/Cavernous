@@ -6,7 +6,7 @@
 				{
 					"chance": 0.45,
 					"feature": {
-						"feature": "cavernous:generic/splotches/packed_mud",
+						"feature": "cavernous:generic/splotches/granite",
 						"placement": []
 					}
 				},

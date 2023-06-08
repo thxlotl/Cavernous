@@ -14,18 +14,18 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "cavernous:hot_in_here",
+  "parent": "cavernous:scorching_spelunker",
   "criteria": {
     "what": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "location": {
-            "biome": "cavernous:lava/volcanic_caves"
+            "biome": "cavernous:volcanic_caves"
           },
           "effects": {
             "minecraft:levitation": {
-              "amplifier": 22,
+              "amplifier": 75,
               "duration": 1
             }
           }

@@ -1,0 +1,6 @@
+{
+    "pack": {
+      "pack_format": 13,
+      "description": "Allows uninstallation of Cavernous and upgrading to newer versions"
+    }
+}

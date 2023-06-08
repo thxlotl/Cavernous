@@ -1,0 +1,15 @@
+{
+  "name": "cavernous:thermal_plant",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "cavernous:thermal_plant",
+        "projection": "rigid",
+        "processors": "cavernous:thermal_plant"
+      }
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 3,
+			"bonus_rolls": 0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:brown_dye"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:paper"
+				}
+			]
+		}
+	]
+}

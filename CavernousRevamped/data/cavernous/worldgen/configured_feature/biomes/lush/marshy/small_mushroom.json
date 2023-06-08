@@ -1,0 +1,61 @@
+{
+	"type": "minecraft:tree",
+	"config": {
+		"ignore_vines": true,
+		"force_dirt": false,
+		"minimum_size": {
+			"type": "minecraft:two_layers_feature_size",
+			"limit": 0,
+			"lower_size": 0,
+			"upper_size": 0
+		},
+		"dirt_provider": {
+			"type": "minecraft:simple_state_provider",
+			"state": {
+				"Name": "minecraft:mud"
+			}
+		},
+		"trunk_provider": {
+			"type": "minecraft:simple_state_provider",
+			"state": {
+				"Name": "minecraft:mushroom_stem",
+				"Properties": {
+					"down": "true",
+					"east": "true",
+					"north": "true",
+					"south": "true",
+					"up": "true",
+					"west": "true"
+				}
+			}
+		},
+		"foliage_provider": {
+			"type": "minecraft:simple_state_provider",
+			"state": {
+				"Name": "minecraft:brown_mushroom_block",
+				"Properties": {
+					"down": "true",
+					"east": "true",
+					"north": "true",
+					"south": "true",
+					"up": "true",
+					"west": "true"
+				}
+			}
+		},
+		"trunk_placer": {
+			"type": "minecraft:straight_trunk_placer",
+			"base_height": 2,
+			"height_rand_a": 1,
+			"height_rand_b": 0
+		},
+		"foliage_placer": {
+			"type": "minecraft:random_spread_foliage_placer",
+			"radius": 2,
+			"offset": 0,
+			"foliage_height": 1,
+			"leaf_placement_attempts": 256
+		},
+		"decorators": []
+	}
+}

@@ -1,0 +1,99 @@
+{
+	"type": "minecraft:waterlogged_vegetation_patch",
+	"config": {
+		"surface": "floor",
+		"depth": 2,
+		"vertical_range": 5,
+		"extra_bottom_block_chance": 0.8,
+		"extra_edge_column_chance": 0.55,
+		"vegetation_chance": 0.2,
+		"xz_radius": {
+			"type": "minecraft:uniform",
+			"value": {
+				"min_inclusive": 1,
+				"max_inclusive": 2
+			}
+		},
+		"replaceable": "#cavernous:biomes/lush/tropical_caves/pool_replaceable",
+		"ground_state": {
+			"type": "minecraft:simple_state_provider",
+			"state": {
+				"Name": "minecraft:mud"
+			}
+		},
+		"vegetation_feature": {
+			"feature": {
+				"type": "minecraft:random_selector",
+				"config": {
+					"features": [
+						{
+							"chance": 0.3,
+							"feature": {
+								"feature": "cavernous:biomes/lush/tropical/big_dripleaf",
+								"placement": []
+							}
+						}
+					],
+					"default": {
+						"feature": {
+							"type": "minecraft:simple_block",
+							"config": {
+								"to_place": {
+									"type": "minecraft:weighted_state_provider",
+									"entries": [
+										{
+											"weight": 1,
+											"data": {
+												"Name": "minecraft:small_dripleaf",
+												"Properties": {
+													"half": "lower",
+													"waterlogged": "true",
+													"facing": "north"
+												}
+											}
+										},
+										{
+											"weight": 1,
+											"data": {
+												"Name": "minecraft:small_dripleaf",
+												"Properties": {
+													"half": "lower",
+													"waterlogged": "true",
+													"facing": "south"
+												}
+											}
+										},
+										{
+											"weight": 1,
+											"data": {
+												"Name": "minecraft:small_dripleaf",
+												"Properties": {
+													"half": "lower",
+													"waterlogged": "true",
+													"facing": "west"
+												}
+											}
+										},
+										{
+											"weight": 1,
+											"data": {
+												"Name": "minecraft:small_dripleaf",
+												"Properties": {
+													"half": "lower",
+													"waterlogged": "true",
+													"facing": "east"
+												}
+											}
+										}
+									]
+								}
+							}
+						},
+						"placement": []
+					}
+				}
+			},
+			"placement": []
+		}
+	}
+}

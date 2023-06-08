@@ -1,0 +1,23 @@
+{
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "cavernous:mineshaft/medium",
+				"processors": "cavernous:mineshaft"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "cavernous:mineshaft/x_cross",
+				"processors": "cavernous:mineshaft"
+			}
+		}
+	]
+}

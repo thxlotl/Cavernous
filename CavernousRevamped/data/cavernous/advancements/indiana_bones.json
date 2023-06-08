@@ -7,7 +7,7 @@
       "text": "Indiana Bones"
     },
     "description": {
-      "text": "Pick up a skull in a sandstone caves temple"
+      "text": "Pick up a skull in a sandstone temple"
     },
     "frame": "task",
     "show_toast": true,
@@ -21,7 +21,7 @@
       "conditions": {
         "player": {
           "location": {
-            "structure": "cavernous:sandstone_caves_pyramid"
+            "structure": "cavernous:sandstone_temple"
           }
         },
         "items": [

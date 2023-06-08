@@ -1,0 +1,38 @@
+{
+	"type": "minecraft:random_patch",
+	"config": {
+		"tries": 105,
+		"xz_spread": 7,
+		"y_spread": 3,
+		"feature": {
+			"feature": "cavernous:biomes/lush/tropical/ground_vegetation",
+			"placement": [
+				{
+					"type": "minecraft:block_predicate_filter",
+					"predicate": {
+						"type": "minecraft:all_of",
+						"predicates": [
+							{
+								"type": "minecraft:matching_blocks",
+								"blocks": "minecraft:air"
+							},
+							{
+								"type": "minecraft:matching_blocks",
+								"offset": [
+									0,
+									-1,
+									0
+								],
+								"blocks": [
+									"minecraft:moss_block",
+									"minecraft:mud",
+									"minecraft:coarse_dirt"
+								]
+							}
+						]
+					}
+				}
+			]
+		}
+	}
+}

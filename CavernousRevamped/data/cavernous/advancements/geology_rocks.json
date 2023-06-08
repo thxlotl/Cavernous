@@ -14,7 +14,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "cavernous:breaking_ground",
+  "parent": "cavernous:delver",
   "criteria": {
     "cobblestone": {
       "trigger": "minecraft:inventory_changed",

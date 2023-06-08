@@ -1,0 +1,15 @@
+{
+  "name": "cavernous:sandstone_temple",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "cavernous:sandstone_temple",
+        "projection": "rigid",
+        "processors": "cavernous:sandstone_temple"
+      }
+    }
+  ]
+}

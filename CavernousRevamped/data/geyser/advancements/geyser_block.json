@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "unlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "geyser:geyser_block"
+            }
+        }
+    },
+    "rewards": {
+        "function": "geyser:give_egg"
+    }
+}

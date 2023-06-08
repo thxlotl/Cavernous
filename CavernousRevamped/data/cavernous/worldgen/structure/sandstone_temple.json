@@ -1,0 +1,20 @@
+{
+	"type": "minecraft:jigsaw",
+	"biomes": "#cavernous:has_structure/sandstone_temple",
+	"step": "underground_decoration",
+	"spawn_overrides": {},
+	"terrain_adaptation": "beard_box",
+	"start_pool": "cavernous:sandstone_temple",
+	"size": 1,
+	"start_height": {
+		"type": "minecraft:uniform",
+		"min_inclusive": {
+			"above_bottom": 20
+		},
+		"max_inclusive": {
+			"absolute": 20
+		}
+	},
+	"max_distance_from_center": 80,
+	"use_expansion_hack": false
+}

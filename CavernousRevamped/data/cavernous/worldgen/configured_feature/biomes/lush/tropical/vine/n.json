@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:simple_block",
+	"config": {
+		"to_place": {
+			"type": "minecraft:simple_state_provider",
+			"state": {
+				"Name": "minecraft:vine",
+				"Properties": {
+					"up": "false",
+					"west": "false",
+					"south": "false",
+					"north": "true",
+					"east": "false"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,82 @@
+{
+	"feature": {
+		"type": "minecraft:random_boolean_selector",
+		"config": {
+			"feature_false": {
+				"feature": "cavernous:biomes/desert/painted/petrified_log_n",
+				"placement": []
+			},
+			"feature_true": {
+				"feature": "cavernous:biomes/desert/painted/petrified_log_e",
+				"placement": []
+			}
+		}
+	},
+	"placement": [
+		{
+			"type": "minecraft:noise_based_count",
+			"noise_to_count_ratio": 25,
+			"noise_factor": 1,
+			"noise_offset": 0.1
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "minecraft:height_range",
+			"height": {
+				"type": "minecraft:uniform",
+				"min_inclusive": {
+					"above_bottom": 0
+				},
+				"max_inclusive": {
+					"absolute": 55
+				}
+			}
+		},
+		{
+			"type": "minecraft:environment_scan",
+			"direction_of_search": "down",
+			"max_steps": 24,
+			"target_condition": {
+				"type": "minecraft:all_of",
+				"predicates": [
+					{
+						"type": "minecraft:matching_block_tag",
+						"offset": [
+							0,
+							-1,
+							0
+						],
+						"tag": "cavernous:biomes/desert/painted_caves/solids"
+					},
+					{
+						"type": "minecraft:matching_blocks",
+						"offset": [
+							0,
+							0,
+							0
+						],
+						"blocks": [
+							"minecraft:air"
+						]
+					}
+				]
+			},
+			"allowed_search_condition": {
+				"type": "minecraft:matching_blocks",
+				"offset": [
+					0,
+					0,
+					0
+				],
+				"blocks": [
+					"minecraft:air"
+				]
+			}
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

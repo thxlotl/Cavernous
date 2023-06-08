@@ -1,0 +1,24 @@
+{
+	"feature": "cavernous:biomes/lush/tropical/ground_patch",
+	"placement": [
+		{
+			"type": "minecraft:count",
+			"count": 40
+		},
+		{
+			"type": "minecraft:height_range",
+			"height": {
+				"type": "minecraft:uniform",
+				"min_inclusive": {
+					"above_bottom": 0
+				},
+				"max_inclusive": {
+					"absolute": 57
+				}
+			}
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

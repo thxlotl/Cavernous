@@ -12,8 +12,3 @@ execute as @e[type=skeleton,tag=!not_icy] at @e[type=skeleton,tag=!not_icy,sort=
 
 #Send Message
 execute as @a if score @s joinmsg matches 1 run function cavernous:tellraw_private
-
-#Vanilla Tweaks
-
-#execute unless score .global hasUnlockAllRecipes matches 1.. store success score .global hasUnlockAllRecipes run datapack disable "file/unlock all recipes v2.0.4"
-#execute unless score .global hasUnlockAllRecipes matches 1.. store success score .global hasUnlockAllRecipes run datapack disable "file/unlock all recipes v2.0.4.zip"

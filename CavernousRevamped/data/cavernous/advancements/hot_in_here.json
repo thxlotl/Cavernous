@@ -14,14 +14,14 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "cavernous:breaking_ground",
+  "parent": "cavernous:scorching_spelunker",
   "criteria": {
     "crouchonmagma": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "location": {
-            "biome": "cavernous:lava/volcanic_caves"
+            "biome": "cavernous:volcanic_caves"
           },
           "stepping_on": {
             "block": {

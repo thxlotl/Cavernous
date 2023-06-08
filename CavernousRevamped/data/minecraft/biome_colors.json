@@ -1,0 +1,87 @@
+{
+  "cavernous:lush_desert_caves": {
+    "r": 15,
+    "g": 207,
+    "b": 255
+  },
+  "cavernous:fungal_caves": {
+    "r": 236,
+    "g": 142,
+    "b": 142
+  },
+  "cavernous:glowshroom_caves": {
+    "r": 156,
+    "g": 79,
+    "b": 150
+  },
+  "cavernous:lush_dripstone_caves": {
+    "r": 144,
+    "g": 164,
+    "b": 65
+  },
+  "cavernous:marshy_caves": {
+    "r": 34,
+    "g": 93,
+    "b": 71
+  },
+  "cavernous:the_undergrowth": {
+    "r": 155,
+    "g": 211,
+    "b": 151
+  },
+  "cavernous:arid_caves": {
+    "r": 174,
+    "g": 89,
+    "b": 61
+  },
+  "cavernous:desert_caves": {
+    "r": 223,
+    "g": 212,
+    "b": 154
+  },
+  "cavernous:painted_caves": {
+    "r": 200,
+    "g": 60,
+    "b": 81
+  },
+  "cavernous:caves": {
+    "r": 115,
+    "g": 115,
+    "b": 115
+  },
+  "cavernous:crystal_caves": {
+    "r": 212,
+    "g": 0,
+    "b": 255
+  },
+  "cavernous:marble_caves": {
+    "r": 255,
+    "g": 255,
+    "b": 255
+  },
+  "cavernous:splattered_caves": {
+    "r": 160,
+    "g": 121,
+    "b": 129
+  },
+  "cavernous:caldera_caves": {
+    "r": 255,
+    "g": 206,
+    "b": 71
+  },
+  "cavernous:volcanic_caves": {
+    "r": 255,
+    "g": 102,
+    "b": 0
+  },
+  "cavernous:icy_caves": {
+    "r": 179,
+    "g": 250,
+    "b": 255
+  },
+  "cavernous:tropical_caves": {
+    "r": 41,
+    "g": 145,
+    "b": 13
+  }
+}

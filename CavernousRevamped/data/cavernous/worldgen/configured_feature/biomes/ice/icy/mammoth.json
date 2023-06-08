@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:fossil",
+	"config": {
+		"max_empty_corners_allowed": 7,
+		"fossil_structures": [
+			"cavernous:mammoth_skeleton"
+		],
+		"overlay_structures": [
+			"cavernous:mammoth_skeleton_blank"
+		],
+		"fossil_processors": "empty",
+		"overlay_processors": "minecraft:empty"
+	}
+}

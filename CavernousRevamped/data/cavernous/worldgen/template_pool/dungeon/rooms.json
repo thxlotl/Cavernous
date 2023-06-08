@@ -1,0 +1,78 @@
+{
+  "name": "cavernous:dungeon/rooms",
+  "fallback": "cavernous:dungeon/terminators",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "cavernous:dungeon/entrance",
+        "projection": "rigid",
+        "processors": "cavernous:dungeon"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "cavernous:dungeon/long_hallway",
+        "projection": "rigid",
+        "processors": "cavernous:dungeon"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "cavernous:dungeon/medium_hallway",
+        "projection": "rigid",
+        "processors": "cavernous:dungeon"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "cavernous:dungeon/short_hallway",
+        "projection": "rigid",
+        "processors": "cavernous:dungeon"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "cavernous:dungeon/shelf_room",
+        "projection": "rigid",
+        "processors": "cavernous:dungeon"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "cavernous:dungeon/prison",
+        "projection": "rigid",
+        "processors": "cavernous:dungeon"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "cavernous:dungeon/pit_room",
+        "projection": "rigid",
+        "processors": "cavernous:dungeon"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "cavernous:dungeon/tomb_room",
+        "projection": "rigid",
+        "processors": "cavernous:dungeon"
+      }
+    }
+  ]
+}

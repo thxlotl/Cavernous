@@ -1,0 +1,67 @@
+{
+	"type": "minecraft:tree",
+	"config": {
+		"ignore_vines": true,
+		"force_dirt": false,
+		"minimum_size": {
+			"type": "minecraft:two_layers_feature_size"
+		},
+		"dirt_provider": {
+			"type": "minecraft:simple_state_provider",
+			"state": {
+				"Name": "minecraft:mud"
+			}
+		},
+		"trunk_provider": {
+			"type": "minecraft:simple_state_provider",
+			"state": {
+				"Name": "minecraft:mangrove_log",
+				"Properties": {
+					"axis": "y"
+				}
+			}
+		},
+		"foliage_provider": {
+			"type": "minecraft:simple_state_provider",
+			"state": {
+				"Name": "minecraft:azalea_leaves"
+			}
+		},
+		"trunk_placer": {
+			"type": "minecraft:upwards_branching_trunk_placer",
+			"base_height": 3,
+			"height_rand_a": 3,
+			"height_rand_b": 6,
+			"extra_branch_steps": 1,
+			"extra_branch_length": 0,
+			"place_branch_per_log_probability": 0,
+			"can_grow_through": [
+				"minecraft:air",
+				"minecraft:azalea_leaves"
+			]
+		},
+        "foliage_placer": {
+          "type": "minecraft:cherry_foliage_placer",
+          "corner_hole_chance": 0.2,
+          "hanging_leaves_chance": 0.55,
+          "hanging_leaves_extension_chance": 0.5,
+          "height": 5,
+          "offset": 0,
+          "radius": 3,
+          "wide_bottom_layer_hole_chance": 0.001
+        },
+		"decorators": [
+			{
+				"type": "minecraft:leave_vine",
+				"probability": 0.2
+			},
+			{
+				"type": "minecraft:trunk_vine"
+			},
+			{
+				"type": "minecraft:beehive",
+				"probability": 0.03
+			}
+		]
+	}
+}

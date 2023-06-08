@@ -14,14 +14,14 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "cavernous:hot_in_here",
+  "parent": "cavernous:scorching_spelunker",
   "criteria": {
     "bucketlavainvolcano": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": {
           "location": {
-            "biome": "cavernous:lava/volcanic_caves"
+            "biome": "cavernous:volcanic_caves"
           }
         },
         "items": [

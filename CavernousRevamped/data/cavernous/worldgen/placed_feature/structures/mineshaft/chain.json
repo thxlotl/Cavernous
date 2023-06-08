@@ -1,0 +1,24 @@
+{
+	"feature": "cavernous:structures/mineshaft/chain",
+	"placement": [
+		{
+			"type": "minecraft:environment_scan",
+			"direction_of_search": "up",
+			"max_steps": 4,
+			"target_condition": {
+				"type": "minecraft:all_of",
+				"predicates": [
+					{
+						"type": "minecraft:matching_blocks",
+						"blocks": [
+							"minecraft:air"
+						]
+					}
+				]
+			},
+			"allowed_search_condition": {
+				"type": "minecraft:true"
+			}
+		}
+	]
+}
