@@ -1,0 +1,10 @@
+{
+  "values": [
+    "#minecraft:is_overworld",
+    "#cavernous:desert",
+    "#cavernous:ice",
+    "#cavernous:lush",
+    "#cavernous:stone",
+    "cavernous:caldera_caves"
+  ]
+}

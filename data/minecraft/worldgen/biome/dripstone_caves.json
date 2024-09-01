@@ -1,0 +1,164 @@
+{
+	"temperature": 0.8,
+	"downfall": 0.4,
+	"has_precipitation": true,
+	"effects": {
+		"sky_color": 7907327,
+		"fog_color": 12638463,
+		"water_color": 4159204,
+		"water_fog_color": 329011,
+		"mood_sound": {
+			"sound": "minecraft:ambient.cave",
+			"tick_delay": 6000,
+			"block_search_extent": 8,
+			"offset": 2
+		},
+		"music": {
+			"sound": "minecraft:music.overworld.dripstone_caves",
+			"min_delay": 12000,
+			"max_delay": 24000,
+			"replace_current_music": false
+		}
+	},
+	"spawners": {
+		"ambient": [
+			{
+				"type": "minecraft:bat",
+				"weight": 10,
+				"minCount": 8,
+				"maxCount": 8
+			}
+		],
+		"axolotls": [],
+		"creature": [],
+		"misc": [],
+		"monster": [
+			{
+				"type": "minecraft:spider",
+				"weight": 100,
+				"minCount": 4,
+				"maxCount": 4
+			},
+			{
+				"type": "minecraft:zombie",
+				"weight": 95,
+				"minCount": 4,
+				"maxCount": 4
+			},
+			{
+				"type": "minecraft:zombie_villager",
+				"weight": 5,
+				"minCount": 1,
+				"maxCount": 1
+			},
+			{
+				"type": "minecraft:skeleton",
+				"weight": 100,
+				"minCount": 4,
+				"maxCount": 4
+			},
+			{
+				"type": "minecraft:creeper",
+				"weight": 100,
+				"minCount": 4,
+				"maxCount": 4
+			},
+			{
+				"type": "minecraft:slime",
+				"weight": 100,
+				"minCount": 4,
+				"maxCount": 4
+			},
+			{
+				"type": "minecraft:enderman",
+				"weight": 10,
+				"minCount": 1,
+				"maxCount": 4
+			},
+			{
+				"type": "minecraft:witch",
+				"weight": 5,
+				"minCount": 1,
+				"maxCount": 1
+			},
+			{
+				"type": "minecraft:drowned",
+				"weight": 95,
+				"minCount": 4,
+				"maxCount": 4
+			}
+		],
+		"underground_water_creature": [
+			{
+				"type": "minecraft:glow_squid",
+				"weight": 10,
+				"minCount": 4,
+				"maxCount": 6
+			}
+		],
+		"water_ambient": [],
+		"water_creature": []
+	},
+	"spawn_costs": {},
+	"carvers": {
+		"air": [
+			"minecraft:cave",
+			"minecraft:cave_extra_underground",
+			"minecraft:canyon",
+			"cavernous:sinkhole",
+			"cavernous:snaking_ravine",
+			"cavernous:flat_cave",
+			"cavernous:flat_ravine"
+		]
+	},
+	"features": [
+		[
+			"cavernous:generic/remove_lava/-64"
+		],
+		[
+			"minecraft:lake_lava_underground"
+		],
+		[
+			"minecraft:amethyst_geode",
+			"cavernous:generic/big_geode",
+			"minecraft:large_dripstone"
+		],
+		[],
+		[],
+		[],
+		[
+			"cavernous:generic/splotches/gravel",
+			"cavernous:generic/splotches/andesite",
+			"cavernous:generic/splotches/granite",
+			"cavernous:generic/splotches/tuff"
+		],
+		[
+			"cavernous:generic/ores/coal",
+			"cavernous:generic/ores/copper",
+			"cavernous:generic/ores/diamond",
+			"cavernous:generic/ores/gold",
+			"cavernous:generic/ores/gold_buried",
+			"cavernous:generic/ores/iron_middle",
+			"cavernous:generic/ores/iron_small",
+			"cavernous:generic/ores/lapis",
+			"cavernous:generic/ores/lapis_buried",
+			"cavernous:generic/ores/redstone",
+			"cavernous:generic/ores/redstone_lower",
+			"minecraft:dripstone_cluster",
+			"minecraft:pointed_dripstone"
+		],
+		[
+			"cavernous:generic/ores/special/treasure",
+			"cavernous:generic/ores/special/gold_chunk",
+			"cavernous:generic/ores/special/copper_chunk",
+			
+			"cavernous:generic/silverfish_nest"
+		],
+		[
+			"minecraft:glow_lichen"
+		],
+		[
+			"minecraft:freeze_top_layer"
+		]
+	]
+}

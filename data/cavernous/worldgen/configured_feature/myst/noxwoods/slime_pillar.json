@@ -1,0 +1,220 @@
+{
+	"type": "minecraft:tree",
+	"config": {
+		"ignore_vines": true,
+		"force_dirt": false,
+		"minimum_size": {
+			"type": "minecraft:two_layers_feature_size"
+		},
+		"dirt_provider": {
+			"type": "minecraft:simple_state_provider",
+			"state": {
+				"Name": "minecraft:slime_block"
+			}
+		},
+		"trunk_provider": {
+			"type": "minecraft:simple_state_provider",
+			"state": {
+				"Name": "minecraft:water",
+				"Properties": {
+					"level": "0"
+				}
+			}
+		},
+		"foliage_provider": {
+			"type": "minecraft:simple_state_provider",
+			"state": {
+				"Name": "minecraft:water",
+				"Properties": {
+					"level": "0"
+				}
+			}
+		},
+		"trunk_placer": {
+			"type": "minecraft:straight_trunk_placer",
+			"base_height": 1,
+			"height_rand_a": 0,
+			"height_rand_b": 0
+		},
+		"foliage_placer": {
+			"type": "minecraft:cherry_foliage_placer",
+			"radius": 2,
+			"offset": 0,
+			"height": {
+				"type": "minecraft:uniform",
+				
+					"min_inclusive": 7,
+					"max_inclusive": 16
+				
+			},
+			"wide_bottom_layer_hole_chance": 0,
+			"corner_hole_chance": 0.5,
+			"hanging_leaves_chance": 0,
+			"hanging_leaves_extension_chance": 0
+		},
+		"decorators": [
+			{
+				"type": "minecraft:attached_to_leaves",
+				"probability": 1,
+				"exclusion_radius_xz": 0,
+				"exclusion_radius_y": 0,
+				"required_empty_blocks": 1,
+				"block_provider": {
+					"type": "minecraft:weighted_state_provider",
+					"entries": [
+						{
+							"weight": 26,
+							"data": {
+								"Name": "minecraft:slime_block"
+							}
+						},
+						{
+							"weight": 1,
+							"data": {
+								"Name": "minecraft:air"
+							}
+						}
+					]
+				},
+				"directions": [
+					"down"
+				]
+			},
+			{
+				"type": "minecraft:attached_to_leaves",
+				"probability": 1,
+				"exclusion_radius_xz": 0,
+				"exclusion_radius_y": 0,
+				"required_empty_blocks": 1,
+				"block_provider": {
+					"type": "minecraft:weighted_state_provider",
+					"entries": [
+						{
+							"weight": 26,
+							"data": {
+								"Name": "minecraft:slime_block"
+							}
+						},
+						{
+							"weight": 1,
+							"data": {
+								"Name": "minecraft:air"
+							}
+						}
+					]
+				},
+				"directions": [
+					"up"
+				]
+			},
+			{
+				"type": "minecraft:attached_to_leaves",
+				"probability": 1,
+				"exclusion_radius_xz": 0,
+				"exclusion_radius_y": 0,
+				"required_empty_blocks": 1,
+				"block_provider": {
+					"type": "minecraft:weighted_state_provider",
+					"entries": [
+						{
+							"weight": 26,
+							"data": {
+								"Name": "minecraft:slime_block"
+							}
+						},
+						{
+							"weight": 1,
+							"data": {
+								"Name": "minecraft:air"
+							}
+						}
+					]
+				},
+				"directions": [
+					"north"
+				]
+			},
+			{
+				"type": "minecraft:attached_to_leaves",
+				"probability": 1,
+				"exclusion_radius_xz": 0,
+				"exclusion_radius_y": 0,
+				"required_empty_blocks": 1,
+				"block_provider": {
+					"type": "minecraft:weighted_state_provider",
+					"entries": [
+						{
+							"weight": 26,
+							"data": {
+								"Name": "minecraft:slime_block"
+							}
+						},
+						{
+							"weight": 1,
+							"data": {
+								"Name": "minecraft:air"
+							}
+						}
+					]
+				},
+				"directions": [
+					"east"
+				]
+			},
+			{
+				"type": "minecraft:attached_to_leaves",
+				"probability": 1,
+				"exclusion_radius_xz": 0,
+				"exclusion_radius_y": 0,
+				"required_empty_blocks": 1,
+				"block_provider": {
+					"type": "minecraft:weighted_state_provider",
+					"entries": [
+						{
+							"weight": 26,
+							"data": {
+								"Name": "minecraft:slime_block"
+							}
+						},
+						{
+							"weight": 1,
+							"data": {
+								"Name": "minecraft:air"
+							}
+						}
+					]
+				},
+				"directions": [
+					"south"
+				]
+			},
+			{
+				"type": "minecraft:attached_to_leaves",
+				"probability": 1,
+				"exclusion_radius_xz": 0,
+				"exclusion_radius_y": 0,
+				"required_empty_blocks": 1,
+				"block_provider": {
+					"type": "minecraft:weighted_state_provider",
+					"entries": [
+						{
+							"weight": 26,
+							"data": {
+								"Name": "minecraft:slime_block"
+							}
+						},
+						{
+							"weight": 1,
+							"data": {
+								"Name": "minecraft:air"
+							}
+						}
+					]
+				},
+				"directions": [
+					"west"
+				]
+			}
+		]
+	}
+}

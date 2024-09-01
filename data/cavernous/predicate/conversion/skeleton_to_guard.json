@@ -1,0 +1,50 @@
+{
+	"condition": "minecraft:all_of",
+	"terms": [
+		{
+			"condition": "minecraft:inverted",
+			"term": {
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"location": {
+						"structures": "minecraft:trial_chambers"
+					}
+				}
+			}
+		},
+		{
+	"condition": "minecraft:any_of",
+	"terms": [
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"type": "minecraft:skeleton",
+				"location": {
+					"biomes": "cavernous:the_undergrowth"
+				}
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"type": "minecraft:skeleton",
+				"location": {
+					"biomes": "cavernous:myst/dreadmire"
+				}
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"type": "minecraft:skeleton",
+				"location": {
+					"biomes": "cavernous:myst/dreadmire_"
+				}
+			}
+		}
+	]
+}]}

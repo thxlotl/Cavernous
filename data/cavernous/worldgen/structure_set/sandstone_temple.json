@@ -1,0 +1,14 @@
+{
+	"structures": [
+		{
+			"structure": "cavernous:sandstone_temple",
+			"weight": 1
+		}
+	],
+	"placement": {
+		"type": "minecraft:random_spread",
+		"salt": 1046624494,
+		"spacing": 20,
+		"separation": 12
+	}
+}

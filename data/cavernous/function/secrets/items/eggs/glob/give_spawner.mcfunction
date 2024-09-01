@@ -1,0 +1,1 @@
+#give @s command_block{BlockEntityTag:{auto:1,Command:"/setblock ~ ~0 ~ spawner{SpawnData:{entity:{id:armor_stand,ShowArms:1b,Invisible:1b,Marker:1b,NoGravity:1b,Tags:[\"glob_spawn_stand\"]}}} replace"},display:{Name:'[{"text":"Glob Spawner","italic":false}]'}} 1

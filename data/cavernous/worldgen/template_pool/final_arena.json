@@ -1,0 +1,16 @@
+{
+  "name": "cavernous:final_arena",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "cavernous:myst/final_arena",
+				"override_liquid_settings": "ignore_waterlogging",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

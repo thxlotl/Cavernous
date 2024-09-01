@@ -1,0 +1,15 @@
+{
+	"criteria": {
+		"unlocked": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "minecraft:arrow"
+			}
+		}
+	},
+	"rewards": {
+		"recipes": [
+			"cavernous:torch_arrow"
+		]
+	}
+}

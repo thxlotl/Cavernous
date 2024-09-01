@@ -1,0 +1,65 @@
+{
+  "fallback": "cavernous:village/lush/terminators",
+  "elements": [
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "cavernous:village/lush/streets/end",
+				"override_liquid_settings": "ignore_waterlogging",
+        "projection": "rigid",
+        "processors": "cavernous:lush_village"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "cavernous:village/lush/streets/curve",
+				"override_liquid_settings": "ignore_waterlogging",
+        "projection": "rigid",
+        "processors": "cavernous:lush_village"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "cavernous:village/lush/streets/farm",
+				"override_liquid_settings": "ignore_waterlogging",
+        "projection": "rigid",
+        "processors": "cavernous:lush_village"
+      }
+    },
+    {
+      "weight": 7,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "cavernous:village/lush/streets/medium",
+				"override_liquid_settings": "ignore_waterlogging",
+        "projection": "rigid",
+        "processors": "cavernous:lush_village"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "cavernous:village/lush/streets/t",
+				"override_liquid_settings": "ignore_waterlogging",
+        "projection": "rigid",
+        "processors": "cavernous:lush_village"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "cavernous:village/lush/streets/x",
+				"override_liquid_settings": "ignore_waterlogging",
+        "projection": "rigid",
+        "processors": "cavernous:lush_village"
+      }
+    }
+  ]
+}

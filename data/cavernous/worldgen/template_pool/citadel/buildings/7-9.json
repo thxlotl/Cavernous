@@ -1,0 +1,85 @@
+{
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "cavernous:citadel/buildings/church",
+				"override_liquid_settings": "ignore_waterlogging",
+				"processors": "cavernous:citadel_gate"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "cavernous:citadel/buildings/lab",
+				"override_liquid_settings": "ignore_waterlogging",
+				"processors": "cavernous:citadel_gate"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "cavernous:citadel/buildings/pedestal",
+				"override_liquid_settings": "ignore_waterlogging",
+				"processors": "cavernous:citadel_gate"
+			}
+		},
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "cavernous:citadel/buildings/ruined",
+				"override_liquid_settings": "ignore_waterlogging",
+				"processors": "cavernous:citadel_gate"
+			}
+		},
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "cavernous:citadel/buildings/storage",
+				"override_liquid_settings": "ignore_waterlogging",
+				"processors": "cavernous:citadel_gate"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "cavernous:citadel/buildings/altar",
+				"override_liquid_settings": "ignore_waterlogging",
+				"processors": "cavernous:citadel_gate"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "cavernous:citadel/buildings/chainworker",
+				"override_liquid_settings": "ignore_waterlogging",
+				"processors": "cavernous:citadel_gate"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "cavernous:citadel/buildings/big",
+				"override_liquid_settings": "ignore_waterlogging",
+				"processors": "cavernous:citadel_gate"
+			}
+		}
+	]
+}

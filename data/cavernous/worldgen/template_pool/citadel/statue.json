@@ -1,0 +1,17 @@
+{
+  "COMMENT": "THIS IS THE STREET WITH THE CENTER STATUE NOT THE DECOR ONES!!!!!!!",
+  "name": "cavernous:citadel",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "cavernous:citadel/statue",
+				"override_liquid_settings": "ignore_waterlogging",
+        "projection": "rigid",
+        "processors": "cavernous:citadel_gate"
+      }
+    }
+  ]
+}

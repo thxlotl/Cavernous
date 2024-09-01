@@ -1,0 +1,65 @@
+{
+	"feature": {
+		"type": "minecraft:simple_block",
+		"config": {
+			"to_place": {
+				"type": "minecraft:simple_state_provider",
+				"state": {
+					"Name": "minecraft:brown_mushroom_block",
+					"Properties": {
+						"down": "false",
+						"east": "false",
+						"north": "false",
+						"south": "false",
+						"up": "false",
+						"west": "false"
+					}
+				}
+			}
+		}
+	},
+	"placement": [
+		{
+			"type": "minecraft:count",
+			"count": 170
+		},
+		{
+			"type": "minecraft:count",
+			"count": 50
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "minecraft:height_range",
+			"height": {
+				"type": "minecraft:uniform",
+				"min_inclusive": {
+					"above_bottom": 0
+				},
+				"max_inclusive": {
+					"absolute": 55
+				}
+			}
+		},
+		{
+			"type": "minecraft:environment_scan",
+			"direction_of_search": "up",
+			"max_steps": 32,
+			"target_condition": {
+				"type": "minecraft:all_of",
+				"predicates": [
+					{
+						"type": "minecraft:matching_blocks",
+						"offset": [
+							0,
+							0,
+							0
+						],
+						"blocks": "minecraft:magenta_concrete"
+					}
+				]
+			}
+		}
+	]
+}

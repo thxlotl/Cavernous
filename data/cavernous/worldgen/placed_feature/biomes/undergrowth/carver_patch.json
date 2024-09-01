@@ -1,0 +1,28 @@
+{
+	"feature": "cavernous:biomes/undergrowth/carver_patch",
+	"placement": [
+		{
+			"type": "minecraft:count",
+			"count": 50
+		},
+		{
+			"type": "minecraft:height_range",
+			"height": {
+				"type": "minecraft:uniform",
+				"min_inclusive": {
+					"above_bottom": 0
+				},
+				"max_inclusive": {
+					"absolute": 80
+				}
+			}
+		},
+		{
+			"type": "minecraft:biome"
+		},
+		{
+			"type": "minecraft:carving_mask",
+			"step": "air"
+		}
+	]
+}

@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "minecraft:torch"
+		},
+		{
+			"item": "minecraft:arrow"
+		}
+	],
+	"result": {
+		"id": "minecraft:tipped_arrow",
+		"components": {
+			"item_name": "[{\"text\":\"Torch Arrow\",\"italic\":false}]",
+			"potion_contents": {"custom_color": 16763190}
+		}
+	}
+}

@@ -1,0 +1,141 @@
+{
+	"type": "minecraft:archaeology",
+	"pools": [
+		{
+			"rolls": 1,
+			"bonus_rolls": 0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 3,
+					"name": "minecraft:wild_armor_trim_smithing_template"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:wayfinder_armor_trim_smithing_template"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:host_armor_trim_smithing_template"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:brewer_pottery_sherd"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:prize_pottery_sherd"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:danger_pottery_sherd"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:burn_pottery_sherd"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:arms_up_pottery_sherd"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:miner_pottery_sherd"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:archer_pottery_sherd"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:cobblestone"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:cobblestone_slab"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:cobblestone_stairs"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:cobblestone_wall"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:mossy_cobblestone"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:mossy_cobblestone_slab"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:mossy_cobblestone_stairs"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:mossy_cobblestone_wall"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 3,
+					"name": "minecraft:flower_pot"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 3,
+					"name": "minecraft:brick"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 3,
+					"name": "minecraft:clay_ball"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 3,
+					"name": "minecraft:candle"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 3,
+					"name": "minecraft:emerald"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:diamond"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 3,
+					"name": "minecraft:raw_gold"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 3,
+					"name": "minecraft:raw_gold_block"
+				}
+			]
+		}
+	]
+}

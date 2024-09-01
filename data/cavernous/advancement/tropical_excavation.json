@@ -1,0 +1,30 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:jungle_sapling"
+		},
+		"title": {
+			"text": "Tropical excavation"
+		},
+		"description": {
+			"text": "Discover an overgrown temple in the tropical caves"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "cavernous:breaking_ground",
+	"criteria": {
+		"skull": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structures": "cavernous:overgrown_temple"
+					}
+				}
+			}
+		}
+	}
+}

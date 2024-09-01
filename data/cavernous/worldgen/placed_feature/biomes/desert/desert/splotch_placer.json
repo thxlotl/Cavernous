@@ -1,0 +1,51 @@
+{
+	"feature": {
+		"type": "minecraft:random_selector",
+		"config": {
+			"features": [
+				{
+					"chance": 0.3,
+					"feature": {
+						"feature": "cavernous:generic/splotches/packed_mud",
+						"placement": []
+					}
+				},
+				{
+					"chance": 0.1,
+					"feature": {
+						"feature": "cavernous:generic/splotches/sand",
+						"placement": []
+					}
+				}
+			],
+			"default": {
+				"feature": "cavernous:generic/splotches/sandstone",
+				"placement": []
+			}
+		}
+	},
+	"placement": [
+		{
+			"type": "minecraft:count",
+			"count": 5
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "minecraft:height_range",
+			"height": {
+				"type": "minecraft:uniform",
+				"min_inclusive": {
+					"above_bottom": 0
+				},
+				"max_inclusive": {
+					"below_top": 0
+				}
+			}
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

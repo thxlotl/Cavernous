@@ -1,0 +1,342 @@
+{
+	"type": "cavernous:the_myst",
+	"generator": {
+		"type": "minecraft:noise",
+		"settings": "cavernous:the_myst",
+		"biome_source": {
+			"type": "minecraft:multi_noise",
+			"biomes": [
+				{
+					"biome": "cavernous:myst/dreadmire",
+					"parameters": {
+						"temperature": [
+							-1,
+							1
+						],
+						"humidity": [
+							-1,
+							1
+						],
+						"continentalness": [
+							-1.2,
+							0.3
+						],
+						"erosion": [
+							-1,
+							1
+						],
+						"weirdness": [
+							-1,
+							1
+						],
+						"depth": [
+							0,
+							0.11
+						],
+						"offset": 0
+					}
+				},
+				{
+					"biome": "cavernous:myst/dreadmire",
+					"parameters": {
+						"temperature": [
+							-1,
+							1
+						],
+						"humidity": [
+							-1,
+							1
+						],
+						"continentalness": [
+							0.3,
+							0.8
+						],
+						"erosion": [
+							-1,
+							0.05
+						],
+						"weirdness": [
+							-1,
+							1
+						],
+						"depth": [
+							0,
+							0.11
+						],
+						"offset": 0
+					}
+				},
+				{
+					"biome": "cavernous:myst/dreadmire_",
+					"parameters": {
+						"temperature": [
+							-1,
+							1
+						],
+						"humidity": [
+							-1,
+							1
+						],
+						"continentalness": [
+							0.3,
+							1
+						],
+						"erosion": [
+							0.05,
+							0.45
+						],
+						"weirdness": [
+							-1,
+							1
+						],
+						"depth": [
+							0,
+							0.11
+						],
+						"offset": 0
+					}
+				},
+				{
+					"biome": "cavernous:myst/dreadmire",
+					"parameters": {
+						"temperature": [
+							-1,
+							1
+						],
+						"humidity": [
+							-1,
+							1
+						],
+						"continentalness": [
+							0.3,
+							0.8
+						],
+						"erosion": [
+							0.45,
+							1
+						],
+						"weirdness": [
+							-1,
+							-0.05
+						],
+						"depth": [
+							0,
+							0.11
+						],
+						"offset": 0
+					}
+				},
+				{
+					"biome": "cavernous:myst/dreadmire",
+					"parameters": {
+						"temperature": [
+							-1,
+							1
+						],
+						"humidity": [
+							-1,
+							1
+						],
+						"continentalness": [
+							0.8,
+							1
+						],
+						"erosion": [
+							-1,
+							-0.2225
+						],
+						"weirdness": [
+							-1,
+							1
+						],
+						"depth": [
+							0,
+							0.11
+						],
+						"offset": 0
+					}
+				},
+				{
+					"biome": "cavernous:myst/dreadmire_",
+					"parameters": {
+						"temperature": [
+							-1,
+							1
+						],
+						"humidity": [
+							-1,
+							1
+						],
+						"continentalness": [
+							0.8,
+							1
+						],
+						"erosion": [
+							-0.2225,
+							0.55
+						],
+						"weirdness": [
+							-1,
+							1
+						],
+						"depth": [
+							0,
+							0.11
+						],
+						"offset": 0
+					}
+				},
+				{
+					"biome": "cavernous:myst/dreadmire",
+					"parameters": {
+						"temperature": [
+							-1,
+							1
+						],
+						"humidity": [
+							-1,
+							1
+						],
+						"continentalness": [
+							0.8,
+							1
+						],
+						"erosion": [
+							0.55,
+							1
+						],
+						"weirdness": [
+							-1,
+							1
+						],
+						"depth": [
+							0,
+							0.11
+						],
+						"offset": 0
+					}
+				},
+				{
+					"biome": "cavernous:myst/dreadmire_",
+					"parameters": {
+						"temperature": [
+							-1,
+							1
+						],
+						"humidity": [
+							-1,
+							1
+						],
+						"continentalness": [
+							0.3,
+							1
+						],
+						"erosion": [
+							0.45,
+							0.55
+						],
+						"weirdness": [
+							-0.05,
+							1
+						],
+						"depth": [
+							0,
+							0.11
+						],
+						"offset": 0
+					}
+				},
+				{
+					"biome": "cavernous:myst/dreadmire",
+					"parameters": {
+						"temperature": [
+							-1,
+							1
+						],
+						"humidity": [
+							-1,
+							1
+						],
+						"continentalness": [
+							0.3,
+							1
+						],
+						"erosion": [
+							0.55,
+							1
+						],
+						"weirdness": [
+							-0.05,
+							1
+						],
+						"depth": [
+							0,
+							0.11
+						],
+						"offset": 0
+					}
+				},
+				{
+					"biome": "cavernous:myst/noxwoods",
+					"parameters": {
+						"temperature": [
+							-1,
+							1
+						],
+						"humidity": [
+							-1,
+							1
+						],
+						"continentalness": [
+							-1.2,
+							1
+						],
+						"erosion": [
+							-1,
+							1
+						],
+						"weirdness": [
+							-1,
+							1
+						],
+						"depth": [
+							0.11,
+							0.21
+						],
+						"offset": 0
+					}
+				},
+				{
+					"biome": "cavernous:myst/vilegorge",
+					"parameters": {
+						"temperature": [
+							-1,
+							1
+						],
+						"humidity": [
+							-1,
+							1
+						],
+						"continentalness": [
+							-1.2,
+							1
+						],
+						"erosion": [
+							-1,
+							1
+						],
+						"weirdness": [
+							-1,
+							1
+						],
+						"depth": [
+							0.21,
+							0.32
+						],
+						"offset": 0
+					}
+				}
+			]
+		}
+	}
+}

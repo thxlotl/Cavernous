@@ -1,0 +1,1 @@
+execute as @e[type=armor_stand,distance=..100,tag=gate_center] run scoreboard players set @s portal.active 1

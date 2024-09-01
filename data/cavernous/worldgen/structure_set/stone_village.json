@@ -1,0 +1,14 @@
+{
+	"structures": [
+		{
+			"structure": "cavernous:stone_village",
+			"weight": 1
+		}
+	],
+	"placement": {
+		"type": "minecraft:random_spread",
+		"salt": 109952235,
+		"spacing": 24,
+		"separation": 12
+	}
+}

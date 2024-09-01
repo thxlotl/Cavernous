@@ -1,0 +1,69 @@
+{
+	"condition": "minecraft:any_of",
+	"terms": [
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"equipment": {
+					"head": {
+						"items": [
+							"minecraft:player_head"
+						],
+						"components": {
+							"minecraft:custom_data": {"tag":"ancient_armor"}
+						}
+					}
+				}
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"equipment": {
+					"chest": {
+						"items": [
+							"minecraft:leather_chestplate"
+						],
+						"components": {
+							"minecraft:custom_data": {"tag":"ancient_armor"}
+						}
+					}
+				}
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"equipment": {
+					"legs": {
+						"items": [
+							"minecraft:leather_leggings"
+						],
+						"components": {
+							"minecraft:custom_data": {"tag":"ancient_armor"}
+						}
+					}
+				}
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"equipment": {
+					"feet": {
+						"items": [
+							"minecraft:leather_boots"
+						],
+						"components": {
+							"minecraft:custom_data": {"tag":"ancient_armor"}
+						}
+					}
+				}
+			}
+		}
+	]
+}

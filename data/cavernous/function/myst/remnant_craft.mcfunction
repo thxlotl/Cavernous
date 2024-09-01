@@ -1,0 +1,5 @@
+kill @s
+particle dust{color:[0.443, 0.055, 0.055],scale:4} ~ ~ ~ 1 1 1 1 50 force @a
+playsound minecraft:block.end_portal.spawn block @a ~ ~ ~ 0.3 0.5 0
+
+summon item ~ ~ ~ {Item:{id:"minecraft:potion",count:1b,components:{custom_data:{tag:bloodbound_potion},item_name:'["",{"text":"Bloodbound Potion","italic":false,"color":"dark_red"}]',lore:['["",{"text":"Recreate the power of the","italic":false,"color":"gray"}]','["",{"text":"sacrifice of an entire","italic":false,"color":"gray"}]','["",{"text":"civilization.","italic":false,"color":"gray"}]','["",{"text":"Use at the gate at your","italic":false,"color":"yellow"}]','["",{"text":"own risk.","italic":false,"color":"yellow"}]','[""]','["",{"text":"-9.5 ❤","italic":false,"color":"red"}]'],enchantments:{levels:{lure:0}},potion_contents:{custom_color:8912896}}}}

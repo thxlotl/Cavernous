@@ -1,0 +1,16 @@
+{
+  "name": "cavernous:thermal_plant",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "cavernous:thermal_plant",
+				"override_liquid_settings": "ignore_waterlogging",
+        "projection": "rigid",
+        "processors": "cavernous:thermal_plant"
+      }
+    }
+  ]
+}

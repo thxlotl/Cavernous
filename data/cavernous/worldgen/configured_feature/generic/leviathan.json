@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:fossil",
+	"config": {
+		"max_empty_corners_allowed": 3,
+		"fossil_structures": [
+			"cavernous:leviathan_skeleton"
+		],
+		"overlay_structures": [
+			"cavernous:leviathan_skeleton_empty"
+		],
+		"fossil_processors": "cavernous:leviathan",
+		"overlay_processors": "minecraft:empty"
+	}
+}

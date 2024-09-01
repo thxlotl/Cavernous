@@ -1,0 +1,194 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:cobblestone"
+		},
+		"title": {
+			"text": "Breaking ground"
+		},
+		"description": {
+			"text": "Dive deeper into your world"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "cavernous:root",
+	"criteria": {
+		"spelunk": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:any_of",
+						"terms": [
+							{
+								"condition": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"location": {
+										"biomes": "cavernous:arid_caves"
+									}
+								}
+							},
+							{
+								"condition": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"location": {
+										"biomes": "cavernous:caldera_caves"
+									}
+								}
+							},
+							{
+								"condition": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"location": {
+										"biomes": "cavernous:caves"
+									}
+								}
+							},
+							{
+								"condition": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"location": {
+										"biomes": "cavernous:crystal_caves"
+									}
+								}
+							},
+							{
+								"condition": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"location": {
+										"biomes": "cavernous:the_undergrowth"
+									}
+								}
+							},
+							{
+								"condition": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"location": {
+										"biomes": "cavernous:desert_caves"
+									}
+								}
+							},
+							{
+								"condition": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"location": {
+										"biomes": "cavernous:fungal_caves"
+									}
+								}
+							},
+							{
+								"condition": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"location": {
+										"biomes": "cavernous:glowshroom_caves"
+									}
+								}
+							},
+							{
+								"condition": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"location": {
+										"biomes": "cavernous:icy_caves"
+									}
+								}
+							},
+							{
+								"condition": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"location": {
+										"biomes": "cavernous:lush_dripstone_caves"
+									}
+								}
+							},
+							{
+								"condition": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"location": {
+										"biomes": "cavernous:marble_caves"
+									}
+								}
+							},
+							{
+								"condition": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"location": {
+										"biomes": "cavernous:painted_caves"
+									}
+								}
+							},
+							{
+								"condition": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"location": {
+										"biomes": "cavernous:splattered_caves"
+									}
+								}
+							},
+							{
+								"condition": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"location": {
+										"biomes": "cavernous:tropical_caves"
+									}
+								}
+							},
+							{
+								"condition": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"location": {
+										"biomes": "cavernous:volcanic_caves"
+									}
+								}
+							},
+							{
+								"condition": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"location": {
+										"biomes": "minecraft:lush_caves"
+									}
+								}
+							},
+							{
+								"condition": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"location": {
+										"biomes": "minecraft:dripstone_caves"
+									}
+								}
+							},
+							{
+								"condition": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"location": {
+										"biomes": "minecraft:deep_dark"
+									}
+								}
+							}
+						]
+					}
+				]
+			}
+		}
+	}
+}

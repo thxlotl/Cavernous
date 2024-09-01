@@ -1,0 +1,109 @@
+{
+	"type": "minecraft:add",
+	"argument1": {
+		"type": "minecraft:add",
+		"argument1": {
+			"type": "minecraft:add",
+			"argument1": {
+				"type": "minecraft:add",
+				"argument1": {
+					"type": "minecraft:y_clamped_gradient",
+					"from_y": 0,
+					"to_y": 65,
+					"from_value": 2,
+					"to_value": 0
+				},
+				"argument2": {
+					"type": "minecraft:y_clamped_gradient",
+					"from_y": 320,
+					"to_y": 255,
+					"from_value": 2,
+					"to_value": 0
+				}
+			},
+			"argument2": {
+				"type": "minecraft:add",
+				"argument1": {
+					"type": "minecraft:y_clamped_gradient",
+					"from_y": 0,
+					"to_y": 7,
+					"from_value": 2,
+					"to_value": 0
+				},
+				"argument2": {
+					"type": "minecraft:y_clamped_gradient",
+					"from_y": 320,
+					"to_y": 313,
+					"from_value": 2,
+					"to_value": 0
+				}
+			}
+		},
+		"argument2": {
+			"type": "minecraft:add",
+			"argument1": {
+				"type": "minecraft:add",
+				"argument1": {
+					"type": "minecraft:range_choice",
+					"input": "minecraft:y",
+					"min_inclusive": 80,
+					"max_exclusive": 110,
+					"when_in_range": {
+						"type": "minecraft:y_clamped_gradient",
+						"from_y": 80,
+						"to_y": 110,
+						"from_value": 0,
+						"to_value": 2.5
+					},
+					"when_out_of_range": 0
+				},
+				"argument2": {
+					"type": "minecraft:range_choice",
+					"input": "minecraft:y",
+					"min_inclusive": 110,
+					"max_exclusive": 150,
+					"when_in_range": {
+						"type": "minecraft:y_clamped_gradient",
+						"from_y": 110,
+						"to_y": 150,
+						"from_value": 2.5,
+						"to_value": 0
+					},
+					"when_out_of_range": 0
+				}
+			},
+			"argument2": {
+				"type": "minecraft:add",
+				"argument1": {
+					"type": "minecraft:range_choice",
+					"input": "minecraft:y",
+					"min_inclusive": 170,
+					"max_exclusive": 210,
+					"when_in_range": {
+						"type": "minecraft:y_clamped_gradient",
+						"from_y": 170,
+						"to_y": 210,
+						"from_value": 0,
+						"to_value": 2.5
+					},
+					"when_out_of_range": 0
+				},
+				"argument2": {
+					"type": "minecraft:range_choice",
+					"input": "minecraft:y",
+					"min_inclusive": 210,
+					"max_exclusive": 230,
+					"when_in_range": {
+						"type": "minecraft:y_clamped_gradient",
+						"from_y": 210,
+						"to_y": 230,
+						"from_value": 2.5,
+						"to_value": 0
+					},
+					"when_out_of_range": 0
+				}
+			}
+		}
+	},
+	"argument2": -0.5
+}

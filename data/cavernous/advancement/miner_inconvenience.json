@@ -1,0 +1,30 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:iron_pickaxe"
+		},
+		"title": {
+			"text": "Miner Inconvenience"
+		},
+		"description": {
+			"text": "Disperse of an undead miner"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "cavernous:breaking_ground",
+	"criteria": {
+		"skull": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"player": {},
+				"entity": {
+					"type": "minecraft:skeleton",
+					"nbt": "{Tags:[miner]}"
+				}
+			}
+		}
+	}
+}

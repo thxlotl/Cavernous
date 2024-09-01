@@ -1,0 +1,92 @@
+{
+	"processors": [
+		{
+			"processor_type": "minecraft:rule",
+			"rules": [
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:waxed_exposed_copper",
+						"probability": 0.0
+					},
+					"output_state": {
+						"Name": "minecraft:waxed_weathered_copper"
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:waxed_weathered_copper",
+						"probability": 0.0
+					},
+					"output_state": {
+						"Name": "minecraft:waxed_oxidized_copper"
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:waxed_exposed_cut_copper",
+						"probability": 0.0
+					},
+					"output_state": {
+						"Name": "minecraft:waxed_weathered_cut_copper"
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:waxed_weathered_cut_copper",
+						"probability": 0.0
+					},
+					"output_state": {
+						"Name": "minecraft:waxed_oxidized_cut_copper"
+					}
+				}
+			]
+		},
+		{
+			"processor_type": "minecraft:rule",
+			"rules": [
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:mud_bricks",
+						"probability": 0.1
+					},
+					"output_state": {
+						"Name": "minecraft:packed_mud"
+					}
+				},
+				{
+					"location_predicate": {
+						"predicate_type": "minecraft:always_true"
+					},
+					"input_predicate": {
+						"predicate_type": "minecraft:random_block_match",
+						"block": "minecraft:deepslate_bricks",
+						"probability": 0.1
+					},
+					"output_state": {
+						"Name": "minecraft:cobbled_deepslate"
+					}
+				}
+			]
+		}
+	]
+}

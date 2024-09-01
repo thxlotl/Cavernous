@@ -1,0 +1,43 @@
+{
+	"feature": "cavernous:biomes/thermal/caldera/spring",
+	"placement": [
+		{
+			"type": "minecraft:count",
+			"count": 100
+		},
+		{
+			"type": "minecraft:height_range",
+			"height": {
+				"type": "minecraft:uniform",
+				"min_inclusive": {
+					"above_bottom": 32
+				},
+				"max_inclusive": {
+					"absolute": 100
+				}
+			}
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "minecraft:environment_scan",
+			"direction_of_search": "down",
+			"max_steps": 32,
+			"target_condition": {
+				"type": "minecraft:matching_blocks",
+				"offset": [
+					0,
+					0,
+					0
+				],
+				"blocks": [
+					"minecraft:lime_terracotta"
+				]
+			},
+			"allowed_search_condition": {
+				"type": "minecraft:true"
+			}
+		}
+	]
+}

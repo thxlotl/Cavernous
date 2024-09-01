@@ -1,0 +1,374 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 1,
+			"bonus_rolls": 0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:music_disc_otherside"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:music_disc_cat"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:music_disc_mellohi"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:music_disc_13"
+				}
+			]
+		},
+		{
+			"rolls": {
+				"type": "minecraft:uniform",
+				"min": 2,
+				"max": 4
+			},
+			"bonus_rolls": {
+				"min": 0,
+				"max": 1
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 10,
+					"name": "minecraft:iron_ingot",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1,
+								"max": 4
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"name": "minecraft:gold_ingot",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1,
+								"max": 4
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:diamond",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:iron_sword",
+					"functions": [
+						{
+							"function": "minecraft:set_damage",
+							"damage": {
+								"min": 0,
+								"max": 0.8
+							}
+						},
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": {
+								"min": 25,
+								"max": 30
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:iron_pickaxe",
+					"functions": [
+						{
+							"function": "minecraft:set_damage",
+							"damage": {
+								"min": 0,
+								"max": 0.8
+							}
+						},
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": {
+								"min": 25,
+								"max": 30
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:iron_shovel",
+					"functions": [
+						{
+							"function": "minecraft:set_damage",
+							"damage": {
+								"min": 0,
+								"max": 0.8
+							}
+						},
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": {
+								"min": 25,
+								"max": 30
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:iron_hoe",
+					"functions": [
+						{
+							"function": "minecraft:set_damage",
+							"damage": {
+								"min": 0,
+								"max": 0.8
+							}
+						},
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": {
+								"min": 25,
+								"max": 30
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:iron_axe",
+					"functions": [
+						{
+							"function": "minecraft:set_damage",
+							"damage": {
+								"min": 0,
+								"max": 0.8
+							}
+						},
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": {
+								"min": 25,
+								"max": 30
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": {
+				"min": 1,
+				"max": 3
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:ender_pearl",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 3
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 3,
+					"name": "minecraft:book"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:book",
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": {
+								"min": 1,
+								"max": 15
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": {
+				"min": 2,
+				"max": 3
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:saddle"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:name_tag",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:diamond_horse_armor"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 3,
+					"name": "minecraft:golden_horse_armor"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 4,
+					"name": "minecraft:iron_horse_armor"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:leather_horse_armor"
+				}
+			]
+		},
+		{
+			"rolls": {
+				"min": 0,
+				"max": 2
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 20,
+					"name": "minecraft:golden_apple"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:enchanted_golden_apple"
+				}
+			]
+		},
+		{
+			"rolls": {
+				"min": 1,
+				"max": 2
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:tipped_arrow",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"potion_contents": {"custom_color": 4080476},
+								"custom_name": "{\"text\":\"Chain Arrow\",\"italic\":false}",
+								"lore": ["[{\"text\":\"Shoot to create a climbable chain\",\"italic\":false}]","[{\"text\":\"rope\",\"italic\":false}]"]
+							}
+						},
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 3
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:tipped_arrow",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"potion_contents": {"custom_color": 5855577},
+								"custom_name": "{\"text\":\"Explosive Arrow\",\"italic\":false}"
+							}
+						},
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:tipped_arrow",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"potion_contents": {"custom_color": 16763190},
+								"custom_name": "{\"text\":\"Torch Arrow\",\"italic\":false}"
+							}
+						},
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

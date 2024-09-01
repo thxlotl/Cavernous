@@ -1,0 +1,879 @@
+{
+	"feature": "cavernous:biomes/undergrowth/root/step",
+	"placement": [
+	{
+		"type": "minecraft:biome"
+	},
+		{
+			"type": "minecraft:count",
+			"count": 175
+		},
+		{
+			"type": "minecraft:count",
+			"count": 55
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "minecraft:height_range",
+			"height": {
+				"type": "minecraft:uniform",
+				"min_inclusive": {
+					"above_bottom": 32
+				},
+				"max_inclusive": {
+					"absolute": 80
+				}
+			}
+		},
+		{
+			"type": "minecraft:environment_scan",
+			"direction_of_search": "down",
+			"max_steps": 32,
+			"target_condition": {
+				"type": "minecraft:all_of",
+				"predicates": [
+					{
+						"type": "minecraft:all_of",
+						"predicates": [
+							{
+								"type": "minecraft:matching_blocks",
+								"offset": [
+									1,
+									1,
+									0
+								],
+								"blocks": [
+									"minecraft:air",
+									"minecraft:vine"
+								]
+							},
+							{
+								"type": "minecraft:matching_blocks",
+								"offset": [
+									1,
+									1,
+									-1
+								],
+								"blocks": [
+									"minecraft:air",
+									"minecraft:vine"
+								]
+							},
+							{
+								"type": "minecraft:matching_blocks",
+								"offset": [
+									1,
+									1,
+									1
+								],
+								"blocks": [
+									"minecraft:air",
+									"minecraft:vine"
+								]
+							},
+							{
+								"type": "minecraft:matching_blocks",
+								"offset": [
+									0,
+									1,
+									-1
+								],
+								"blocks": [
+									"minecraft:air",
+									"minecraft:vine"
+								]
+							},
+							{
+								"type": "minecraft:matching_blocks",
+								"offset": [
+									0,
+									1,
+									0
+								],
+								"blocks": [
+									"minecraft:air",
+									"minecraft:vine"
+								]
+							},
+							{
+								"type": "minecraft:matching_blocks",
+								"offset": [
+									0,
+									1,
+									1
+								],
+								"blocks": [
+									"minecraft:air",
+									"minecraft:vine"
+								]
+							},
+							{
+								"type": "minecraft:matching_blocks",
+								"offset": [
+									-1,
+									1,
+									1
+								],
+								"blocks": [
+									"minecraft:air",
+									"minecraft:vine"
+								]
+							},
+							{
+								"type": "minecraft:matching_blocks",
+								"offset": [
+									-1,
+									1,
+									0
+								],
+								"blocks": [
+									"minecraft:air",
+									"minecraft:vine"
+								]
+							},
+							{
+								"type": "minecraft:matching_blocks",
+								"offset": [
+									-1,
+									1,
+									-1
+								],
+								"blocks": [
+									"minecraft:air",
+									"minecraft:vine"
+								]
+							}
+						]
+					},
+					{
+						"type": "minecraft:not",
+						"predicate": {
+							"type": "minecraft:all_of",
+							"predicates": [
+								{
+									"type": "minecraft:matching_blocks",
+									"offset": [
+										-1,
+										0,
+										1
+									],
+									"blocks": [
+										"minecraft:birch_wood",
+										"minecraft:birch_log"
+									]
+								},
+								{
+									"type": "minecraft:matching_blocks",
+									"offset": [
+										0,
+										0,
+										1
+									],
+									"blocks": [
+										"minecraft:birch_wood",
+										"minecraft:birch_log"
+									]
+								},
+								{
+									"type": "minecraft:matching_blocks",
+									"offset": [
+										1,
+										0,
+										1
+									],
+									"blocks": [
+										"minecraft:birch_wood",
+										"minecraft:birch_log"
+									]
+								},
+								{
+									"type": "minecraft:matching_blocks",
+									"offset": [
+										-1,
+										0,
+										0
+									],
+									"blocks": [
+										"minecraft:birch_wood",
+										"minecraft:birch_log"
+									]
+								},
+								{
+									"type": "minecraft:matching_blocks",
+									"offset": [
+										-1,
+										0,
+										-1
+									],
+									"blocks": [
+										"minecraft:birch_wood",
+										"minecraft:birch_log"
+									]
+								},
+								{
+									"type": "minecraft:matching_blocks",
+									"offset": [
+										0,
+										0,
+										-1
+									],
+									"blocks": [
+										"minecraft:birch_wood",
+										"minecraft:birch_log"
+									]
+								},
+								{
+									"type": "minecraft:matching_blocks",
+									"offset": [
+										1,
+										0,
+										-1
+									],
+									"blocks": [
+										"minecraft:birch_wood",
+										"minecraft:birch_log"
+									]
+								},
+								{
+									"type": "minecraft:matching_blocks",
+									"offset": [
+										1,
+										0,
+										0
+									],
+									"blocks": [
+										"minecraft:birch_wood",
+										"minecraft:birch_log"
+									]
+								}
+							]
+						}
+					},
+					{
+						"type": "minecraft:any_of",
+						"predicates": [
+							{
+								"type": "minecraft:all_of",
+								"predicates": [
+									{
+										"type": "minecraft:matching_blocks",
+										"offset": [
+											0,
+											-1,
+											1
+										],
+										"blocks": [
+											"minecraft:air"
+										]
+									},
+									{
+										"type": "minecraft:matching_blocks",
+										"offset": [
+											1,
+											-1,
+											1
+										],
+										"blocks": [
+											"minecraft:air"
+										]
+									},
+									{
+										"type": "minecraft:matching_blocks",
+										"offset": [
+											1,
+											-1,
+											0
+										],
+										"blocks": [
+											"minecraft:air"
+										]
+									},
+									{
+										"type": "minecraft:matching_blocks",
+										"offset": [
+											0,
+											-1,
+											0
+										],
+										"blocks": [
+											"minecraft:birch_log"
+										]
+									},
+									{
+										"type": "minecraft:matching_blocks",
+										"offset": [
+											0,
+											-1,
+											-1
+										],
+										"blocks": [
+											"minecraft:birch_log"
+										]
+									},
+									{
+										"type": "minecraft:matching_blocks",
+										"offset": [
+											-1,
+											-1,
+											-1
+										],
+										"blocks": [
+											"minecraft:birch_log"
+										]
+									},
+									{
+										"type": "minecraft:matching_blocks",
+										"offset": [
+											-1,
+											-1,
+											0
+										],
+										"blocks": [
+											"minecraft:birch_log"
+										]
+									}
+								]
+							},
+							{
+								"type": "minecraft:all_of",
+								"predicates": [
+									{
+										"type": "minecraft:matching_blocks",
+										"offset": [
+											0,
+											-1,
+											1
+										],
+										"blocks": [
+											"minecraft:air"
+										]
+									},
+									{
+										"type": "minecraft:matching_blocks",
+										"offset": [
+											1,
+											-1,
+											1
+										],
+										"blocks": [
+											"minecraft:air"
+										]
+									},
+									{
+										"type": "minecraft:matching_blocks",
+										"offset": [
+											0,
+											-1,
+											0
+										],
+										"blocks": [
+											"minecraft:birch_log"
+										]
+									},
+									{
+										"type": "minecraft:matching_blocks",
+										"offset": [
+											0,
+											-1,
+											-1
+										],
+										"blocks": [
+											"minecraft:birch_log"
+										]
+									},
+									{
+										"type": "minecraft:matching_blocks",
+										"offset": [
+											1,
+											-1,
+											-1
+										],
+										"blocks": [
+											"minecraft:birch_log"
+										]
+									},
+									{
+										"type": "minecraft:matching_blocks",
+										"offset": [
+											1,
+											-1,
+											0
+										],
+										"blocks": [
+											"minecraft:birch_log"
+										]
+									}
+								]
+							},
+							{
+								"type": "minecraft:all_of",
+								"predicates": [
+									{
+										"type": "minecraft:matching_blocks",
+										"offset": [
+											0,
+											-1,
+											0
+										],
+										"blocks": [
+											"minecraft:air"
+										]
+									},
+									{
+										"type": "minecraft:matching_blocks",
+										"offset": [
+											0,
+											-1,
+											1
+										],
+										"blocks": [
+											"minecraft:air"
+										]
+									},
+									{
+										"type": "minecraft:matching_blocks",
+										"offset": [
+											1,
+											-1,
+											1
+										],
+										"blocks": [
+											"minecraft:air"
+										]
+									},
+									{
+										"type": "minecraft:matching_blocks",
+										"offset": [
+											1,
+											-1,
+											0
+										],
+										"blocks": [
+											"minecraft:birch_log"
+										]
+									},
+									{
+										"type": "minecraft:matching_blocks",
+										"offset": [
+											1,
+											-1,
+											-1
+										],
+										"blocks": [
+											"minecraft:birch_log"
+										]
+									},
+									{
+										"type": "minecraft:matching_blocks",
+										"offset": [
+											2,
+											-1,
+											0
+										],
+										"blocks": [
+											"minecraft:birch_log"
+										]
+									},
+									{
+										"type": "minecraft:matching_blocks",
+										"offset": [
+											2,
+											-1,
+											-1
+										],
+										"blocks": [
+											"minecraft:birch_log"
+										]
+									}
+								]
+							},
+							{
+								"type": "minecraft:all_of",
+								"predicates": [
+									{
+										"type": "minecraft:matching_blocks",
+										"offset": [
+											0,
+											-1,
+											0
+										],
+										"blocks": [
+											"minecraft:air"
+										]
+									},
+									{
+										"type": "minecraft:matching_blocks",
+										"offset": [
+											0,
+											-1,
+											1
+										],
+										"blocks": [
+											"minecraft:air"
+										]
+									},
+									{
+										"type": "minecraft:matching_blocks",
+										"offset": [
+											1,
+											-1,
+											0
+										],
+										"blocks": [
+											"minecraft:birch_log"
+										]
+									},
+									{
+										"type": "minecraft:matching_blocks",
+										"offset": [
+											1,
+											-1,
+											1
+										],
+										"blocks": [
+											"minecraft:birch_log"
+										]
+									},
+									{
+										"type": "minecraft:matching_blocks",
+										"offset": [
+											2,
+											-1,
+											0
+										],
+										"blocks": [
+											"minecraft:birch_log"
+										]
+									},
+									{
+										"type": "minecraft:matching_blocks",
+										"offset": [
+											2,
+											-1,
+											1
+										],
+										"blocks": [
+											"minecraft:birch_log"
+										]
+									}
+								]
+							},
+							{
+								"type": "minecraft:all_of",
+								"predicates": [
+									{
+										"type": "minecraft:matching_blocks",
+										"offset": [
+											0,
+											-1,
+											0
+										],
+										"blocks": [
+											"minecraft:air"
+										]
+									},
+									{
+										"type": "minecraft:matching_blocks",
+										"offset": [
+											0,
+											-1,
+											1
+										],
+										"blocks": [
+											"minecraft:air"
+										]
+									},
+									{
+										"type": "minecraft:matching_blocks",
+										"offset": [
+											1,
+											-1,
+											0
+										],
+										"blocks": [
+											"minecraft:air"
+										]
+									},
+									{
+										"type": "minecraft:matching_blocks",
+										"offset": [
+											1,
+											-1,
+											1
+										],
+										"blocks": [
+											"minecraft:birch_log"
+										]
+									},
+									{
+										"type": "minecraft:matching_blocks",
+										"offset": [
+											2,
+											-1,
+											1
+										],
+										"blocks": [
+											"minecraft:birch_log"
+										]
+									},
+									{
+										"type": "minecraft:matching_blocks",
+										"offset": [
+											2,
+											-1,
+											2
+										],
+										"blocks": [
+											"minecraft:birch_log"
+										]
+									},
+									{
+										"type": "minecraft:matching_blocks",
+										"offset": [
+											1,
+											-1,
+											2
+										],
+										"blocks": [
+											"minecraft:birch_log"
+										]
+									}
+								]
+							},
+							{
+								"type": "minecraft:all_of",
+								"predicates": [
+									{
+										"type": "minecraft:matching_blocks",
+										"offset": [
+											0,
+											-1,
+											0
+										],
+										"blocks": [
+											"minecraft:air"
+										]
+									},
+									{
+										"type": "minecraft:matching_blocks",
+										"offset": [
+											1,
+											-1,
+											0
+										],
+										"blocks": [
+											"minecraft:air"
+										]
+									},
+									{
+										"type": "minecraft:matching_blocks",
+										"offset": [
+											0,
+											-1,
+											1
+										],
+										"blocks": [
+											"minecraft:birch_wood"
+										]
+									},
+									{
+										"type": "minecraft:matching_blocks",
+										"offset": [
+											1,
+											-1,
+											1
+										],
+										"blocks": [
+											"minecraft:birch_wood"
+										]
+									},
+									{
+										"type": "minecraft:matching_blocks",
+										"offset": [
+											0,
+											-1,
+											2
+										],
+										"blocks": [
+											"minecraft:birch_wood"
+										]
+									},
+									{
+										"type": "minecraft:matching_blocks",
+										"offset": [
+											1,
+											-1,
+											2
+										],
+										"blocks": [
+											"minecraft:birch_wood"
+										]
+									}
+								]
+							},
+							{
+								"type": "minecraft:all_of",
+								"predicates": [
+									{
+										"type": "minecraft:matching_blocks",
+										"offset": [
+											0,
+											-1,
+											0
+										],
+										"blocks": [
+											"minecraft:air"
+										]
+									},
+									{
+										"type": "minecraft:matching_blocks",
+										"offset": [
+											1,
+											-1,
+											0
+										],
+										"blocks": [
+											"minecraft:air"
+										]
+									},
+									{
+										"type": "minecraft:matching_blocks",
+										"offset": [
+											1,
+											-1,
+											1
+										],
+										"blocks": [
+											"minecraft:air"
+										]
+									},
+									{
+										"type": "minecraft:matching_blocks",
+										"offset": [
+											0,
+											-1,
+											1
+										],
+										"blocks": [
+											"minecraft:birch_log"
+										]
+									},
+									{
+										"type": "minecraft:matching_blocks",
+										"offset": [
+											-1,
+											-1,
+											1
+										],
+										"blocks": [
+											"minecraft:birch_log"
+										]
+									},
+									{
+										"type": "minecraft:matching_blocks",
+										"offset": [
+											0,
+											-1,
+											2
+										],
+										"blocks": [
+											"minecraft:birch_log"
+										]
+									},
+									{
+										"type": "minecraft:matching_blocks",
+										"offset": [
+											-1,
+											-1,
+											2
+										],
+										"blocks": [
+											"minecraft:birch_log"
+										]
+									}
+								]
+							},
+							{
+								"type": "minecraft:all_of",
+								"predicates": [
+									{
+										"type": "minecraft:matching_blocks",
+										"offset": [
+											0,
+											-1,
+											0
+										],
+										"blocks": [
+											"minecraft:birch_log"
+										]
+									},
+									{
+										"type": "minecraft:matching_blocks",
+										"offset": [
+											-1,
+											-1,
+											0
+										],
+										"blocks": [
+											"minecraft:birch_log"
+										]
+									},
+									{
+										"type": "minecraft:matching_blocks",
+										"offset": [
+											0,
+											-1,
+											1
+										],
+										"blocks": [
+											"minecraft:birch_log"
+										]
+									},
+									{
+										"type": "minecraft:matching_blocks",
+										"offset": [
+											-1,
+											-1,
+											1
+										],
+										"blocks": [
+											"minecraft:birch_log"
+										]
+									},
+									{
+										"type": "minecraft:matching_blocks",
+										"offset": [
+											1,
+											-1,
+											0
+										],
+										"blocks": [
+											"minecraft:air"
+										]
+									},
+									{
+										"type": "minecraft:matching_blocks",
+										"offset": [
+											1,
+											-1,
+											1
+										],
+										"blocks": [
+											"minecraft:air"
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"type": "minecraft:surface_water_depth_filter",
+			"max_water_depth": 50
+		}
+	]
+}

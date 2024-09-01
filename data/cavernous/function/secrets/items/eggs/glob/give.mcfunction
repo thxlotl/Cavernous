@@ -1,0 +1,1 @@
+give @s mooshroom_spawn_egg[entity_data={id:armor_stand,ShowArms:1b,Invisible:1b,Marker:1b,NoGravity:1b,Tags:["glob_spawn_stand"]},item_name='[{"text":"Glob Spawn Egg","italic":false}]'] 1

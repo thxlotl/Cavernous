@@ -1,0 +1,81 @@
+{
+	"type": "minecraft:tree",
+	"config": {
+		"ignore_vines": true,
+		"minimum_size": {
+			"type": "minecraft:two_layers_feature_size"
+		},
+		"dirt_provider": {
+			"type": "minecraft:weighted_state_provider",
+			"entries": [
+				{
+					"weight": 1,
+					"data": {
+						"Name": "minecraft:cracked_stone_bricks"
+					}
+				},
+				{
+					"weight": 3,
+					"data": {
+						"Name": "minecraft:stone_bricks"
+					}
+				}
+			]
+		},
+		"trunk_provider": {
+			"type": "minecraft:weighted_state_provider",
+			"entries": [
+				{
+					"weight": 1,
+					"data": {
+						"Name": "minecraft:cracked_stone_bricks"
+					}
+				},
+				{
+					"weight": 3,
+					"data": {
+						"Name": "minecraft:stone_bricks"
+					}
+				}
+			]
+		},
+		"foliage_provider": {
+			"type": "minecraft:weighted_state_provider",
+			"entries": [
+				{
+					"weight": 3,
+					"data": {
+						"Name": "minecraft:stone_brick_slab",
+						"Properties": {
+							"type": "bottom",
+							"waterlogged": "false"
+						}
+					}
+				},
+				{
+					"weight": 1,
+					"data": {
+						"Name": "minecraft:air"
+					}
+				}
+			]
+		},
+		"trunk_placer": {
+			"type": "minecraft:giant_trunk_placer",
+			"base_height": 1,
+			"height_rand_a": 1,
+			"height_rand_b": 3
+		},
+		"foliage_placer": {
+			"type": "minecraft:blob_foliage_placer",
+			"radius": 1,
+			"offset": 0,
+			"height": 1
+		},
+		"decorators": [
+			{
+				"type": "minecraft:trunk_vine"
+			}
+		]
+	}
+}

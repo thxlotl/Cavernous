@@ -1,0 +1,41 @@
+{
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "cavernous:village/lush/decor/lamp",
+				"override_liquid_settings": "ignore_waterlogging",
+				"processors": "cavernous:lush_village"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "cavernous:village/lush/decor/side_lamp",
+				"override_liquid_settings": "ignore_waterlogging",
+				"processors": "cavernous:lush_village"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "cavernous:village/lush/decor/double_lamp",
+				"override_liquid_settings": "ignore_waterlogging",
+				"processors": "cavernous:lush_village"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:empty_pool_element"
+			}
+		}
+	]
+}

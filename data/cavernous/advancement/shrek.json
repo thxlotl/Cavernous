@@ -1,0 +1,36 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:spruce_door"
+		},
+		"title": {
+			"text": "Somebody once told me..."
+		},
+		"description": {
+			"text": "Open a door in a marshy cave"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "cavernous:breaking_ground",
+	"criteria": {
+		"opendoor": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"biomes": "cavernous:marshy_caves",
+							"block": {
+								"blocks": "#minecraft:doors"
+							}
+						}
+					}
+				]
+			}
+		}
+	}
+}

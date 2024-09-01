@@ -1,0 +1,37 @@
+{
+	"condition": "minecraft:any_of",
+	"terms": [
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"flags": {
+					"is_sneaking": true
+				},
+				"equipment": {
+					"mainhand": {
+						"components": {
+							"minecraft:custom_data": {"tag":"ancient_shield"}
+						}
+					}
+				}
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"flags": {
+					"is_sneaking": true
+				},
+				"equipment": {
+					"offhand": {
+						"components": {
+							"minecraft:custom_data": {"tag":"ancient_shield"}
+						}
+					}
+				}
+			}
+		}
+	]
+}

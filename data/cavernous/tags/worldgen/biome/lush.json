@@ -1,0 +1,10 @@
+{
+  "values": [
+    "cavernous:fungal_caves",
+    "cavernous:glowshroom_caves",
+    "cavernous:lush_dripstone_caves",
+    "cavernous:marshy_caves",
+    "cavernous:tropical_caves",
+    "minecraft:lush_caves"
+  ]
+}

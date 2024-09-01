@@ -1,0 +1,14 @@
+{
+	"structures": [
+		{
+			"structure": "cavernous:the_monolith",
+			"weight": 1
+		}
+	],
+	"placement": {
+		"type": "minecraft:random_spread",
+		"salt": 505639233,
+		"spacing": 20,
+		"separation": 14
+	}
+}

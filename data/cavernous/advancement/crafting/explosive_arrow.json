@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "unlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "cavernous:explosive_arrow"
+            }
+        }
+    },
+    "rewards": {
+        "function": "cavernous:items/explosive_arrow/give"
+    }
+}

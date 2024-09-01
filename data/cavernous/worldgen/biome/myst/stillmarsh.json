@@ -1,0 +1,55 @@
+{
+	"temperature": 0.8,
+	"downfall": 1,
+	"has_precipitation": true,
+	"effects": {
+		"sky_color": 3350303,
+		"fog_color": 3814966,
+		"water_color": 10424079,
+		"water_fog_color": 4525325,
+		"grass_color": 13631745,
+		"foliage_color": 7536640,
+		"grass_color_modifier": "none",
+		"mood_sound": {
+			"sound": "minecraft:ambient.cave",
+			"tick_delay": 6000,
+			"block_search_extent": 8,
+			"offset": 2
+		},
+		"music": {
+			"sound": "minecraft:music.overworld.dripstone_caves",
+			"min_delay": 12000,
+			"max_delay": 24000,
+			"replace_current_music": false
+		}
+	},
+	"spawners": {
+		"ambient": [],
+		"axolotls": [],
+		"creature": [],
+		"misc": [],
+		"monster": [],
+		"underground_water_creature": [],
+		"water_ambient": [],
+		"water_creature": []
+	},
+	"spawn_costs": {},
+	"carvers": {
+		"air": []
+	},
+	"features": [
+		[],
+		[],
+		[],
+		[],
+		[],
+		[],
+		[],
+		[],
+		[],
+		[],
+		[
+			"minecraft:freeze_top_layer"
+		]
+	]
+}

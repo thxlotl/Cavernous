@@ -1,8 +1,0 @@
-{
-    "values": [
-        "#load:_private/load",
-        "cavernous:init",
-        "gui_menu:load",
-        "geyser:load"
-    ]
-}

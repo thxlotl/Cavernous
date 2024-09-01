@@ -1,0 +1,149 @@
+{
+	"type": "minecraft:random_patch",
+	"config": {
+		"tries": 200,
+		"xz_spread": 1,
+		"y_spread": 0,
+		"feature": {
+			"feature": {
+				"type": "minecraft:simple_block",
+				"config": {
+					"to_place": {
+						"type": "minecraft:simple_state_provider",
+						"state": {
+							"Name": "minecraft:dark_oak_leaves",
+							"Properties": {
+								"distance": "7",
+								"persistent": "true",
+								"waterlogged": "false"
+							}
+						}
+					}
+				}
+			},
+			"placement": [
+				{
+					"type": "minecraft:block_predicate_filter",
+					"predicate": {
+						"type": "minecraft:all_of",
+						"predicates": [
+							{
+								"type": "minecraft:matching_blocks",
+								"offset": [
+									0,
+									0,
+									0
+								],
+								"blocks": [
+									"minecraft:air",
+									"minecraft:vine"
+								]
+							},
+							{
+								"type": "minecraft:any_of",
+								"predicates": [
+									{
+										"type": "minecraft:matching_blocks",
+										"offset": [
+											-1,
+											0,
+											-1
+										],
+										"blocks": [
+											"minecraft:birch_log",
+											"minecraft:birch_wood"
+										]
+									},
+									{
+										"type": "minecraft:matching_blocks",
+										"offset": [
+											-1,
+											0,
+											1
+										],
+										"blocks": [
+											"minecraft:birch_log",
+											"minecraft:birch_wood"
+										]
+									},
+									{
+										"type": "minecraft:matching_blocks",
+										"offset": [
+											-1,
+											0,
+											0
+										],
+										"blocks": [
+											"minecraft:birch_log",
+											"minecraft:birch_wood"
+										]
+									},
+									{
+										"type": "minecraft:matching_blocks",
+										"offset": [
+											0,
+											0,
+											1
+										],
+										"blocks": [
+											"minecraft:birch_log",
+											"minecraft:birch_wood"
+										]
+									},
+									{
+										"type": "minecraft:matching_blocks",
+										"offset": [
+											0,
+											0,
+											-1
+										],
+										"blocks": [
+											"minecraft:birch_log",
+											"minecraft:birch_wood"
+										]
+									},
+									{
+										"type": "minecraft:matching_blocks",
+										"offset": [
+											1,
+											0,
+											-1
+										],
+										"blocks": [
+											"minecraft:birch_log",
+											"minecraft:birch_wood"
+										]
+									},
+									{
+										"type": "minecraft:matching_blocks",
+										"offset": [
+											1,
+											0,
+											0
+										],
+										"blocks": [
+											"minecraft:birch_log",
+											"minecraft:birch_wood"
+										]
+									},
+									{
+										"type": "minecraft:matching_blocks",
+										"offset": [
+											1,
+											0,
+											1
+										],
+										"blocks": [
+											"minecraft:birch_log",
+											"minecraft:birch_wood"
+										]
+									}
+								]
+							}
+						]
+					}
+				}
+			]
+		}
+	}
+}

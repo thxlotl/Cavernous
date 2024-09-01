@@ -1,0 +1,109 @@
+{
+	"type": "minecraft:entity",
+	"pools": [
+		{
+			"rolls": 1,
+			"bonus_rolls": 0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:arrow",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 0,
+								"max": 2
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:enchanted_count_increase",
+							"enchantment": "minecraft:looting",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 0,
+								"max": 1
+							}
+						}
+					],
+					"conditions": [
+						{
+							"condition": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"nbt": "{Tags:[\"not_miner\",\"not_guard\",]}"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"bonus_rolls": 0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:bone",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 0,
+								"max": 2
+							},
+							"add": false
+						},
+						{
+							"function": "minecraft:enchanted_count_increase",
+							"enchantment": "minecraft:looting",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 0,
+								"max": 1
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:shelter_pottery_sherd",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"custom_data":{"tag":"ancient_tablet"},
+								"custom_name": "{\"color\":\"dark_red\",\"text\":\"Ancient Tablet\"}",
+								"lore": ["[{\"text\":\"Crafting Resource\",\"italic\":false,\"color\":\"gray\"},{\"text\":\"\",\"italic\":false,\"color\":\"dark_purple\"}]","[{\"text\":\"Throw on the ground with\",\"italic\":false,\"color\":\"red\"},{\"text\":\"\",\"italic\":false,\"color\":\"dark_purple\"}]","[{\"text\":\"valid item to imbue it\",\"italic\":false,\"color\":\"red\"},{\"text\":\"\",\"italic\":false,\"color\":\"dark_purple\"}]","[{\"text\":\"with ancient power.\",\"italic\":false,\"color\":\"red\"}]","[{\"text\":\"This will remove any\",\"italic\":false,\"color\":\"red\"}]","[{\"text\":\"enchantments off of the\",\"italic\":false,\"color\":\"red\"}]","[{\"text\":\"item.\",\"italic\":false,\"color\":\"red\"},{\"text\":\"\",\"italic\":false,\"color\":\"dark_purple\"}]","[{\"text\":\"\",\"italic\":false,\"color\":\"dark_purple\"}]","[{\"text\":\"Valid Items:\",\"italic\":false,\"color\":\"gray\"},{\"text\":\"\",\"italic\":false,\"color\":\"dark_purple\"}]","[{\"text\":\"-Diamond armor\",\"italic\":false,\"color\":\"gray\"},{\"text\":\"\",\"italic\":false,\"color\":\"dark_purple\"}]","[{\"text\":\"-Stone sword\",\"italic\":false,\"color\":\"gray\"},{\"text\":\"\",\"italic\":false,\"color\":\"dark_purple\"}]","[{\"text\":\"-Shield\",\"italic\":false,\"color\":\"gray\"}]","[{\"text\":\"-Crossbow\",\"italic\":false,\"color\":\"gray\"}]"],
+								"enchantments": {"levels":{"lure":0}}
+		
+							}
+						}
+					],
+					"conditions": [
+						{
+							"condition": "minecraft:random_chance",
+							"chance": 0.006
+						},
+						{
+							"condition": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"nbt": "{Tags:[\"veil_guard\"]}"
+							}
+						}
+					]
+				}
+			]
+		}
+	],
+	"random_sequence": "minecraft:entities/skeleton"
+}

@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "minecraft:barrier"
+		},
+		{
+			"item": "minecraft:arrow"
+		}
+	],
+	"result": {
+		"id": "minecraft:knowledge_book"
+	}
+}

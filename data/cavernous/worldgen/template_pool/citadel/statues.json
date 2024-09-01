@@ -1,0 +1,36 @@
+{
+  "name": "cavernous:citadel",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "cavernous:citadel/statues/gaurd",
+				"override_liquid_settings": "ignore_waterlogging",
+        "projection": "rigid",
+        "processors": "cavernous:citadel_gate"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "cavernous:citadel/statues/skull",
+				"override_liquid_settings": "ignore_waterlogging",
+        "projection": "rigid",
+        "processors": "cavernous:citadel_gate"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "cavernous:citadel/statues/sword",
+				"override_liquid_settings": "ignore_waterlogging",
+        "projection": "rigid",
+        "processors": "cavernous:citadel_gate"
+      }
+    }
+  ]
+}

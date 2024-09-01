@@ -1,0 +1,14 @@
+{
+	"structures": [
+		{
+			"structure": "cavernous:husk_spawner",
+			"weight": 1
+		}
+	],
+	"placement": {
+		"type": "minecraft:random_spread",
+		"salt": 1012110627,
+		"spacing": 13,
+		"separation": 6
+	}
+}

@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:lava_bucket"
+    },
+    "title": {
+      "text": "Hotter stuff"
+    },
+    "description": {
+      "text": "Fill a bucket with lava in a volcanic cave"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "cavernous:scorching_spelunker",
+  "criteria": {
+    "bucketlavainvolcano": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "cavernous:volcanic_caves"
+          }
+        },
+        "items": [
+          {
+            "items": [
+              "minecraft:lava_bucket"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

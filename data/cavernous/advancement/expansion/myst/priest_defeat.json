@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:gold_nugget"
+		},
+		"title": {
+			"text": "Defeat the Priest"
+		},
+		"description": {
+			"text": "Defeat the priest and open a portal back to the Overworld."
+		},
+		"frame": "task",
+		"show_toast": false,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "cavernous:expansion/myst/priest_summon",
+	"criteria": {
+		"sad": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

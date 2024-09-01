@@ -1,0 +1,36 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:cut_copper"
+		},
+		"title": {
+			"text": "Melting Down"
+		},
+		"description": {
+			"text": "Find an abandoned thermal plant. Maybe there's a way to cool it down?"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": true
+	},
+	"parent": "cavernous:scorching_spelunker",
+	"criteria": {
+		"cavernous:the_undergrowth": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"location": {
+								"structures": "cavernous:thermal_plant"
+							}
+						}
+					}
+				]
+			}
+		}
+	}
+}

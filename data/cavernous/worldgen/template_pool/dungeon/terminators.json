@@ -1,0 +1,16 @@
+{
+  "name": "cavernous:dungeon/rooms",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "cavernous:dungeon/entrance",
+				"override_liquid_settings": "ignore_waterlogging",
+        "projection": "rigid",
+        "processors": "cavernous:dungeon"
+      }
+    }
+  ]
+}

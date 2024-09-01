@@ -1,0 +1,2 @@
+execute unless score @s remnant.has_set_up matches 1 run function cavernous:myst/remnant_setup
+execute if entity @a[distance=..15] run particle dust{color:[0.443, 0.055, 0.055],scale:1.5} ~ ~0.5 ~ 0.15 0.15 0.15 0 3 force @a

@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:spore_blossom"
+		},
+		"title": {
+			"text": "The jungle grows restless..."
+		},
+		"description": {
+			"text": "Break a spore blossom in the tropical caves."
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "cavernous:tropical_excavation",
+	"criteria": {
+		"impossible": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

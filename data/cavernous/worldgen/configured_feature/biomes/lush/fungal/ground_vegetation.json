@@ -1,0 +1,52 @@
+{
+	"type": "minecraft:simple_block",
+	"config": {
+		"to_place": {
+			"type": "minecraft:weighted_state_provider",
+			"entries": [
+				{
+					"weight": 3,
+					"data": {
+						"Name": "minecraft:crimson_fungus"
+					}
+				},
+				{
+					"weight": 8,
+					"data": {
+						"Name": "minecraft:short_grass"
+					}
+				},
+				{
+					"weight": 15,
+					"data": {
+						"Name": "minecraft:fern"
+					}
+				},
+				{
+					"weight": 10,
+					"data": {
+						"Name": "minecraft:crimson_roots"
+					}
+				},
+				{
+					"weight": 8,
+					"data": {
+						"Name": "minecraft:large_fern"
+					}
+				},
+				{
+					"weight": 2,
+					"data": {
+						"Name": "minecraft:brown_mushroom"
+					}
+				},
+				{
+					"weight": 2,
+					"data": {
+						"Name": "minecraft:red_mushroom"
+					}
+				}
+			]
+		}
+	}
+}

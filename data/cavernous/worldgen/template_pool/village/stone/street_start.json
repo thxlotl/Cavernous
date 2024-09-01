@@ -1,0 +1,15 @@
+{
+  "fallback": "cavernous:village/stone/terminators",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "cavernous:village/stone/streets/start",
+				"override_liquid_settings": "ignore_waterlogging",
+        "projection": "rigid",
+        "processors": "cavernous:stone_village"
+      }
+    }
+  ]
+}

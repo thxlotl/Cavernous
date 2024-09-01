@@ -1,0 +1,14 @@
+{
+	"structures": [
+		{
+			"structure": "cavernous:the_citadel",
+			"weight": 1
+		}
+	],
+	"placement": {
+		"type": "minecraft:random_spread",
+		"salt": 1895659574,
+		"spacing": 24,
+		"separation": 12
+	}
+}

@@ -1,0 +1,30 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:oxidized_cut_copper"
+		},
+		"title": {
+			"text": "Living in the land"
+		},
+		"description": {
+			"text": "Or is it with? Discover a lush cave village"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "cavernous:caving_in",
+	"criteria": {
+		"skull": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structures": "cavernous:lush_village"
+					}
+				}
+			}
+		}
+	}
+}

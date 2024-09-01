@@ -1,0 +1,66 @@
+{
+	"feature": {
+		"type": "minecraft:random_boolean_selector",
+		"config": {
+			"feature_false": {
+				"feature": "cavernous:generic/amethyst_tree",
+				"placement": []
+			},
+			"feature_true": {
+				"feature": "cavernous:generic/gold_tree",
+				"placement": []
+			}
+		}
+	},
+	"placement": [
+		{
+			"type": "minecraft:rarity_filter",
+			"chance": 32
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "minecraft:height_range",
+			"height": {
+				"type": "minecraft:uniform",
+				"min_inclusive": {
+					"above_bottom": 0
+				},
+				"max_inclusive": {
+					"absolute": 0
+				}
+			}
+		},
+		{
+			"type": "minecraft:environment_scan",
+			"direction_of_search": "down",
+			"max_steps": 24,
+			"target_condition": {
+				"type": "minecraft:matching_blocks",
+				"offset": [
+					0,
+					0,
+					0
+				],
+				"blocks": "#cavernous:all_cave_blocks"
+			},
+			"allowed_search_condition": {
+				"type": "minecraft:matching_blocks",
+				"offset": [
+					0,
+					0,
+					0
+				],
+				"blocks": [
+					"minecraft:air"
+				]
+			}
+		},
+		{
+			"type": "minecraft:random_offset",
+			"xz_spread": 0,
+			"y_spread": 1
+		}
+	]
+}

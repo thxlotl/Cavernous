@@ -1,0 +1,16 @@
+{
+	"condition": "minecraft:entity_properties",
+	"entity": "this",
+	"predicate": {
+		"equipment": {
+			"head": {
+				"items": [
+					"minecraft:player_head"
+				],
+				"components": {
+					"minecraft:custom_data": {"tag":"ancient_armor"}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,6 @@
+kill @e[type=item,nbt={Item:{id:"minecraft:diamond_helmet",count:1}},limit=1,sort=nearest]
+summon item ~ ~0.5 ~ {Item:{id:"minecraft:player_head",count:1,components:{profile:{id:[I;-12399,16010,152331,-32020],properties:[{value:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjkxMWU0NmIxOGJiMmJlNDczOWQyYTkxNmY4ODEyZmEwMzA1ZmNhNzQxYzlkNDliOTFjM2MzNDU3YjcyM2NhNSJ9fX0,name:textures}]},custom_data:{tag:ancient_armor},item_name:'[{"text":"Ancient Mask","italic":false,"color":"dark_red"}]',lore:['[{"text":"Blood Breathing I","italic":false,"color":"gray"},{"text":"","italic":false,"color":"dark_purple"}]','[{"text":"","italic":false,"color":"dark_purple"}]','[{"text":"-2.0 ❤","italic":false,"color":"red"},{"text":"","italic":false,"color":"dark_purple"}]','[{"text":"","italic":false,"color":"dark_purple"}]','[{"text":"Set Bonus:","italic":false,"color":"dark_purple"}]','[{"text":"-No blood toll on ancient","italic":false,"color":"dark_purple"}]','[{"text":" items","italic":false,"color":"dark_purple"}]'],enchantments:{levels:{lure:0}}}}}
+tag @s add has_crafted
+
+particle dust{color:[0.443, 0.055, 0.055],scale:2} ~ ~ ~ 0.3 0.3 0.3 1 30 normal @a
+playsound block.end_portal_frame.fill block @a ~ ~ ~ 0.8 0.3 0

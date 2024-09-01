@@ -1,0 +1,84 @@
+{
+	"temperature": 0.8,
+	"downfall": 1,
+	"has_precipitation": true,
+	"effects": {
+		"sky_color": 859144,
+		"fog_color": 3165975,
+		"water_color": 8499004,
+		"water_fog_color": 5995825,
+		"grass_color": 15779635,
+		"foliage_color": 7560330,
+		"grass_color_modifier": "none",
+		"mood_sound": {
+			"sound": "minecraft:ambient.cave",
+			"tick_delay": 6000,
+			"block_search_extent": 8,
+			"offset": 2
+		},
+		"music": {
+			"sound": "minecraft:music.overworld.dripstone_caves",
+			"min_delay": 12000,
+			"max_delay": 24000,
+			"replace_current_music": false
+		},
+		"particle": {
+			"options": {
+				"type": "minecraft:spore_blossom_air"
+			},
+			"probability": 0.005
+		}
+	},
+	"spawners": {
+		"ambient": [],
+		"axolotls": [],
+		"creature": [],
+		"misc": [],
+		"monster": [
+			{
+				"type": "minecraft:zombie",
+				"weight": 5,
+				"minCount": 2,
+				"maxCount": 4
+			},
+			{
+				"type": "minecraft:skeleton",
+				"weight": 2,
+				"minCount": 1,
+				"maxCount": 2
+			}
+		],
+		"underground_water_creature": [],
+		"water_ambient": [],
+		"water_creature": []
+	},
+	"spawn_costs": {},
+	"carvers": {
+		"air": []
+	},
+	"features": [
+		[],
+		[],
+		[],
+		[],
+		[],
+		[],
+		[],
+		[],
+		[],
+		[
+			"cavernous:myst/noxwoods/pool",
+			"cavernous:myst/noxwoods/slime_pillar",
+			"cavernous:myst/noxwoods/raised_land",
+			"cavernous:myst/noxwoods/patch_grass",
+			"cavernous:myst/noxwoods/blue_split",
+			"cavernous:myst/noxwoods/crystal",
+			"cavernous:myst/noxwoods/tall_tree",
+			"cavernous:myst/noxwoods/goop_tree",
+			"cavernous:myst/noxwoods/bubble_bush"
+		],
+		[
+			"minecraft:freeze_top_layer"
+		]
+	]
+}

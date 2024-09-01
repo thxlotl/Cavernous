@@ -1,0 +1,49 @@
+{
+	"feature": {
+		"type": "minecraft:ore",
+		"config": {
+			"size": 64,
+			"discard_chance_on_air_exposure": 0,
+			"targets": [
+				{
+					"target": {
+						"predicate_type": "minecraft:block_match",
+						"block": "minecraft:birch_log"
+					},
+					"state": {
+						"Name": "minecraft:birch_wood",
+						"Properties": {
+							"axis": "y"
+						}
+					}
+				}
+			]
+		}
+	},
+	"placement": [
+		{
+			"type": "minecraft:count",
+			"count": 50
+		},
+		{
+			"type": "minecraft:random_offset",
+			"xz_spread": 7,
+			"y_spread": 0
+		},
+		{
+			"type": "minecraft:height_range",
+			"height": {
+				"type": "minecraft:uniform",
+				"min_inclusive": {
+					"above_bottom": 0
+				},
+				"max_inclusive": {
+					"absolute": 64
+				}
+			}
+		},
+		{
+			"type": "biome"
+		}
+	]
+}

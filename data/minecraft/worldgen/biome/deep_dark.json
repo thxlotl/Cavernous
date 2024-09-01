@@ -1,0 +1,86 @@
+{
+	"temperature": 0.8,
+	"downfall": 0.4,
+	"has_precipitation": true,
+	"effects": {
+		"sky_color": 7907327,
+		"fog_color": 12638463,
+		"water_color": 4159204,
+		"water_fog_color": 329011,
+		"mood_sound": {
+			"sound": "minecraft:ambient.cave",
+			"tick_delay": 6000,
+			"block_search_extent": 8,
+			"offset": 2
+		},
+		"music": {
+			"sound": "minecraft:music.overworld.deep_dark",
+			"min_delay": 12000,
+			"max_delay": 24000,
+			"replace_current_music": false
+		}
+	},
+	"spawners": {
+		"ambient": [],
+		"axolotls": [],
+		"creature": [],
+		"misc": [],
+		"monster": [],
+		"underground_water_creature": [],
+		"water_ambient": [],
+		"water_creature": []
+	},
+	"spawn_costs": {},
+	"carvers": {
+		"air": [
+			"minecraft:cave",
+			"minecraft:cave_extra_underground",
+			"minecraft:canyon"
+		]
+	},
+	"features": [
+		[
+			"cavernous:generic/remove_lava/-64"
+		],
+		[],
+		[
+			"minecraft:amethyst_geode",
+			"cavernous:generic/big_geode"
+		],
+		[],
+		[],
+		[],
+		[
+			"cavernous:generic/splotches/gravel",
+			"cavernous:generic/splotches/andesite",
+			"cavernous:generic/splotches/granite",
+			"cavernous:generic/splotches/tuff"
+		],
+		[
+			"cavernous:generic/ores/coal",
+			"cavernous:generic/ores/copper",
+			"cavernous:generic/ores/diamond",
+			"cavernous:generic/ores/gold",
+			"cavernous:generic/ores/gold_buried",
+			"cavernous:generic/ores/iron_middle",
+			"cavernous:generic/ores/iron_small",
+			"cavernous:generic/ores/lapis",
+			"cavernous:generic/ores/lapis_buried",
+			"cavernous:generic/ores/redstone",
+			"cavernous:generic/ores/redstone_lower",
+			"minecraft:sculk_vein",
+			"minecraft:sculk_patch_deep_dark"
+		],
+		[
+			"cavernous:generic/ores/special/treasure",
+			"cavernous:generic/ores/special/gold_chunk",
+			"cavernous:generic/ores/special/copper_chunk"
+		],
+		[
+			"minecraft:glow_lichen"
+		],
+		[
+			"minecraft:freeze_top_layer"
+		]
+	]
+}

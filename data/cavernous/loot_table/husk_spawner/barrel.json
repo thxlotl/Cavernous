@@ -1,0 +1,135 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 2,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:chiseled_bookshelf"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:map",
+					"functions": [
+						{
+							"function": "minecraft:exploration_map",
+							"destination": "cavernous:sandstone_temple",
+							"decoration": "red_x",
+							"zoom": 1,
+							"skip_existing_chunks": false
+						},
+						{
+							"function": "minecraft:set_name",
+							"name": "Sandstone Temple Explorer Map"
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 7,
+			"bonus_rolls": 0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 3,
+					"name": "minecraft:glass_bottle",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 3,
+					"name": "minecraft:bowl",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 3
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 6,
+					"name": "minecraft:book",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 3
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 3,
+					"name": "minecraft:paper",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 2,
+								"max": 4
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": {
+				"min": 0,
+				"max": 1
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:dune_armor_trim_smithing_template"
+				}
+			]
+		},
+		{
+			"rolls": {
+				"min": 1,
+				"max": 2
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:tipped_arrow",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"potion_contents": {"custom_color": 16763190},
+								"custom_name": "{\"text\":\"Torch Arrow\",\"italic\":false}"
+							}
+						},
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 3
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

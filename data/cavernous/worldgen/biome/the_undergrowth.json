@@ -1,0 +1,134 @@
+{
+	"temperature": 0.6,
+	"downfall": 0.6,
+	"has_precipitation": true,
+	"effects": {
+		"sky_color": 7907327,
+		"fog_color": 12638463,
+		"water_color": 9832456,
+		"water_fog_color": 4525325,
+		"grass_color": 10639172,
+		"foliage_color": 11820880,
+		"mood_sound": {
+			"sound": "minecraft:ambient.cave",
+			"tick_delay": 6000,
+			"block_search_extent": 8,
+			"offset": 2
+		},
+		"music": {
+			"sound": "minecraft:music.overworld.lush_caves",
+			"min_delay": 12000,
+			"max_delay": 24000,
+			"replace_current_music": false
+		},
+		"particle": {
+			"options": {
+				"type": "minecraft:crimson_spore"
+			},
+			"probability": 0.009
+		}
+	},
+	"spawners": {
+		"ambient": [],
+		"axolotls": [],
+		"creature": [],
+		"misc": [],
+		"monster": [
+			{
+				"type": "minecraft:zombie",
+				"weight": 100,
+				"minCount": 1,
+				"maxCount": 3
+			},
+			{
+				"type": "minecraft:skeleton",
+				"weight": 100,
+				"minCount": 2,
+				"maxCount": 3
+			},
+			{
+				"type": "minecraft:creeper",
+				"weight": 50,
+				"minCount": 1,
+				"maxCount": 2
+			},
+			{
+				"type": "minecraft:spider",
+				"weight": 25,
+				"minCount": 1,
+				"maxCount": 2
+			}
+		],
+		"underground_water_creature": [],
+		"water_ambient": [],
+		"water_creature": []
+	},
+	"spawn_costs": {},
+	"carvers": {
+		"air": [
+			"minecraft:cave",
+			"minecraft:cave_extra_underground",
+			"minecraft:canyon",
+			"cavernous:snaking_ravine"
+		]
+	},
+	"features": [
+		[
+			"cavernous:generic/remove_lava/-64"
+		],
+		[],
+		[],
+		[],
+		[],
+		[],
+		[
+			"cavernous:generic/splotches/gravel",
+			"cavernous:generic/splotches/granite",
+			"cavernous:biomes/undergrowth/splotch_placer"
+		],
+		[
+			"cavernous:generic/ores/coal",
+			"cavernous:generic/ores/copper",
+			"cavernous:generic/ores/diamond",
+			"cavernous:generic/ores/gold",
+			"cavernous:generic/ores/gold_buried",
+			"cavernous:generic/ores/iron_middle",
+			"cavernous:generic/ores/iron_small",
+			"cavernous:generic/ores/lapis",
+			"cavernous:generic/ores/lapis_buried",
+			"cavernous:generic/ores/redstone",
+			"cavernous:generic/ores/redstone_lower"
+		],
+		[
+			"cavernous:generic/ores/special/treasure",
+			"cavernous:generic/ores/special/gold_chunk",
+			"cavernous:generic/ores/special/copper_chunk"
+		],
+		[
+			"minecraft:glow_lichen",
+			"cavernous:biomes/undergrowth/root/start",
+			"cavernous:biomes/undergrowth/root/step_1",
+			"cavernous:biomes/undergrowth/root/step_2",
+			"cavernous:biomes/undergrowth/root/step_3",
+			"cavernous:biomes/undergrowth/root/step_4",
+			"cavernous:biomes/undergrowth/ground_root_thicken",
+			"cavernous:biomes/undergrowth/root_light",
+			"cavernous:biomes/undergrowth/ruined_pillar",
+			"cavernous:biomes/undergrowth/ruined_floor",
+			"cavernous:biomes/undergrowth/patch_grass",
+			"cavernous:biomes/undergrowth/patch_vegetation",
+			"cavernous:biomes/undergrowth/shelf/step1",
+			"cavernous:biomes/undergrowth/shelf/step2",
+			"cavernous:biomes/undergrowth/shelf/step3",
+			"cavernous:biomes/undergrowth/pool",
+			"cavernous:biomes/undergrowth/leaf",
+			"cavernous:biomes/undergrowth/sprout",
+			"cavernous:biomes/undergrowth/sprout_3",
+			"cavernous:biomes/undergrowth/sprout_2",
+			"cavernous:biomes/undergrowth/hanging_roots"
+		],
+		[
+			"minecraft:freeze_top_layer"
+		]
+	]
+}

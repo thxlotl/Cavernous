@@ -1,9 +1,0 @@
-{
-  "replace": false,
-  "values": [
-    "cavernous:desert/desert_caves",
-    "cavernous:desert/sandstone_caves",
-    "cavernous:desert/painted_sandstone_caves",
-    "cavernous:desert/underground_oasis"
-  ]
-}

@@ -1,0 +1,17 @@
+{
+	"values": [
+		"#cavernous:basic_stone",
+		"#cavernous:biomes/lush/fungal_caves/solids",
+		"#cavernous:biomes/lush/glowshroom_caves/solids",
+		
+		"#cavernous:biomes/desert/desert_caves/solids",
+		"#cavernous:biomes/desert/arid_caves/solids",
+		"#cavernous:biomes/desert/painted_caves/solids",
+
+		"#cavernous:biomes/stone/marble_caves/solids",
+
+		"#cavernous:biomes/ice/icy_caves/solids",
+
+		"#cavernous:biomes/undergrowth/solids"
+	]
+}

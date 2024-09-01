@@ -1,0 +1,39 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:soul_sand"
+		},
+		"title": {
+			"text": "Vilegorge"
+		},
+		"description": {
+			"text": "Entered the vilegorge"
+		},
+		"frame": "task",
+		"show_toast": false,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "cavernous:expansion/myst/root",
+	"criteria": {
+		"cavernous:the_undergrowth": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"location": {
+								"biomes": "cavernous:myst/vilegorge"
+							}
+						}
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "cavernous:myst/title_cards/vilegorge"
+	}
+}

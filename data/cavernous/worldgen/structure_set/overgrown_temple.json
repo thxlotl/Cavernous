@@ -1,0 +1,14 @@
+{
+	"structures": [
+		{
+			"structure": "cavernous:overgrown_temple",
+			"weight": 1
+		}
+	],
+	"placement": {
+		"type": "minecraft:random_spread",
+		"salt": 557670999,
+		"spacing": 20,
+		"separation": 12
+	}
+}

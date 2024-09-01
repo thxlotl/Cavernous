@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:jigsaw",
+	"biomes": "#cavernous:has_structure/exit_portal",
+	"step": "raw_generation",
+	"spawn_overrides": {},
+	"terrain_adaptation": "beard_box",
+	"start_pool": "cavernous:exit_portal",
+	"size": 1,
+	"start_height": {
+		"absolute": 40
+	},
+	"start_jigsaw_name": "cavernous:exit_portal_anchor",
+	"max_distance_from_center": 100,
+	"use_expansion_hack": false,
+	"liquid_settings": "ignore_waterlogging"
+}

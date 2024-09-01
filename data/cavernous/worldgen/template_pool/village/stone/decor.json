@@ -1,0 +1,89 @@
+{
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 16,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "cavernous:village/stone/decor/lamp",
+				"processors": "cavernous:stone_village"
+			}
+		},
+		{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "cavernous:village/stone/decor/dual_lamp",
+				"processors": "cavernous:stone_village"
+			}
+		},
+		{
+			"weight": 6,
+			"element": {
+				"element_type": "minecraft:feature_pool_element",
+				"projection": "rigid",
+				"feature": "cavernous:structures/village/stone/column_up"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"projection": "rigid",
+				"location": "minecraft:village/common/iron_golem",
+				"processors": "minecraft:empty"
+			}
+		},
+		{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"projection": "rigid",
+				"location": "minecraft:village/common/animals/pigs_1",
+				"processors": "minecraft:empty"
+			}
+		},
+		{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"projection": "rigid",
+				"location": "minecraft:village/common/animals/sheep_1",
+				"processors": "minecraft:empty"
+			}
+		},
+		{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"projection": "rigid",
+				"location": "minecraft:village/common/animals/cows_1",
+				"processors": "minecraft:empty"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:feature_pool_element",
+				"projection": "rigid",
+				"feature": "minecraft:pile_hay"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:feature_pool_element",
+				"projection": "rigid",
+				"feature": "cavernous:structures/village/stone/pile_coal"
+			}
+		},
+		{
+			"weight": 8,
+			"element": {
+				"element_type": "minecraft:empty_pool_element"
+			}
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:skeleton_skull"
+		},
+		"title": {
+			"text": "Summon the Priest"
+		},
+		"description": {
+			"text": "Summon High Priest Veridian for a final fight."
+		},
+		"frame": "task",
+		"show_toast": false,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "cavernous:expansion/myst/vilegorge",
+	"criteria": {
+		"sad": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

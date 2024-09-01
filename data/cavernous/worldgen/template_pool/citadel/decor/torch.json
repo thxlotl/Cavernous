@@ -1,0 +1,36 @@
+{
+  "name": "cavernous:citadel",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 70,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "cavernous:citadel/decor/torch",
+				"override_liquid_settings": "ignore_waterlogging",
+        "projection": "rigid",
+        "processors": "cavernous:citadel_gate"
+      }
+    },
+    {
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "cavernous:citadel/decor/torch_unlit",
+				"override_liquid_settings": "ignore_waterlogging",
+        "projection": "rigid",
+        "processors": "cavernous:citadel_gate"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "cavernous:citadel/decor/torch_broken",
+				"override_liquid_settings": "ignore_waterlogging",
+        "projection": "rigid",
+        "processors": "cavernous:citadel_gate"
+      }
+    }
+  ]
+}

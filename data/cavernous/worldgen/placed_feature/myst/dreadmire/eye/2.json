@@ -1,0 +1,347 @@
+{
+	"feature": {
+		"type": "minecraft:random_patch",
+		"config": {
+			"tries": 300,
+			"xz_spread": 2,
+			"y_spread": 1,
+			"feature": {
+				"feature": {
+					"type": "minecraft:simple_block",
+					"config": {
+						"to_place": {
+							"type": "minecraft:simple_state_provider",
+							"state": {
+								"Name": "minecraft:shroomlight"
+							}
+						}
+					}
+				},
+				"placement": [
+					{
+						"type": "minecraft:block_predicate_filter",
+						"predicate": {
+							"type": "minecraft:all_of",
+							"predicates": [
+								{
+									"type": "minecraft:any_of",
+									"predicates": [
+										{
+											"type": "minecraft:matching_blocks",
+											"offset": [
+												-1,
+												0,
+												2
+											],
+											"blocks": "minecraft:blackstone"
+										},
+										{
+											"type": "minecraft:matching_blocks",
+											"offset": [
+												0,
+												0,
+												2
+											],
+											"blocks": "minecraft:blackstone"
+										},
+										{
+											"type": "minecraft:matching_blocks",
+											"offset": [
+												1,
+												0,
+												2
+											],
+											"blocks": "minecraft:blackstone"
+										},
+										{
+											"type": "minecraft:matching_blocks",
+											"offset": [
+												-2,
+												0,
+												1
+											],
+											"blocks": "minecraft:blackstone"
+										},
+										{
+											"type": "minecraft:matching_blocks",
+											"offset": [
+												-1,
+												0,
+												1
+											],
+											"blocks": "minecraft:blackstone"
+										},
+										{
+											"type": "minecraft:matching_blocks",
+											"offset": [
+												0,
+												0,
+												1
+											],
+											"blocks": "minecraft:blackstone"
+										},
+										{
+											"type": "minecraft:matching_blocks",
+											"offset": [
+												1,
+												0,
+												1
+											],
+											"blocks": "minecraft:blackstone"
+										},
+										{
+											"type": "minecraft:matching_blocks",
+											"offset": [
+												2,
+												0,
+												1
+											],
+											"blocks": "minecraft:blackstone"
+										},
+										{
+											"type": "minecraft:matching_blocks",
+											"offset": [
+												-2,
+												0,
+												0
+											],
+											"blocks": "minecraft:blackstone"
+										},
+										{
+											"type": "minecraft:matching_blocks",
+											"offset": [
+												-1,
+												0,
+												0
+											],
+											"blocks": "minecraft:blackstone"
+										},
+										{
+											"type": "minecraft:matching_blocks",
+											"offset": [
+												1,
+												0,
+												0
+											],
+											"blocks": "minecraft:blackstone"
+										},
+										{
+											"type": "minecraft:matching_blocks",
+											"offset": [
+												2,
+												0,
+												0
+											],
+											"blocks": "minecraft:blackstone"
+										},
+										{
+											"type": "minecraft:matching_blocks",
+											"offset": [
+												-2,
+												0,
+												-1
+											],
+											"blocks": "minecraft:blackstone"
+										},
+										{
+											"type": "minecraft:matching_blocks",
+											"offset": [
+												-1,
+												0,
+												-1
+											],
+											"blocks": "minecraft:blackstone"
+										},
+										{
+											"type": "minecraft:matching_blocks",
+											"offset": [
+												0,
+												0,
+												-1
+											],
+											"blocks": "minecraft:blackstone"
+										},
+										{
+											"type": "minecraft:matching_blocks",
+											"offset": [
+												1,
+												0,
+												-1
+											],
+											"blocks": "minecraft:blackstone"
+										},
+										{
+											"type": "minecraft:matching_blocks",
+											"offset": [
+												2,
+												0,
+												-1
+											],
+											"blocks": "minecraft:blackstone"
+										},
+										{
+											"type": "minecraft:matching_blocks",
+											"offset": [
+												-1,
+												0,
+												-2
+											],
+											"blocks": "minecraft:blackstone"
+										},
+										{
+											"type": "minecraft:matching_blocks",
+											"offset": [
+												0,
+												0,
+												-2
+											],
+											"blocks": "minecraft:blackstone"
+										},
+										{
+											"type": "minecraft:matching_blocks",
+											"offset": [
+												1,
+												0,
+												-2
+											],
+											"blocks": "minecraft:blackstone"
+										},
+										{
+											"type": "minecraft:matching_blocks",
+											"offset": [
+												1,
+												0,
+												-2
+											],
+											"blocks": "minecraft:blackstone"
+										},
+										{
+											"type": "minecraft:matching_blocks",
+											"offset": [
+												-1,
+												1,
+												1
+											],
+											"blocks": "minecraft:blackstone"
+										},
+										{
+											"type": "minecraft:matching_blocks",
+											"offset": [
+												0,
+												1,
+												1
+											],
+											"blocks": "minecraft:blackstone"
+										},
+										{
+											"type": "minecraft:matching_blocks",
+											"offset": [
+												1,
+												1,
+												1
+											],
+											"blocks": "minecraft:blackstone"
+										},
+										{
+											"type": "minecraft:matching_blocks",
+											"offset": [
+												1,
+												1,
+												0
+											],
+											"blocks": "minecraft:blackstone"
+										},
+										{
+											"type": "minecraft:matching_blocks",
+											"offset": [
+												-1,
+												1,
+												0
+											],
+											"blocks": "minecraft:blackstone"
+										},
+										{
+											"type": "minecraft:matching_blocks",
+											"offset": [
+												-1,
+												1,
+												-1
+											],
+											"blocks": "minecraft:blackstone"
+										},
+										{
+											"type": "minecraft:matching_blocks",
+											"offset": [
+												0,
+												1,
+												-1
+											],
+											"blocks": "minecraft:blackstone"
+										},
+										{
+											"type": "minecraft:matching_blocks",
+											"offset": [
+												1,
+												1,
+												-1
+											],
+											"blocks": "minecraft:blackstone"
+										}
+									]
+								}
+							]
+						}
+					}
+				]
+			}
+		}
+	},
+	"placement": [
+		{
+			"type": "minecraft:count",
+			"count": 255
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "minecraft:height_range",
+			"height": {
+				"type": "minecraft:uniform",
+				"min_inclusive": {
+					"absolute": 78
+				},
+				"max_inclusive": {
+					"absolute": 79
+				}
+			}
+		},
+		{
+			"type": "minecraft:environment_scan",
+			"direction_of_search": "up",
+			"max_steps": 32,
+			"target_condition": {
+				"type": "minecraft:all_of",
+				"predicates": [
+					{
+						"type": "minecraft:matching_blocks",
+						"offset": [
+							0,
+							0,
+							0
+						],
+						"blocks": [
+							"minecraft:blackstone"
+						]
+					}
+				]
+			},
+			"allowed_search_condition": {
+				"type": "minecraft:true"
+			}
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

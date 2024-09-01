@@ -1,0 +1,15 @@
+{
+	"criteria": {
+		"unlocked": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "minecraft:magma_block"
+			}
+		}
+	},
+	"rewards": {
+		"recipes": [
+			"geyser:geyser_block"
+		]
+	}
+}

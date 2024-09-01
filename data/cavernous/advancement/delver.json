@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cobbled_deepslate"
+    },
+    "title": {
+      "text": "Delving in"
+    },
+    "description": {
+      "text": "Dive even deeper into your world"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "cavernous:breaking_ground",
+  "criteria": {
+    "spelunk": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "y": {
+                "min": -64,
+                "max": 0
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

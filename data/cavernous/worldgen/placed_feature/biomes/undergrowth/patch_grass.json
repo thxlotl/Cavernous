@@ -1,0 +1,24 @@
+{
+	"feature": "cavernous:biomes/undergrowth/patch_grass",
+	"placement": [
+		{
+			"type": "minecraft:count",
+			"count": 95
+		},
+		{
+			"type": "minecraft:height_range",
+			"height": {
+				"type": "minecraft:uniform",
+				"min_inclusive": {
+					"above_bottom": 0
+				},
+				"max_inclusive": {
+					"absolute": 57
+				}
+			}
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

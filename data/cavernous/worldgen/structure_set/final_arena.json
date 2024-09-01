@@ -1,0 +1,14 @@
+{
+	"structures": [
+		{
+			"structure": "cavernous:final_arena",
+			"weight": 1
+		}
+	],
+	"placement": {
+		"type": "minecraft:random_spread",
+		"salt": 1374024139,
+		"spacing": 24,
+		"separation": 18
+	}
+}

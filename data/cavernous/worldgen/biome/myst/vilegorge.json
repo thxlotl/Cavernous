@@ -1,0 +1,62 @@
+{
+	"temperature": 0.8,
+	"downfall": 1,
+	"has_precipitation": true,
+	"effects": {
+		"sky_color": 4076820,
+		"fog_color": 12759669,
+		"water_color": 11639358,
+		"water_fog_color": 6510113,
+		"grass_color": 11443803,
+		"foliage_color": 11443803,
+		"grass_color_modifier": "none",
+		"particle": {
+			"options": {
+				"type": "minecraft:white_ash"
+			},
+			"probability": 0.005
+		}
+	},
+	"spawners": {
+		"ambient": [],
+		"axolotls": [],
+		"creature": [],
+		"misc": [],
+		"monster": [
+			{
+				"type": "minecraft:skeleton",
+				"weight": 1,
+				"minCount": 1,
+				"maxCount": 1
+			}
+		],
+		"underground_water_creature": [],
+		"water_ambient": [],
+		"water_creature": []
+	},
+	"spawn_costs": {},
+	"carvers": {
+		"air": []
+	},
+	"features": [
+		[],
+		[],
+		[],
+		[],
+		[],
+		[],
+		[],
+		[],
+		[],
+		[
+			"cavernous:myst/vilegorge/lava_pool",
+			"cavernous:myst/vilegorge/bone_tree",
+			"cavernous:myst/vilegorge/hollow_tree",
+			"cavernous:myst/vilegorge/patch_grass",
+			"cavernous:myst/vilegorge/pillars"
+		],
+		[
+			"minecraft:freeze_top_layer"
+		]
+	]
+}

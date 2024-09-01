@@ -1,0 +1,91 @@
+{
+	"temperature": 0.8,
+	"downfall": 1,
+	"has_precipitation": true,
+	"effects": {
+		"sky_color": 1902343,
+		"fog_color": 4327946,
+		"water_color": 5834760,
+		"water_fog_color": 3147784,
+		"grass_color": 13631745,
+		"foliage_color": 8717573,
+		"grass_color_modifier": "none",
+		"mood_sound": {
+			"sound": "minecraft:ambient.cave",
+			"tick_delay": 6000,
+			"block_search_extent": 8,
+			"offset": 2
+		},
+		"music": {
+			"sound": "minecraft:music.overworld.dripstone_caves",
+			"min_delay": 12000,
+			"max_delay": 24000,
+			"replace_current_music": false
+		},
+		"particle": {
+			"options": {
+				"type": "minecraft:falling_honey"
+			},
+			"probability": 0.00075
+		}
+	},
+	"spawners": {
+		"ambient": [],
+		"axolotls": [],
+		"creature": [],
+		"misc": [],
+		"monster": [
+			{
+				"type": "minecraft:zombie",
+				"weight": 5,
+				"minCount": 1,
+				"maxCount": 3
+			},
+			{
+				"type": "minecraft:skeleton",
+				"weight": 5,
+				"minCount": 1,
+				"maxCount": 3
+			},
+			{
+				"type": "minecraft:creeper",
+				"weight": 3,
+				"minCount": 1,
+				"maxCount": 2
+			}
+		],
+		"underground_water_creature": [],
+		"water_ambient": [],
+		"water_creature": []
+	},
+	"spawn_costs": {},
+	"carvers": {
+		"air": []
+	},
+	"features": [
+		[],
+		[],
+		[],
+		[],
+		[],
+		[],
+		[],
+		[],
+		[],
+		[
+			"cavernous:myst/dreadmire/eye/1",
+			"cavernous:myst/dreadmire/eye/2",
+			"cavernous:myst/dreadmire/patch_coral",
+			"cavernous:myst/dreadmire/meat_pillar_1",
+			"cavernous:myst/dreadmire/meat_pillar_2",
+			"cavernous:myst/dreadmire/dreadtree",
+			"cavernous:myst/dreadmire/tall_tree",
+			"cavernous:myst/dreadmire/glowing_growth",
+			"cavernous:myst/dreadmire/clump_tree",
+			"cavernous:myst/dreadmire/patch_grass"
+		],
+		[
+			"minecraft:freeze_top_layer"
+		]
+	]
+}
