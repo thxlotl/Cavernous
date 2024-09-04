@@ -1,7 +1,7 @@
 ### Noxwoods Poison Water
-execute as @e[predicate=cavernous:in_noxwoods,predicate=cavernous:swimming] at @s if block ~ ~ ~ water run scoreboard players set @s nox.time_poisoned 20
-execute as @e[predicate=cavernous:in_noxwoods,predicate=cavernous:standing] at @s if block ~ ~ ~ water run scoreboard players set @s nox.time_poisoned 20
-execute as @e[predicate=cavernous:in_noxwoods,predicate=cavernous:standing] at @s if block ~ ~1 ~ water run scoreboard players set @s nox.time_poisoned 20
+execute as @e[predicate=cavernous:in_noxwoods] at @s if predicate cavernous:swimming if block ~ ~ ~ water run scoreboard players set @s nox.time_poisoned 20
+execute as @e[predicate=cavernous:in_noxwoods] at @s if predicate cavernous:standing if block ~ ~ ~ water run scoreboard players set @s nox.time_poisoned 20
+execute as @e[predicate=cavernous:in_noxwoods] at @s if predicate cavernous:standing if block ~ ~1 ~ water run scoreboard players set @s nox.time_poisoned 20
 
 execute as @e[scores={nox.time_poisoned=0..}] run effect give @s poison 3 1 true
 execute as @e[scores={nox.time_poisoned=0..}] run scoreboard players remove @s nox.time_poisoned 1
