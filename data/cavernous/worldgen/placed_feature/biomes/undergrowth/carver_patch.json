@@ -19,10 +19,6 @@
 		},
 		{
 			"type": "minecraft:biome"
-		},
-		{
-			"type": "minecraft:carving_mask",
-			"step": "air"
 		}
 	]
 }

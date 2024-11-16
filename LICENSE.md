@@ -15,7 +15,7 @@ You are free to:
 - Include this UNMODIFIED work in a collection or modpack so long as you include proper credit
 including the download page from modrinth as well as the profile page at this link: https://modrinth.com/user/thxlotl.
 It also must include this license.
-- Adapt this work, meaning making it compatible with other packs or porting it to other versions
+- Adapt this work, meaning making it compatible with other packs or porting it to other versions of minecraft.
 so long as you:
     - Follow the license or terms of any other party involved in the compatability. Interstella studios
     does not claim any responsibility for said packs

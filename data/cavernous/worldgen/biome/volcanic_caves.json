@@ -89,8 +89,7 @@
 		"water_creature": []
 	},
 	"spawn_costs": {},
-	"carvers": {
-		"air": [
+	"carvers": [
 			"minecraft:cave",
 			"minecraft:cave_extra_underground",
 			"minecraft:canyon",
@@ -98,8 +97,7 @@
 			"cavernous:snaking_ravine",
 			"cavernous:flat_cave",
 			"cavernous:flat_ravine"
-		]
-	},
+		],
 	"features": [
 		[
 		],
