@@ -6,6 +6,8 @@ Modrinth Download - https://modrinth.com/datapack/cavernous
 
 Interstella Discord - https://discord.gg/D7hyC7AWMJ
 
+Patreon - https://www.patreon.com/InterstellaStudios
+
 ------------------------------------------------------------------------------------
 
 ## CAVERNOUS

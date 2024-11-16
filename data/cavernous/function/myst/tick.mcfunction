@@ -1,10 +1,10 @@
 ### Noxwoods Poison Water
-execute as @e[predicate=cavernous:in_noxwoods,predicate=cavernous:swimming] at @s if block ~ ~ ~ water run scoreboard players set @s nox.time_poisoned 20
-execute as @e[predicate=cavernous:in_noxwoods,predicate=cavernous:standing] at @s if block ~ ~ ~ water run scoreboard players set @s nox.time_poisoned 20
-execute as @e[predicate=cavernous:in_noxwoods,predicate=cavernous:standing] at @s if block ~ ~1 ~ water run scoreboard players set @s nox.time_poisoned 20
+#execute as @e[type=!#minecraft:ignores_poison_and_regen,predicate=cavernous:in_noxwoods,predicate=cavernous:swimming] run scoreboard players set @s nox.time_poisoned 60
+execute as @e[type=!#minecraft:ignores_poison_and_regen,predicate=cavernous:in_noxwoods,predicate=cavernous:standing_feet] run scoreboard players set @s nox.time_poisoned 20
+#execute as @e[type=!#minecraft:ignores_poison_and_regen,predicate=cavernous:in_noxwoods,predicate=cavernous:standing,predicate=!cavernous:standing_feet,scores={nox.time_poisoned=..1}] if block ~ ~1 ~ water run scoreboard players set @s nox.time_poisoned 60
 
-execute as @e[scores={nox.time_poisoned=0..}] run effect give @s poison 3 1 true
-execute as @e[scores={nox.time_poisoned=0..}] run scoreboard players remove @s nox.time_poisoned 1
+execute as @e[type=!#minecraft:ignores_poison_and_regen,scores={nox.time_poisoned=0..}] run effect give @s poison 3 1 true
+execute as @e[type=!#minecraft:ignores_poison_and_regen,scores={nox.time_poisoned=0..}] run scoreboard players remove @s nox.time_poisoned 1
 
 ### Remnant Crafting
 execute as @e[type=item,nbt={Item:{id:"minecraft:nether_wart",count:3,components:{"minecraft:custom_data":{tag:blood_remnant}}}}] at @s run function cavernous:myst/remnant_craft
@@ -37,9 +37,9 @@ execute as @e[type=skeleton,tag=priest_2] at @s run function cavernous:myst/aren
 
 
     #### Management
-    execute if entity @e[type=skeleton,tag=priest_1] run scoreboard players set .global priest.active_global 1
-    execute if entity @e[type=skeleton,tag=priest_2] run scoreboard players set .global priest.active_global 1
-    execute unless entity @e[type=skeleton,tag=priest_1] unless entity @e[type=skeleton,tag=priest_2] run scoreboard players set .global priest.active_global 0
+    execute as @e[type=skeleton,tag=priest_1] run scoreboard players set .global priest.active_global 1
+    execute as @e[type=skeleton,tag=priest_2] run scoreboard players set .global priest.active_global 1
+    execute if score .global priest.active_global matches 1 unless entity @e[type=skeleton,tag=priest_1] unless entity @e[type=skeleton,tag=priest_2] run scoreboard players set .global priest.active_global 0
 
     execute if score .global priest.active_global matches 0 run bossbar set high_priest_health players
 
