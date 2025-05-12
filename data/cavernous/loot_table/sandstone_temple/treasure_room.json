@@ -173,13 +173,13 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"potion_contents": {"custom_color": 5855577},
-								"custom_name": "{\"text\":\"Explosive Arrow\",\"italic\":false}"
+								"custom_name": "Explosive Arrow"
 							}
 						},
 						{
 							"function": "minecraft:set_count",
 							"count": {
-								"min": 1,
+								"min": 3,
 								"max": 5
 							}
 						}

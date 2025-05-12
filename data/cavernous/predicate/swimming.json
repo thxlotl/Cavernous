@@ -4,11 +4,6 @@
 	"predicate": {
 		"flags": {
 			"is_swimming": true
-		},
-		"location": {
-			"block": {
-				"blocks": "water"
-			}
 		}
 	}
 }

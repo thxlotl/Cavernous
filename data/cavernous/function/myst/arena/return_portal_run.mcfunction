@@ -1,5 +1,5 @@
 ### Display
-particle dust{color:[0.443, 0.055, 0.055],scale:3} ~ ~ ~ 0.3 1 0.3 0 20 force @a
+particle dust{color:[0.443, 0.055, 0.055],scale:4} ~ ~ ~ 0.4 1.5 0.4 0 20 force @a
 
 fill ~ ~ ~ ~ ~1 ~ light[level=15] replace air
 

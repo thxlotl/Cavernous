@@ -1,40 +1,35 @@
 {
 	"type": "minecraft:crafting_shapeless",
 	"ingredients": [
-		{
-			"item": "minecraft:chain"
-		},
-		{
-			"item": "minecraft:chain"
-		},
-		{
-			"item": "minecraft:chain"
-		},
-		{
-			"item": "minecraft:chain"
-		},
-		{
-			"item": "minecraft:chain"
-		},
-		{
-			"item": "minecraft:chain"
-		},
-		{
-			"item": "minecraft:chain"
-		},
-		{
-			"item": "minecraft:chain"
-		},
-		{
-			"item": "minecraft:arrow"
-		}
+		"minecraft:chain",
+		"minecraft:chain",
+		"minecraft:chain",
+		"minecraft:chain",
+		"minecraft:chain",
+		"minecraft:chain",
+		"minecraft:chain",
+		"minecraft:chain",
+		"minecraft:arrow"
 	],
 	"result": {
 		"id": "minecraft:tipped_arrow",
 		"components": {
-			"item_name": "[{\"text\":\"Chain Arrow\",\"italic\":false}]",
-			"lore": ["[{\"text\":\"Shoot to create a climbable chain\",\"italic\":false}]","[{\"text\":\"rope\",\"italic\":false}]"],
-			"potion_contents": {"custom_color": 4080476}
+			"minecraft:custom_name": {
+				"text": "Chain Arrow",
+				"type": "text"
+			},
+			"lore": [
+				{
+					"text": "Shoot to create a climbable chain"
+				},
+				{
+					"text": "rope."
+				}
+			],
+			"potion_contents": {
+				"custom_color": 4080476
+			},
+			"tooltip_display": {"hidden_components":["potion_contents"]}
 		}
 	}
 }

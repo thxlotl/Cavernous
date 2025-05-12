@@ -1,0 +1,1 @@
+$tp @s $(pos_x) $(pos_y) $(pos_z)

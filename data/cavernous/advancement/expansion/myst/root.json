@@ -9,12 +9,12 @@
 		"description": {
 			"text": "Entered the myst"
 		},
-		"background": "minecraft:textures/block/mud.png",
 		"frame": "task",
 		"show_toast": false,
 		"announce_to_chat": true,
 		"hidden": true
 	},
+	"parent": "cavernous:expansion/secrets/story/a7_portal",
 	"criteria": {
 		"cavernous:the_undergrowth": {
 			"trigger": "minecraft:location",

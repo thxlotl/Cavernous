@@ -1,1 +1,1 @@
-summon skeleton ~ ~ ~ {Tags:["veil_guard","converted"],HandItems:[{id:stone_sword,count:1},{id:shield,count:1}],HandDropChances:[0.03f,0.03f],ArmorItems:[{id:chainmail_boots,count:1},{},{},{id:chainmail_helmet,count:1}],ArmorDropChances:[0.03f,0f,0f,0.03f]}
+summon skeleton ~ ~ ~ {Tags:["veil_guard","converted"],equipment:{feet:{id:chainmail_boots}, head:{id:chainmail_helmet},mainhand:{id:stone_sword},offhand:{id:shield}},drop_chances:{head:0.3,feet:0.3,mainhand:0.3,offhand:0.3}}

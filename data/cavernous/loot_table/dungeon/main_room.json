@@ -314,9 +314,14 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"potion_contents": {"custom_color": 4080476},
-								"custom_name": "{\"text\":\"Chain Arrow\",\"italic\":false}",
-								"lore": ["[{\"text\":\"Shoot to create a climbable chain\",\"italic\":false}]","[{\"text\":\"rope\",\"italic\":false}]"]
+								"potion_contents": {
+									"custom_color": 4080476
+								},
+								"custom_name": "Chain Arrow",
+								"lore": [
+									"Shoot to create a climbable chain",
+									"rope."
+								]
 							}
 						},
 						{
@@ -335,8 +340,10 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"potion_contents": {"custom_color": 5855577},
-								"custom_name": "{\"text\":\"Explosive Arrow\",\"italic\":false}"
+								"potion_contents": {
+									"custom_color": 5855577
+								},
+								"custom_name": "Explosive Arrow"
 							}
 						},
 						{
@@ -355,8 +362,10 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"potion_contents": {"custom_color": 16763190},
-								"custom_name": "{\"text\":\"Torch Arrow\",\"italic\":false}"
+								"potion_contents": {
+									"custom_color": 16763190
+								},
+								"custom_name": "Torch Arrow"
 							}
 						},
 						{

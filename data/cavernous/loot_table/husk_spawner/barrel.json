@@ -19,6 +19,7 @@
 							"destination": "cavernous:sandstone_temple",
 							"decoration": "red_x",
 							"zoom": 1,
+							"search_radius": 50,
 							"skip_existing_chunks": false
 						},
 						{
@@ -116,15 +117,17 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"potion_contents": {"custom_color": 16763190},
-								"custom_name": "{\"text\":\"Torch Arrow\",\"italic\":false}"
+								"potion_contents": {
+									"custom_color": 16763190
+								},
+								"custom_name": "Torch Arrow"
 							}
 						},
 						{
 							"function": "minecraft:set_count",
 							"count": {
-								"min": 1,
-								"max": 3
+								"min": 2,
+								"max": 5
 							}
 						}
 					]

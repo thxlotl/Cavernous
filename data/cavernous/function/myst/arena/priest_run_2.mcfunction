@@ -14,7 +14,7 @@ execute if score @s priest.skeleton_timer matches 1100.. run scoreboard players 
 
 
 # Bossbar management
-execute store result bossbar high_priest_health max run attribute @s generic.max_health get
+execute store result bossbar high_priest_health max run attribute @s max_health get
 bossbar set high_priest_health value 10000
 ###execute store result bossbar high_priest_health value run data get entity @s Health
 bossbar set high_priest_health players @a[distance=..50]

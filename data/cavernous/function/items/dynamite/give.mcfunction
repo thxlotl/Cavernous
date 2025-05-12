@@ -1,1 +1,0 @@
-give @s tnt[custom_data={tag:dynamite},item_name='[{"text":"Dynamite","italic":false}]',lore=['[{"text":"Throw out of your inventory to","italic":false}]','[{"text":"set the dynamite to explode.","italic":false}]']] 1

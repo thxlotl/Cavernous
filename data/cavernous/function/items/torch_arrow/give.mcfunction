@@ -1,1 +1,0 @@
-give @s tipped_arrow[item_name='[{"text":"Torch Arrow","italic":false}]',potion_contents={custom_color:16763190}] 1

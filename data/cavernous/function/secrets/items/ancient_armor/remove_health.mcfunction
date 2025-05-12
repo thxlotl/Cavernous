@@ -1,2 +1,2 @@
 
-$attribute @s generic.max_health base set $(health_set)
+$attribute @s max_health base set $(health_set)

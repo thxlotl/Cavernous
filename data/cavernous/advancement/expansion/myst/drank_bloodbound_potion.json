@@ -14,7 +14,7 @@
 					"items": [
 						"minecraft:potion"
 					],
-					"components": {"custom_data":{"tag":"bloodbound_potion"},"enchantments":{"levels":{"lure":0}},"potion_contents":{"custom_color":8912896}}
+					"components": {"custom_data":{"tag":"bloodbound_potion"},"enchantment_glint_override": true,"potion_contents":{"custom_color":8912896}}
 				}
 			}
 		}

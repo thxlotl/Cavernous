@@ -1,16 +1,26 @@
 {
 	"type": "minecraft:crafting_shapeless",
 	"ingredients": [
-		{
-			"item": "minecraft:tnt"
-		}
+		"minecraft:tnt"
 	],
 	"result": {
 		"id": "minecraft:tnt",
 		"components": {
-			"custom_data": {"tag":"dynamite"},
-			"item_name": "[{\"text\":\"Dynamite\",\"italic\":false}]",
-			"lore": ["[{\"text\":\"Throw out of your inventory to\",\"italic\":false}]","[{\"text\":\"set the dynamite to explode.\",\"italic\":false}]"]
+			"custom_data": {
+				"tag": "dynamite"
+			},
+			"item_name": {
+				"text": "Dynamite",
+				"type": "text"
+			},
+			"lore": [
+				{
+					"text": "Throw out of your inventory to"
+				},
+				{
+					"text": "set the dynamite to explode."
+				}
+			]
 		}
 	}
 }

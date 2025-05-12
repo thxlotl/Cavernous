@@ -34,7 +34,7 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"potion_contents": {"custom_color": 16772930,"custom_effects":[{"id": "haste","duration": 9600,"amplifier": 1,"show_icon": true,"show_particles": true}]},
-								"custom_name": "{\"text\":\"Mining Potion\",\"italic\":false}"
+								"custom_name": "Mining Potion"
 							}
 						},
 						{
@@ -199,7 +199,7 @@
 					"functions": [
 						{
 							"function": "minecraft:exploration_map",
-							"destination": "minecraft:ancient_city",
+							"destination": "cavernous:ancient_city",
 							"decoration": "banner_cyan",
 							"zoom": 1,
 							"search_radius": 50,

@@ -3,13 +3,13 @@
 particle dust{color:[0.443, 0.055, 0.055],scale:2} ~ ~1 ~ 0.5 0.5 0.5 0.1 2 normal @a
 
 # Switching to phase 2
-execute store result score @s max_health run attribute @s generic.max_health get
+execute store result score @s max_health run attribute @s max_health get
 scoreboard players operation @s max_health /= 2 num
 execute store result score @s health run data get entity @s Health
 execute if score @s health < @s max_health run function cavernous:myst/arena/phase_2_start
 
 # Bossbar management
-execute store result bossbar high_priest_health max run attribute @s generic.max_health get
+execute store result bossbar high_priest_health max run attribute @s max_health get
 execute store result bossbar high_priest_health value run data get entity @s Health
 bossbar set high_priest_health players @a[distance=..50]
 

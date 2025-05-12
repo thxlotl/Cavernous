@@ -241,15 +241,20 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"potion_contents": {"custom_color": 4080476},
-								"custom_name": "{\"text\":\"Chain Arrow\",\"italic\":false}",
-								"lore": ["[{\"text\":\"Shoot to create a climbable chain\",\"italic\":false}]","[{\"text\":\"rope\",\"italic\":false}]"]
+								"potion_contents": {
+									"custom_color": 4080476
+								},
+								"custom_name": "Chain Arrow",
+								"lore": [
+									"Shoot to create a climbable chain",
+									"rope."
+								]
 							}
 						},
 						{
 							"function": "minecraft:set_count",
 							"count": {
-								"min": 1,
+								"min": 2,
 								"max": 3
 							}
 						}
@@ -262,15 +267,17 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"potion_contents": {"custom_color": 16763190},
-								"custom_name": "{\"text\":\"Torch Arrow\",\"italic\":false}"
+								"potion_contents": {
+									"custom_color": 16763190
+								},
+								"custom_name": "Torch Arrow"
 							}
 						},
 						{
 							"function": "minecraft:set_count",
 							"count": {
 								"min": 2,
-								"max": 3
+								"max": 5
 							}
 						}
 					]

@@ -33,7 +33,7 @@
 							"condition": "minecraft:entity_properties",
 							"entity": "this",
 							"predicate": {
-								"nbt": "{Tags:[\"not_miner\",\"not_guard\",]}"
+								"nbt": "{Tags:[\"not_miner\",\"not_guard\",\"not_ghost\"]}"
 							}
 						}
 					]
@@ -66,6 +66,15 @@
 								"max": 1
 							}
 						}
+					],
+					"conditions": [
+						{
+							"condition": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"nbt": "{Tags:[\"not_ghost\"]}"
+							}
+						}
 					]
 				}
 			]
@@ -77,17 +86,85 @@
 					"type": "minecraft:item",
 					"name": "minecraft:shelter_pottery_sherd",
 					"functions": [
-						{
-							"function": "minecraft:set_components",
-							"components": {
-								"custom_data":{"tag":"ancient_tablet"},
-								"custom_name": "{\"color\":\"dark_red\",\"text\":\"Ancient Tablet\"}",
-								"lore": ["[{\"text\":\"Crafting Resource\",\"italic\":false,\"color\":\"gray\"},{\"text\":\"\",\"italic\":false,\"color\":\"dark_purple\"}]","[{\"text\":\"Throw on the ground with\",\"italic\":false,\"color\":\"red\"},{\"text\":\"\",\"italic\":false,\"color\":\"dark_purple\"}]","[{\"text\":\"valid item to imbue it\",\"italic\":false,\"color\":\"red\"},{\"text\":\"\",\"italic\":false,\"color\":\"dark_purple\"}]","[{\"text\":\"with ancient power.\",\"italic\":false,\"color\":\"red\"}]","[{\"text\":\"This will remove any\",\"italic\":false,\"color\":\"red\"}]","[{\"text\":\"enchantments off of the\",\"italic\":false,\"color\":\"red\"}]","[{\"text\":\"item.\",\"italic\":false,\"color\":\"red\"},{\"text\":\"\",\"italic\":false,\"color\":\"dark_purple\"}]","[{\"text\":\"\",\"italic\":false,\"color\":\"dark_purple\"}]","[{\"text\":\"Valid Items:\",\"italic\":false,\"color\":\"gray\"},{\"text\":\"\",\"italic\":false,\"color\":\"dark_purple\"}]","[{\"text\":\"-Diamond armor\",\"italic\":false,\"color\":\"gray\"},{\"text\":\"\",\"italic\":false,\"color\":\"dark_purple\"}]","[{\"text\":\"-Stone sword\",\"italic\":false,\"color\":\"gray\"},{\"text\":\"\",\"italic\":false,\"color\":\"dark_purple\"}]","[{\"text\":\"-Shield\",\"italic\":false,\"color\":\"gray\"}]","[{\"text\":\"-Crossbow\",\"italic\":false,\"color\":\"gray\"}]"],
-								"enchantments": {"levels":{"lure":0}}
-		
+				{
+					"function": "minecraft:set_components",
+					"components": {
+						"custom_data": {"tag" : "ancient_tablet"},
+						"custom_name": {
+							"text": "Ancient Tablet",
+							"type": "text",
+							"color": "dark_red"
+						},
+						"lore": [
+							{
+								"text": "Crafting Resource",
+								"type": "text",
+								"color": "dark_purple"
+							},
+							{
+								"text": "Throw on the ground with",
+								"type": "text",
+								"color": "red"
+							},
+							{
+								"text": "valid item to imbue it",
+								"type": "text",
+								"color": "red"
+							},
+							{
+								"text": "with ancient power.",
+								"type": "text",
+								"color": "red"
+							},
+							{
+								"text": "This will remove any",
+								"type": "text",
+								"color": "red"
+							},
+							{
+								"text": "enchantments off of the",
+								"type": "text",
+								"color": "red"
+							},
+							{
+								"text": "item.",
+								"type": "text",
+								"color": "red"
+							},
+							{
+								"text": "",
+								"type": "text"
+							},
+							{
+								"text": "Valid Items:",
+								"type": "text",
+								"color": "gray"
+							},
+							{
+								"text": "-Diamond armor",
+								"type": "text",
+								"color": "gray"
+							},
+							{
+								"text": "-Stone Sword",
+								"type": "text",
+								"color": "gray"
+							},
+							{
+								"text": "-Shield",
+								"type": "text",
+								"color": "gray"
+							},
+							{
+								"text": "-Crossbow",
+								"type": "text",
+								"color": "gray"
 							}
-						}
-					],
+						],
+								"enchantment_glint_override": true
+					}
+				}
+			],
 					"conditions": [
 						{
 							"condition": "minecraft:random_chance",
